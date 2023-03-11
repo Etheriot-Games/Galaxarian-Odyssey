@@ -53,15 +53,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16365477167298726811
-  Name: "Money"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Urban_Icon_046"
-  }
-}
-Assets {
   Id: 16086729606049253603
   Name: "BG Gradient 002"
   PlatformAssetType: 9
@@ -152,6 +143,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7528858801757262728
+  Name: "Fantasy Coins 004"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Equip_Coins_004"
+  }
+}
+Assets {
   Id: 6998448107193643411
   Name: "Color Grading Post Process"
   PlatformAssetType: 6
@@ -194,6 +194,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "wireframe_glow_001"
+  }
+}
+Assets {
+  Id: 3966653476414909624
+  Name: "Orbitron Bold"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "OrbitronBold_ref"
   }
 }
 Assets {

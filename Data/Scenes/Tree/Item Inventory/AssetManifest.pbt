@@ -116,6 +116,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3966653476414909624
+  Name: "Orbitron Bold"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "OrbitronBold_ref"
+  }
+}
+Assets {
   Id: 3767211819921301684
   Name: "Frame Outlined 002"
   PlatformAssetType: 9

@@ -1,0 +1,71 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "bd5b174f61be4371bae5631ebbf70800"
+  OwnerAccountId: "a7fa1014cab64595bee90b0049070c8e"
+  OwnerName: "AphrimCreates"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 1759001423454603315
+  value: 63906910854786562
+}
+AssetIdsOriginalToNew {
+  key: 2376035251338151927
+  value: 12176057952885715971
+}
+AssetIdsOriginalToNew {
+  key: 2631880549884858421
+  value: 18103388104139992731
+}
+AssetIdsOriginalToNew {
+  key: 2948696851730789298
+  value: 4348546814328331806
+}
+AssetIdsOriginalToNew {
+  key: 3672874716504365760
+  value: 1781062368281776107
+}
+AssetIdsOriginalToNew {
+  key: 5388109180533222472
+  value: 7868279879473092064
+}
+AssetIdsOriginalToNew {
+  key: 5479703887504644253
+  value: 4993622505591278044
+}
+AssetIdsOriginalToNew {
+  key: 5750590036422404947
+  value: 941326389189971318
+}
+AssetIdsOriginalToNew {
+  key: 6589892114990067582
+  value: 11296281121843935267
+}
+AssetIdsOriginalToNew {
+  key: 7224322954155102893
+  value: 3163610870429395701
+}
+AssetIdsOriginalToNew {
+  key: 7533490484969007261
+  value: 15353697347416354921
+}
+AssetIdsOriginalToNew {
+  key: 8179293914393966598
+  value: 8847475442626494274
+}
+AssetIdsOriginalToNew {
+  key: 9058556718602985542
+  value: 8919920059718129191
+}
+AssetIdsOriginalToNew {
+  key: 14511174354065885629
+  value: 2171578186170114622
+}
+AssetIdsOriginalToNew {
+  key: 15326735997812929459
+  value: 17526740370917759321
+}
+AssetIdsOriginalToNew {
+  key: 15568009013508565300
+  value: 13584791546518797616
+}

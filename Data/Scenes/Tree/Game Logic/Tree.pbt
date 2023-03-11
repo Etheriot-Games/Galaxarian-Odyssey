@@ -1859,10 +1859,10 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Width: 243
+    Width: 246
     Height: 109
-    UIX: 348.73584
-    UIY: -38.9917603
+    UIX: -820
+    UIY: -880
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -2134,7 +2134,7 @@ Objects {
       }
       AutoWrapText: true
       Font {
-        Id: 18332548297823693081
+        Id: 3966653476414909624
       }
       VerticalJustification {
         Value: "mc:everticaljustification:center"
@@ -2204,13 +2204,13 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 20
+      Size: 15
       Justification {
         Value: "mc:etextjustify:left"
       }
       AutoWrapText: true
       Font {
-        Id: 18332548297823693081
+        Id: 3966653476414909624
       }
       VerticalJustification {
         Value: "mc:everticaljustification:center"
@@ -2416,7 +2416,7 @@ Objects {
       }
       AutoWrapText: true
       Font {
-        Id: 18332548297823693081
+        Id: 3966653476414909624
       }
       VerticalJustification {
         Value: "mc:everticaljustification:center"
@@ -2583,7 +2583,7 @@ Objects {
         Overrides {
           Name: "Font"
           AssetReference {
-            Id: 18332548297823693081
+            Id: 3966653476414909624
           }
         }
         Overrides {
@@ -2612,6 +2612,10 @@ Objects {
             Value: "mc:everticaljustification:center"
           }
         }
+        Overrides {
+          Name: "UIX"
+          Float: 0
+        }
       }
     }
     ParameterOverrideMap {
@@ -2631,7 +2635,7 @@ Objects {
         Overrides {
           Name: "Font"
           AssetReference {
-            Id: 18332548297823693081
+            Id: 3966653476414909624
           }
         }
         Overrides {
@@ -2829,6 +2833,19 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 9750537744248185750
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: -100
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 0
+        }
+      }
+    }
     TemplateAsset {
       Id: 17354275298728235248
     }
@@ -2883,7 +2900,7 @@ Objects {
         }
         Overrides {
           Name: "UIX"
-          Float: -165
+          Float: -180
         }
         Overrides {
           Name: "Image"
@@ -2893,7 +2910,7 @@ Objects {
         }
         Overrides {
           Name: "UIY"
-          Float: -3.59210277
+          Float: 0
         }
         Overrides {
           Name: "Color"
@@ -2927,6 +2944,22 @@ Objects {
           AssetReference {
             Id: 841534158063459245
           }
+        }
+        Overrides {
+          Name: "UIX"
+          Float: -40
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 0
+        }
+        Overrides {
+          Name: "Width"
+          Int: 130
+        }
+        Overrides {
+          Name: "Height"
+          Int: 40
         }
       }
     }
@@ -3000,7 +3033,7 @@ Objects {
         Overrides {
           Name: "Font"
           AssetReference {
-            Id: 18332548297823693081
+            Id: 3966653476414909624
           }
         }
         Overrides {
@@ -3037,7 +3070,7 @@ Objects {
         Overrides {
           Name: "Font"
           AssetReference {
-            Id: 18332548297823693081
+            Id: 3966653476414909624
           }
         }
         Overrides {
@@ -3060,6 +3093,10 @@ Objects {
             Value: "mc:everticaljustification:center"
           }
         }
+        Overrides {
+          Name: "Size"
+          Int: 16
+        }
       }
     }
     ParameterOverrideMap {
@@ -3068,7 +3105,7 @@ Objects {
         Overrides {
           Name: "Font"
           AssetReference {
-            Id: 18332548297823693081
+            Id: 3966653476414909624
           }
         }
         Overrides {
@@ -3107,6 +3144,22 @@ Objects {
             Id: 841534158063459245
           }
         }
+        Overrides {
+          Name: "UIX"
+          Float: -260
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 0
+        }
+        Overrides {
+          Name: "Width"
+          Int: 130
+        }
+        Overrides {
+          Name: "Height"
+          Int: 40
+        }
       }
     }
     ParameterOverrideMap {
@@ -3115,7 +3168,7 @@ Objects {
         Overrides {
           Name: "Font"
           AssetReference {
-            Id: 18332548297823693081
+            Id: 3966653476414909624
           }
         }
         Overrides {
@@ -3137,6 +3190,22 @@ Objects {
           Enum {
             Value: "mc:everticaljustification:center"
           }
+        }
+        Overrides {
+          Name: "Size"
+          Int: 16
+        }
+        Overrides {
+          Name: "UIX"
+          Float: -10
+        }
+        Overrides {
+          Name: "Width"
+          Int: 0
+        }
+        Overrides {
+          Name: "Height"
+          Int: 40
         }
       }
     }
@@ -3822,7 +3891,7 @@ Objects {
       }
       AutoWrapText: true
       Font {
-        Id: 18332548297823693081
+        Id: 3966653476414909624
       }
       VerticalJustification {
         Value: "mc:everticaljustification:center"
@@ -4047,7 +4116,7 @@ Objects {
       }
       AutoWrapText: true
       Font {
-        Id: 18332548297823693081
+        Id: 3966653476414909624
       }
       VerticalJustification {
         Value: "mc:everticaljustification:center"
@@ -4266,6 +4335,27 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 2983204099323802530
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: -115
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 115
+        }
+        Overrides {
+          Name: "Width"
+          Int: 420
+        }
+        Overrides {
+          Name: "Height"
+          Int: 500
         }
       }
     }
@@ -4689,7 +4779,7 @@ Objects {
         Value: "mc:etextjustify:center"
       }
       Font {
-        Id: 18332548297823693081
+        Id: 3966653476414909624
       }
       VerticalJustification {
         Value: "mc:everticaljustification:center"
@@ -4908,7 +4998,7 @@ Objects {
       }
       AutoWrapText: true
       Font {
-        Id: 18332548297823693081
+        Id: 3966653476414909624
       }
       VerticalJustification {
         Value: "mc:everticaljustification:center"
@@ -5122,7 +5212,7 @@ Objects {
         Overrides {
           Name: "Font"
           AssetReference {
-            Id: 18332548297823693081
+            Id: 3966653476414909624
           }
         }
         Overrides {
@@ -5161,6 +5251,10 @@ Objects {
         Overrides {
           Name: "UIY"
           Float: -33.7689705
+        }
+        Overrides {
+          Name: "UIX"
+          Float: 0
         }
       }
     }
@@ -6926,7 +7020,7 @@ Objects {
   Control {
     Width: 162
     Height: 40
-    UIX: 17.21
+    UIX: -50
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -7012,7 +7106,7 @@ Objects {
       }
       ClipTextToSize: true
       Font {
-        Id: 18332548297823693081
+        Id: 3966653476414909624
       }
       VerticalJustification {
         Value: "mc:everticaljustification:center"
@@ -7077,12 +7171,12 @@ Objects {
     }
     Image {
       Brush {
-        Id: 16365477167298726811
+        Id: 7528858801757262728
       }
       Color {
         R: 0.569536448
         G: 1
-        A: 0.5
+        A: 1
       }
     }
     AnchorLayout {
@@ -7479,8 +7573,8 @@ Objects {
   Control {
     Width: 95
     Height: 80
-    UIX: -5
-    UIY: -580
+    UIX: -10
+    UIY: -660
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -7694,7 +7788,7 @@ Objects {
       }
       AutoWrapText: true
       Font {
-        Id: 18332548297823693081
+        Id: 3966653476414909624
       }
       ShadowColor {
         A: 1
@@ -7771,7 +7865,7 @@ Objects {
       }
       AutoWrapText: true
       Font {
-        Id: 18332548297823693081
+        Id: 3966653476414909624
       }
     }
     AnchorLayout {
@@ -8248,8 +8342,8 @@ Objects {
   Control {
     Width: 95
     Height: 80
-    UIX: -5
-    UIY: -470
+    UIX: -10
+    UIY: -540
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -8463,7 +8557,7 @@ Objects {
       }
       AutoWrapText: true
       Font {
-        Id: 18332548297823693081
+        Id: 3966653476414909624
       }
       ShadowColor {
         A: 1
@@ -8540,7 +8634,7 @@ Objects {
       }
       AutoWrapText: true
       Font {
-        Id: 18332548297823693081
+        Id: 3966653476414909624
       }
     }
     AnchorLayout {
@@ -9018,8 +9112,8 @@ Objects {
   Control {
     Width: 95
     Height: 80
-    UIX: -5
-    UIY: -360
+    UIX: -10
+    UIY: -430
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -9234,7 +9328,7 @@ Objects {
       }
       AutoWrapText: true
       Font {
-        Id: 18332548297823693081
+        Id: 3966653476414909624
       }
       ShadowColor {
         A: 1
@@ -9311,7 +9405,7 @@ Objects {
       }
       AutoWrapText: true
       Font {
-        Id: 18332548297823693081
+        Id: 3966653476414909624
       }
     }
     AnchorLayout {
@@ -9808,8 +9902,8 @@ Objects {
   Control {
     Width: 95
     Height: 80
-    UIX: -5
-    UIY: -250
+    UIX: -10
+    UIY: -330
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -10042,7 +10136,7 @@ Objects {
       }
       AutoWrapText: true
       Font {
-        Id: 18332548297823693081
+        Id: 3966653476414909624
       }
       ShadowColor {
         A: 1
@@ -10122,7 +10216,7 @@ Objects {
       }
       AutoWrapText: true
       Font {
-        Id: 18332548297823693081
+        Id: 3966653476414909624
       }
     }
     AnchorLayout {
@@ -10734,7 +10828,7 @@ Objects {
       }
       ClipTextToSize: true
       Font {
-        Id: 18332548297823693081
+        Id: 3966653476414909624
       }
       OutlineColor {
         A: 1
@@ -11282,7 +11376,7 @@ Objects {
       }
       ClipTextToSize: true
       Font {
-        Id: 18332548297823693081
+        Id: 3966653476414909624
       }
       OutlineColor {
         A: 0.342
@@ -11362,7 +11456,7 @@ Objects {
       }
       ClipTextToSize: true
       Font {
-        Id: 18332548297823693081
+        Id: 3966653476414909624
       }
       OutlineColor {
         A: 1
@@ -11796,7 +11890,7 @@ Objects {
       }
       ClipTextToSize: true
       Font {
-        Id: 18332548297823693081
+        Id: 3966653476414909624
       }
       VerticalJustification {
         Value: "mc:everticaljustification:center"
@@ -14606,7 +14700,7 @@ Objects {
       }
       AutoWrapText: true
       Font {
-        Id: 18332548297823693081
+        Id: 3966653476414909624
       }
       VerticalJustification {
         Value: "mc:everticaljustification:center"
@@ -14725,7 +14819,7 @@ Objects {
     }
     Overrides {
       Name: "cs:StaticTime"
-      Float: 60
+      Float: 120
     }
     Overrides {
       Name: "cs:ClosingTime"
@@ -14737,7 +14831,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DamageMultiplier"
-      Float: 1.5
+      Float: 1.1
     }
     Overrides {
       Name: "cs:UseRoundTiming"
@@ -20862,7 +20956,7 @@ Objects {
         }
         Overrides {
           Name: "cs:LobbyGameId"
-          String: "577d80/core-royale"
+          String: "6037df/galaxarian-odyssey"
         }
       }
     }
@@ -20971,7 +21065,7 @@ Objects {
         Overrides {
           Name: "Font"
           AssetReference {
-            Id: 18332548297823693081
+            Id: 3966653476414909624
           }
         }
         Overrides {
@@ -21020,6 +21114,14 @@ Objects {
           Name: "cs:AllowParachuting"
           Bool: true
         }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
       }
     }
     ParameterOverrideMap {
@@ -21041,7 +21143,7 @@ Objects {
         Overrides {
           Name: "Font"
           AssetReference {
-            Id: 18332548297823693081
+            Id: 3966653476414909624
           }
         }
         Overrides {
@@ -21262,6 +21364,17 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 10797942087864427142
+      value {
+        Overrides {
+          Name: "Font"
+          AssetReference {
+            Id: 3966653476414909624
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 14475701917559091853
     }
@@ -21308,7 +21421,7 @@ Objects {
         Overrides {
           Name: "Font"
           AssetReference {
-            Id: 18332548297823693081
+            Id: 3966653476414909624
           }
         }
         Overrides {
@@ -21346,7 +21459,7 @@ Objects {
         Overrides {
           Name: "Font"
           AssetReference {
-            Id: 18332548297823693081
+            Id: 3966653476414909624
           }
         }
         Overrides {

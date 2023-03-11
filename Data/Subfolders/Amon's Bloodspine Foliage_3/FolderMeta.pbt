@@ -1,0 +1,59 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "18752b7fc7e94423b9e49683caeea103"
+  OwnerAccountId: "3e7337255deb48d09ffcb7452479e989"
+  OwnerName: "Amonbeaufils"
+  Version: "1.1.0"
+}
+AssetIdsOriginalToNew {
+  key: 3010116521376725292
+  value: 11271415810969855485
+}
+AssetIdsOriginalToNew {
+  key: 3873459595524544699
+  value: 3937425578353021428
+}
+AssetIdsOriginalToNew {
+  key: 4484170945823275181
+  value: 8956368260217406199
+}
+AssetIdsOriginalToNew {
+  key: 4661106258793110527
+  value: 4482709522278500529
+}
+AssetIdsOriginalToNew {
+  key: 8249157603803287271
+  value: 16516650303624255440
+}
+AssetIdsOriginalToNew {
+  key: 9503538367636224930
+  value: 15092630814300764333
+}
+AssetIdsOriginalToNew {
+  key: 12124024340067672640
+  value: 15295023501845642077
+}
+AssetIdsOriginalToNew {
+  key: 12552170577968466969
+  value: 2942628294630201784
+}
+AssetIdsOriginalToNew {
+  key: 13028741016170464522
+  value: 4040407807848391733
+}
+AssetIdsOriginalToNew {
+  key: 13444777244498707487
+  value: 2205863523901997509
+}
+AssetIdsOriginalToNew {
+  key: 14397210108788473866
+  value: 13943256685122654616
+}
+AssetIdsOriginalToNew {
+  key: 16082581301581046350
+  value: 12960432596324074442
+}
+AssetIdsOriginalToNew {
+  key: 16172748131516534824
+  value: 16665499804764977700
+}

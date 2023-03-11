@@ -80,6 +80,15 @@ Assets {
   }
 }
 Assets {
+  Id: 18036722244013604096
+  Name: "Coral Branches Small"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_coral_branch_small_01"
+  }
+}
+Assets {
   Id: 18033297229984528543
   Name: "Wood Planks"
   PlatformAssetType: 2
@@ -719,6 +728,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16526627292609094049
+  Name: "Cactus Barrel Medium 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cactus_barrel_md_001_ref"
+  }
+}
+Assets {
   Id: 16447630291553548532
   Name: "Metal Basic Steel"
   PlatformAssetType: 2
@@ -815,15 +833,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bush_generic_001"
-  }
-}
-Assets {
-  Id: 16062923512930981452
-  Name: "Bark Redwood Advanced 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_bark_redwood_001_uv"
   }
 }
 Assets {
@@ -1022,15 +1031,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_wall_girder_large_8m_001"
-  }
-}
-Assets {
-  Id: 15435266645019974066
-  Name: "Bricks Layered Stone Floor 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_brick_stone_floor_layered_001"
   }
 }
 Assets {
@@ -1367,15 +1367,6 @@ Assets {
   }
 }
 Assets {
-  Id: 14604678495406561254
-  Name: "Bricks Wall Flat 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_brick_wall_flat_001"
-  }
-}
-Assets {
   Id: 14592499546747173713
   Name: "Grass Clumps"
   PlatformAssetType: 2
@@ -1646,6 +1637,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13901071227863771717
+  Name: "Metal Grates 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_grates_002_uv"
+  }
+}
+Assets {
   Id: 13899058249000318401
   Name: "Craftsman Wall 01 Half "
   PlatformAssetType: 1
@@ -1814,6 +1814,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_pipe_curve90_005"
+  }
+}
+Assets {
+  Id: 13433929823692337681
+  Name: "Metal Simple Tech Panel Wall 03"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_simple_tech_panel_003_uv"
   }
 }
 Assets {
@@ -2618,15 +2627,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11433692867640371962
-  Name: "Bark Oak Advanced 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_bark_oak_001_uv"
-  }
-}
-Assets {
   Id: 11431174986157846713
   Name: "Simple Exposure Post Process"
   PlatformAssetType: 6
@@ -3077,6 +3077,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10123389885430156227
+  Name: "Metal Greebles 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_greebles_002_uv_ref"
+  }
+}
+Assets {
   Id: 10118439520641668737
   Name: "Wedge - Curved"
   PlatformAssetType: 1
@@ -3353,15 +3362,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_liana-vine_001_uv"
-  }
-}
-Assets {
-  Id: 9397612455544271076
-  Name: "Stone Basic"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "stone_001"
   }
 }
 Assets {
@@ -3995,6 +3995,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7474882300547920606
+  Name: "Bush Leafy Low 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_foliage_gen_leafy_bush_002"
+  }
+}
+Assets {
   Id: 7473518042998445024
   Name: "Ivy 02"
   PlatformAssetType: 1
@@ -4037,6 +4046,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_stairs_001_rail"
+  }
+}
+Assets {
+  Id: 7252617844050782675
+  Name: "Bush Leafy Tall 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_foliage_gen_leafy_bush_001"
   }
 }
 Assets {
@@ -4172,6 +4190,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_panel_1x3m_angledL_001"
+  }
+}
+Assets {
+  Id: 6597543288998224037
+  Name: "Cactus Barrel Large 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cactus_barrel_lg_001_ref"
   }
 }
 Assets {
@@ -4739,6 +4766,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_urb_sub_craftsman_wall_002_window3x"
+  }
+}
+Assets {
+  Id: 5189696516963693326
+  Name: "Nature Log 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_nat_log_001_ref"
   }
 }
 Assets {
@@ -5579,6 +5615,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2956361486780728971
+  Name: "Branches Cluster Small"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_gen_branches_small_001"
+  }
+}
+Assets {
   Id: 2942971563143602674
   Name: "Shipping Container Side 6m"
   PlatformAssetType: 1
@@ -5876,15 +5921,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2321172315550918623
-  Name: "Tree Sakura Hero 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_tree_sakura_hero_01_ref"
-  }
-}
-Assets {
   Id: 2317176784191669138
   Name: "Stone Block Small Broken"
   PlatformAssetType: 1
@@ -6155,6 +6191,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1352079449123448784
+  Name: "Cactus Barrel Large 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cactus_barrel_lg_002_ref"
+  }
+}
+Assets {
   Id: 1335858831726640142
   Name: "Craftsman Porch Fence Railing 01"
   PlatformAssetType: 1
@@ -6224,6 +6269,15 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_liane_001"
+  }
+}
+Assets {
+  Id: 1226136747268149583
+  Name: "Nature Stump 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_nat_stump_002_ref"
   }
 }
 Assets {
@@ -6395,6 +6449,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_girder_19th_century_4m_001"
+  }
+}
+Assets {
+  Id: 681238876931730005
+  Name: "Tech Panel 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_sf_gen_tech-panel_002_uv"
   }
 }
 Assets {

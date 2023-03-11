@@ -35,6 +35,15 @@ Assets {
   }
 }
 Assets {
+  Id: 681238876931730005
+  Name: "Tech Panel 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_sf_gen_tech-panel_002_uv"
+  }
+}
+Assets {
   Id: 310154906071561263
   Name: "Craftsman Floor 01 8m x 8m"
   PlatformAssetType: 1
