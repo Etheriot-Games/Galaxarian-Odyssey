@@ -22,6 +22,14 @@ Assets {
         Name: "material_scale"
         Float: 1
       }
+      Overrides {
+        Name: "deep color"
+        Color {
+          R: 0.53
+          G: 0.526490092
+          A: 1
+        }
+      }
     }
     Assets {
       Id: 16652813710343007973

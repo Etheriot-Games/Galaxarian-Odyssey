@@ -80,15 +80,6 @@ Assets {
   }
 }
 Assets {
-  Id: 18036722244013604096
-  Name: "Coral Branches Small"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_coral_branch_small_01"
-  }
-}
-Assets {
   Id: 18033297229984528543
   Name: "Wood Planks"
   PlatformAssetType: 2
@@ -575,15 +566,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16910278292812118833
-  Name: "Sun Light"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_SunLight"
-  }
-}
-Assets {
   Id: 16910214785681404487
   Name: "Prism - 8-Sided Half"
   PlatformAssetType: 1
@@ -656,15 +638,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16789380210907038227
-  Name: "Craftsman Porch 01 Foundation"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_porch_001_foundation"
-  }
-}
-Assets {
   Id: 16746386326318877636
   Name: "Craftsman Dining Chair"
   PlatformAssetType: 1
@@ -725,15 +698,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_rounded_002"
-  }
-}
-Assets {
-  Id: 16526627292609094049
-  Name: "Cactus Barrel Medium 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cactus_barrel_md_001_ref"
   }
 }
 Assets {
@@ -1025,15 +989,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15435282775226162852
-  Name: "Large Girder 8m x 6m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_wall_girder_large_8m_001"
-  }
-}
-Assets {
   Id: 15419921641479462539
   Name: "Bark Dead Advanced 01"
   PlatformAssetType: 2
@@ -1220,15 +1175,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_brick_stone_floor_large_001"
-  }
-}
-Assets {
-  Id: 15025271538823559183
-  Name: "Whitebox Floor 01 8m x 8m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_gen_whitebox_floor_001_8x8"
   }
 }
 Assets {
@@ -2465,15 +2411,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11792379335732288438
-  Name: "I-Beam 4m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_i-beam_4m_001"
-  }
-}
-Assets {
   Id: 11764195995143333692
   Name: "Craftsman Stairs 01 Banister"
   PlatformAssetType: 1
@@ -2489,15 +2426,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_terrain_rock-moss_001_wa"
-  }
-}
-Assets {
-  Id: 11738752945604414167
-  Name: "Craftsman Roof 02 Arch"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_roof_002_arch"
   }
 }
 Assets {
@@ -2798,15 +2726,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10794552741106734823
-  Name: "Shipping Container Side 6m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_wall_shipping_container_6m_001"
-  }
-}
-Assets {
   Id: 10782112515531017680
   Name: "Pipe - Quarter Thin"
   PlatformAssetType: 1
@@ -2849,15 +2768,6 @@ Assets {
   PrimaryAsset {
     AssetType: "AudioAssetRef"
     AssetId: "sfx_waterfall_big_Cue"
-  }
-}
-Assets {
-  Id: 10635143076457392667
-  Name: "Craftsman Part - Stair Stringer"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_part_stair_001_stringer"
   }
 }
 Assets {
@@ -3038,15 +2948,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_gen_marble_tiles_001_uv"
-  }
-}
-Assets {
-  Id: 10161694571654817925
-  Name: "Craftsman Floor 01 8m x 8m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_floor_001_8x8"
   }
 }
 Assets {
@@ -3995,15 +3896,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7474882300547920606
-  Name: "Bush Leafy Low 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_foliage_gen_leafy_bush_002"
-  }
-}
-Assets {
   Id: 7473518042998445024
   Name: "Ivy 02"
   PlatformAssetType: 1
@@ -4037,24 +3929,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_panel_2x3m_triangle_001"
-  }
-}
-Assets {
-  Id: 7254709147855198338
-  Name: "Craftsman Stairs 01 Railing"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_stairs_001_rail"
-  }
-}
-Assets {
-  Id: 7252617844050782675
-  Name: "Bush Leafy Tall 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_foliage_gen_leafy_bush_001"
   }
 }
 Assets {
@@ -4166,15 +4040,6 @@ Assets {
   }
 }
 Assets {
-  Id: 6648267719999908532
-  Name: "Craftsman Stairs 01 Pillar"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_stairs_001_pillar"
-  }
-}
-Assets {
   Id: 6633911215066249406
   Name: "Cone"
   PlatformAssetType: 1
@@ -4190,15 +4055,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_panel_1x3m_angledL_001"
-  }
-}
-Assets {
-  Id: 6597543288998224037
-  Name: "Cactus Barrel Large 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cactus_barrel_lg_001_ref"
   }
 }
 Assets {
@@ -4769,15 +4625,6 @@ Assets {
   }
 }
 Assets {
-  Id: 5189696516963693326
-  Name: "Nature Log 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_nat_log_001_ref"
-  }
-}
-Assets {
   Id: 5157174504455036830
   Name: "Tree Oak Stump 01"
   PlatformAssetType: 1
@@ -5180,15 +5027,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_kelp_tall_bush_01"
-  }
-}
-Assets {
-  Id: 4056558088649808066
-  Name: "Girder Medium 4m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_girder_medium_4m_1-5m_001"
   }
 }
 Assets {
@@ -5615,15 +5453,6 @@ Assets {
   }
 }
 Assets {
-  Id: 2956361486780728971
-  Name: "Branches Cluster Small"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_gen_branches_small_001"
-  }
-}
-Assets {
   Id: 2942971563143602674
   Name: "Shipping Container Side 6m"
   PlatformAssetType: 1
@@ -5819,15 +5648,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cone_truncated_hollow_004"
-  }
-}
-Assets {
-  Id: 2493884381847921671
-  Name: "Girder Small 4m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_girder_19th_century_4m_001"
   }
 }
 Assets {
@@ -6128,15 +5948,6 @@ Assets {
   }
 }
 Assets {
-  Id: 1437314551064143876
-  Name: "Craftsman Porch 01 End Block"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_sub_craftsman_porch_001_block"
-  }
-}
-Assets {
   Id: 1434749987095754567
   Name: "Decal Elven Symbols"
   PlatformAssetType: 14
@@ -6191,15 +6002,6 @@ Assets {
   }
 }
 Assets {
-  Id: 1352079449123448784
-  Name: "Cactus Barrel Large 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cactus_barrel_lg_002_ref"
-  }
-}
-Assets {
   Id: 1335858831726640142
   Name: "Craftsman Porch Fence Railing 01"
   PlatformAssetType: 1
@@ -6224,15 +6026,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cylinder_hq_003"
-  }
-}
-Assets {
-  Id: 1309353032015719627
-  Name: "Road Center"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_urb_road_straight_001"
   }
 }
 Assets {
@@ -6269,15 +6062,6 @@ Assets {
   PrimaryAsset {
     AssetType: "DecalBlueprintAssetRef"
     AssetId: "bp_decal_liane_001"
-  }
-}
-Assets {
-  Id: 1226136747268149583
-  Name: "Nature Stump 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_nat_stump_002_ref"
   }
 }
 Assets {

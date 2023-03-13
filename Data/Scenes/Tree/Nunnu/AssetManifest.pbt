@@ -1,13 +1,4 @@
 Assets {
-  Id: 18441810659176357459
-  Name: "Planet"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Planet"
-  }
-}
-Assets {
   Id: 18351694442475128145
   Name: "Helix - 0.75"
   PlatformAssetType: 1
@@ -179,30 +170,12 @@ Assets {
   }
 }
 Assets {
-  Id: 12344193518355455075
-  Name: "Star Dome"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_StarDome"
-  }
-}
-Assets {
   Id: 12075988423218469041
   Name: "Metal Greebles 03"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_scf_greebles_003_uv_ref"
-  }
-}
-Assets {
-  Id: 11515840070784317904
-  Name: "Skylight"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Skylight"
   }
 }
 Assets {
@@ -314,15 +287,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7887238662729938253
-  Name: "Sky Dome"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Sky"
-  }
-}
-Assets {
   Id: 7524155694946109062
   Name: "Sci-fi Base Wall 02 Half"
   PlatformAssetType: 1
@@ -347,15 +311,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_scf_greebles_002_uv_ref"
-  }
-}
-Assets {
-  Id: 2617361319805279588
-  Name: "Nebula"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Nebula"
   }
 }
 Assets {
@@ -401,15 +356,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_wall_001_ref"
-  }
-}
-Assets {
-  Id: 1353607577508895962
-  Name: "Moon"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Moon"
   }
 }
 Assets {

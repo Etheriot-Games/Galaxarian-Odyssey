@@ -41,6 +41,14 @@ Entries {
     Table {
       Entries {
         Key {
+          StringVar: "METAT"
+        }
+        SimpleValue {
+          IntVar: 1678795474
+        }
+      }
+      Entries {
+        Key {
           StringVar: "RO1METAA"
         }
         SimpleValue {
@@ -61,14 +69,6 @@ Entries {
         }
         SimpleValue {
           IntVar: 0
-        }
-      }
-      Entries {
-        Key {
-          StringVar: "METAT"
-        }
-        SimpleValue {
-          IntVar: 1678614874
         }
       }
     }

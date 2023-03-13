@@ -23,7 +23,7 @@ Assets {
           Overrides {
             Name: "cs:PlaneTemplate"
             AssetReference {
-              Id: 7807707325221396054
+              Id: 9792925856649202877
             }
           }
           Overrides {
@@ -80,7 +80,7 @@ Assets {
           }
           Overrides {
             Name: "cs:ParachuteAbilityName"
-            String: "Open Parachute"
+            String: "Parachute"
           }
           Overrides {
             Name: "cs:ParachuteAirResistance"
@@ -88,7 +88,7 @@ Assets {
           }
           Overrides {
             Name: "cs:ParachuteOpenHeight"
-            Float: 1500
+            Float: 2000
           }
           Overrides {
             Name: "cs:PlaneTemplate:tooltip"
@@ -287,8 +287,8 @@ Assets {
           Rotation {
           }
           Scale {
-            X: 900
-            Y: 900
+            X: 800
+            Y: 800
             Z: 1
           }
         }
@@ -328,7 +328,6 @@ Assets {
           DisableDistanceFieldLighting: true
           DisableCastShadows: true
           DisableReceiveDecals: true
-          InteractWithTriggers: true
           StaticMesh {
             Physics {
             }
@@ -756,7 +755,8 @@ Assets {
         Control {
           Width: 200
           Height: 80
-          UIX: 20
+          UIX: 30
+          UIY: 5
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -814,6 +814,7 @@ Assets {
         Control {
           Width: 200
           Height: 40
+          UIY: 5.3984766
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -833,7 +834,15 @@ Assets {
             }
             ClipTextToSize: true
             Font {
+              Id: 3966653476414909624
             }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
+            OutlineColor {
+              A: 1
+            }
+            OutlineSize: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -882,6 +891,7 @@ Assets {
         Control {
           Width: 200
           Height: 40
+          UIY: 5.3984766
           RenderTransformPivot {
             Anchor {
               Value: "mc:euianchor:middlecenter"
@@ -901,7 +911,15 @@ Assets {
             }
             ClipTextToSize: true
             Font {
+              Id: 3966653476414909624
             }
+            VerticalJustification {
+              Value: "mc:everticaljustification:center"
+            }
+            OutlineColor {
+              A: 1
+            }
+            OutlineSize: 1
           }
           AnchorLayout {
             SelfAnchor {
@@ -938,6 +956,15 @@ Assets {
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "wireframe_glow_001"
+      }
+    }
+    Assets {
+      Id: 3966653476414909624
+      Name: "Orbitron Bold"
+      PlatformAssetType: 28
+      PrimaryAsset {
+        AssetType: "FontAssetRef"
+        AssetId: "OrbitronBold_ref"
       }
     }
     PrimaryAssetId {

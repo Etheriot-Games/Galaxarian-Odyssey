@@ -1702,7 +1702,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -20471,7 +20471,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -21060,37 +21060,6 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 4570723516342564073
-      value {
-        Overrides {
-          Name: "Font"
-          AssetReference {
-            Id: 3966653476414909624
-          }
-        }
-        Overrides {
-          Name: "OutlineSize"
-          Int: 1
-        }
-        Overrides {
-          Name: "OutlineColor"
-          Color {
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "VerticalJustification"
-          Enum {
-            Value: "mc:everticaljustification:center"
-          }
-        }
-        Overrides {
-          Name: "UIY"
-          Float: 5.3984766
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 6771941894297972907
       value {
         Overrides {
@@ -21098,96 +21067,14 @@ Objects {
           String: "Round Start Skydive"
         }
         Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
           Name: "Rotation"
           Rotator {
           }
-        }
-        Overrides {
-          Name: "cs:ParachuteOpenHeight"
-          Float: 2000
-        }
-        Overrides {
-          Name: "cs:ParachuteAbilityName"
-          String: "Parachute"
-        }
-        Overrides {
-          Name: "cs:AllowParachuting"
-          Bool: true
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 12678789203930054187
-      value {
-        Overrides {
-          Name: "UIX"
-          Float: 30
-        }
-        Overrides {
-          Name: "UIY"
-          Float: 5
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 16196591802278623988
-      value {
-        Overrides {
-          Name: "Font"
-          AssetReference {
-            Id: 3966653476414909624
-          }
-        }
-        Overrides {
-          Name: "OutlineSize"
-          Int: 1
-        }
-        Overrides {
-          Name: "OutlineColor"
-          Color {
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "VerticalJustification"
-          Enum {
-            Value: "mc:everticaljustification:center"
-          }
-        }
-        Overrides {
-          Name: "UIY"
-          Float: 5.3984766
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 18093807822359340772
-      value {
-        Overrides {
-          Name: "Visible"
-          Enum {
-            Value: "mc:evisibilitysetting:forceoff"
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 800
-            Y: 800
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "Mesh.InteractWithTriggers"
-          Bool: false
         }
       }
     }
@@ -21356,7 +21243,7 @@ Objects {
         }
         Overrides {
           Name: "cs:CountdownTime"
-          Float: 60
+          Float: 15
         }
         Overrides {
           Name: "cs:RequiredPlayers"
