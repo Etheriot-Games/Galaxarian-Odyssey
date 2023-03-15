@@ -82576,6 +82576,15 @@ Objects {
   ParentId: 5189749998658829766
   TemplateInstance {
     ParameterOverrideMap {
+      key: 314440775383770216
+      value {
+        Overrides {
+          Name: "cs:DayLengthMinutes"
+          Float: 1
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 5015900548838122627
       value {
         Overrides {
@@ -82953,7 +82962,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Line Width"
-      Float: 0.668
+      Float: 0.6665
     }
     Overrides {
       Name: "bp:Ambient Occlusion Boost"

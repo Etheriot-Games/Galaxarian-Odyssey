@@ -41,23 +41,7 @@ Entries {
     Table {
       Entries {
         Key {
-          StringVar: "KI1METAA"
-        }
-        SimpleValue {
-          IntVar: 0
-        }
-      }
-      Entries {
-        Key {
           StringVar: "DA1METAA"
-        }
-        SimpleValue {
-          IntVar: 0
-        }
-      }
-      Entries {
-        Key {
-          StringVar: "RO1METAA"
         }
         SimpleValue {
           IntVar: 0
@@ -69,6 +53,22 @@ Entries {
         }
         SimpleValue {
           IntVar: 1678949960
+        }
+      }
+      Entries {
+        Key {
+          StringVar: "KI1METAA"
+        }
+        SimpleValue {
+          IntVar: 0
+        }
+      }
+      Entries {
+        Key {
+          StringVar: "RO1METAA"
+        }
+        SimpleValue {
+          IntVar: 0
         }
       }
     }
