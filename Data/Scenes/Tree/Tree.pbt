@@ -77,7 +77,7 @@ Objects {
         Id: 17888950966050609222
       }
       DistanceBetweenInstances: 150
-      SpawnDistance: 22400
+      SpawnDistance: 32000
       CullDistance {
         Min: 10000
         Max: 20000
@@ -123,8 +123,8 @@ Objects {
       Asset {
         Id: 14557901659651774204
       }
-      DistanceBetweenInstances: 1000
-      SpawnDistance: 20000
+      DistanceBetweenInstances: 2000
+      SpawnDistance: 19200
       CullDistance {
         Min: 10000
         Max: 20000
@@ -171,8 +171,8 @@ Objects {
       Asset {
         Id: 7547338181332905394
       }
-      DistanceBetweenInstances: 1000
-      SpawnDistance: 20000
+      DistanceBetweenInstances: 2000
+      SpawnDistance: 25600
       CullDistance {
         Min: 10000
         Max: 20000
@@ -219,8 +219,8 @@ Objects {
       Asset {
         Id: 13893987875274967458
       }
-      DistanceBetweenInstances: 1000
-      SpawnDistance: 20000
+      DistanceBetweenInstances: 2000
+      SpawnDistance: 25600
       CullDistance {
         Min: 10000
         Max: 20000
@@ -267,8 +267,8 @@ Objects {
       Asset {
         Id: 8085302941465423398
       }
-      DistanceBetweenInstances: 1000
-      SpawnDistance: 20000
+      DistanceBetweenInstances: 2000
+      SpawnDistance: 25600
       CullDistance {
         Min: 10000
         Max: 20000
@@ -315,8 +315,8 @@ Objects {
       Asset {
         Id: 8632514573060228995
       }
-      DistanceBetweenInstances: 1000
-      SpawnDistance: 20000
+      DistanceBetweenInstances: 2000
+      SpawnDistance: 25600
       CullDistance {
         Min: 10000
         Max: 20000
@@ -346,6 +346,54 @@ Objects {
         key: "Shared_BaseMaterial"
         value {
           Id: 841534158063459245
+        }
+      }
+      LocalPositionOffset {
+      }
+      LocalRotationOffset {
+      }
+      GlobalPositionOffset {
+      }
+      Height {
+        Min: -102400
+        Max: 102400
+      }
+    }
+    Foliage {
+      Asset {
+        Id: 9942437019329146956
+      }
+      DistanceBetweenInstances: 1000
+      SpawnDistance: 20000
+      CullDistance {
+        Min: 10000
+        Max: 20000
+      }
+      ReceivesDecals: true
+      GroundSlopeAngle {
+        Max: 90
+      }
+      Scaling {
+        ScaleX {
+          Min: 1.5
+          Max: 2
+        }
+        ScaleY {
+          Min: 1
+          Max: 1
+        }
+        ScaleZ {
+          Min: 1
+          Max: 1
+        }
+      }
+      RotationAlignment: AlignToWorldUp
+      RandomYaw: true
+      RandomPitchAngle: 6
+      Materials {
+        key: "Nature_Grass"
+        value {
+          Id: 11047613001806571231
         }
       }
       LocalPositionOffset {

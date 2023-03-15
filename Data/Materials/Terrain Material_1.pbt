@@ -6,6 +6,12 @@ Assets {
   CustomMaterialAsset {
     BaseMaterialId: 4873750065265109456
     ParameterOverrides {
+      Overrides {
+        Name: "cmp:Material1"
+        AssetReference {
+          Id: 2354717027850780617
+        }
+      }
     }
     Assets {
       Id: 4873750065265109456
@@ -14,6 +20,15 @@ Assets {
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "mi_terrain_composite_triplanar_blend_001_wa"
+      }
+    }
+    Assets {
+      Id: 2354717027850780617
+      Name: "Grass and Soil"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_grass_003_uv"
       }
     }
   }

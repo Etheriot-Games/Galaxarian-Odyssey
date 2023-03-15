@@ -2,6 +2,17 @@
 local HEXANE_ADDRESS = "0x910036d505fd9fb3c4ce019ece3f75300768dc8c"
 
 
+--make a table with all privileged player ids
+local allHexanePlayerIds = {}
+for name, value in pairs(script:GetCustomProperties()) do
+    if string.find(name, "Hexane_") then
+        table.insert(allHexanePlayerIds, value)
+        print(name, value)
+    end
+end
+
+
+
 function OnPlayerJoined(player)
 	print("SERVER : "..player.name.." joined the game, checking for Hexane NFT.")
     ---[[
@@ -15,9 +26,20 @@ Game.playerJoinedEvent:Connect(OnPlayerJoined)
 
 function CheckForNftContract(player)
     
-    --GetContractInfo(HEXANE_ADDRESS)
-
     local hasHexane = false
+
+    --check if player is a privileged player, if yes return hasHexane=true
+    for _, id in ipairs(allHexanePlayerIds) do
+        if id == player.id then
+            print("SERVER: "..player.name.." is a privileged player.")
+            hasHexane = true
+            player.serverUserData.hasHexane = true
+            player:SetPrivateNetworkedData("HasHexane", hasHexane)
+            return hasHexane
+        end
+    end
+
+    --GetContractInfo(HEXANE_ADDRESS)
 
     --grab all player wallets
     local walletsResult, walletsStatus, walletsErr = Blockchain.GetWalletsForPlayer(player)

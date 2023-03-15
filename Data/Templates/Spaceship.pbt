@@ -64,9 +64,12 @@ Assets {
         ParentId: 17235768848931215134
         ChildIds: 11870111217448608805
         ChildIds: 8541542274599391281
-        ChildIds: 5358627584883409578
-        ChildIds: 5296658457487221743
+        ChildIds: 5724948389145598062
+        ChildIds: 747633369462823813
         ChildIds: 12468708325550609098
+        ChildIds: 3828995658756940304
+        ChildIds: 13165204872150496460
+        ChildIds: 4263151163287631204
         WantsNetworking: true
         Collidable_v2 {
           Value: "mc:ecollisionsetting:forceoff"
@@ -3574,11 +3577,17 @@ Assets {
         ChildIds: 16958612152433639557
         ChildIds: 8579412143727273883
         ChildIds: 17558897348209698304
+        ChildIds: 17712378961538480536
         ChildIds: 10812389647359512587
+        ChildIds: 1233377646617154232
         ChildIds: 6840685291271001590
+        ChildIds: 16371252553811407558
         ChildIds: 16822504865750803863
+        ChildIds: 18121672054375094645
         ChildIds: 16767479197941036381
+        ChildIds: 10945757907485796371
         ChildIds: 16482079448751604599
+        ChildIds: 7006473321708143118
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -5807,6 +5816,86 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
+        Id: 17712378961538480536
+        Name: "Sci-fi Base Floor 02 4m"
+        Transform {
+          Location {
+            X: -1017.19318
+            Y: 436.738251
+            Z: -782.987366
+          }
+          Rotation {
+            Pitch: 131.186295
+            Yaw: -3.20300293
+            Roll: -1.37670898
+          }
+          Scale {
+            X: 2.44276428
+            Y: 1.27582479
+            Z: 1.16564953
+          }
+        }
+        ParentId: 9904037522104382328
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Trim2:id"
+            AssetReference {
+              Id: 11776948910004305335
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 11776948910004305335
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 11776948910004305335
+            }
+          }
+          Overrides {
+            Name: "ma:Building_Floor:id"
+            AssetReference {
+              Id: 11776948910004305335
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 16035667700771845261
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:edistancerelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
         Id: 10812389647359512587
         Name: "Sci-fi Base Floor 02 4m"
         Transform {
@@ -5889,6 +5978,86 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
+        Id: 1233377646617154232
+        Name: "Sci-fi Base Floor 02 4m"
+        Transform {
+          Location {
+            X: -1003.59912
+            Y: 796.174744
+            Z: -788.678833
+          }
+          Rotation {
+            Pitch: 131.186295
+            Yaw: -3.20300293
+            Roll: -1.37670898
+          }
+          Scale {
+            X: 2.44276237
+            Y: 1.1133858
+            Z: 1.16564012
+          }
+        }
+        ParentId: 9904037522104382328
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Trim2:id"
+            AssetReference {
+              Id: 11776948910004305335
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 11776948910004305335
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 11776948910004305335
+            }
+          }
+          Overrides {
+            Name: "ma:Building_Floor:id"
+            AssetReference {
+              Id: 11776948910004305335
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 16035667700771845261
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:edistancerelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
         Id: 6840685291271001590
         Name: "Sci-fi Base Floor 02 4m"
         Transform {
@@ -5960,6 +6129,86 @@ Assets {
           SubobjectId: 4660821897220947337
           InstanceId: 4497345258721938253
           TemplateId: 1384621892821586104
+        }
+        Relevance {
+          Value: "mc:edistancerelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 16371252553811407558
+        Name: "Sci-fi Base Floor 02 4m"
+        Transform {
+          Location {
+            X: -1032.3114
+            Y: 37.0865097
+            Z: -776.658325
+          }
+          Rotation {
+            Pitch: 131.78891
+            Yaw: -9.37817383
+            Roll: -9.61377
+          }
+          Scale {
+            X: 2.44276428
+            Y: 1.27582479
+            Z: 1.16564953
+          }
+        }
+        ParentId: 9904037522104382328
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Trim2:id"
+            AssetReference {
+              Id: 11776948910004305335
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 11776948910004305335
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 11776948910004305335
+            }
+          }
+          Overrides {
+            Name: "ma:Building_Floor:id"
+            AssetReference {
+              Id: 11776948910004305335
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 16035667700771845261
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
         }
         Relevance {
           Value: "mc:edistancerelevance:critical"
@@ -6052,6 +6301,86 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
+        Id: 18121672054375094645
+        Name: "Sci-fi Base Floor 02 4m"
+        Transform {
+          Location {
+            X: -754.216431
+            Y: 422.023651
+            Z: -1084.0448
+          }
+          Rotation {
+            Pitch: 131.186295
+            Yaw: -3.20300293
+            Roll: -1.37670898
+          }
+          Scale {
+            X: 2.44276428
+            Y: 1.27582479
+            Z: 1.16564953
+          }
+        }
+        ParentId: 9904037522104382328
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Trim2:id"
+            AssetReference {
+              Id: 11776948910004305335
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 11776948910004305335
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 11776948910004305335
+            }
+          }
+          Overrides {
+            Name: "ma:Building_Floor:id"
+            AssetReference {
+              Id: 11776948910004305335
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 16035667700771845261
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:edistancerelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
         Id: 16767479197941036381
         Name: "Sci-fi Base Floor 02 4m"
         Transform {
@@ -6134,6 +6463,86 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
+        Id: 10945757907485796371
+        Name: "Sci-fi Base Floor 02 4m"
+        Transform {
+          Location {
+            X: -739.086914
+            Y: 821.705688
+            Z: -1090.32642
+          }
+          Rotation {
+            Pitch: 131.186295
+            Yaw: -3.20300293
+            Roll: -1.37670898
+          }
+          Scale {
+            X: 2.44276428
+            Y: 1.27582479
+            Z: 1.16564953
+          }
+        }
+        ParentId: 9904037522104382328
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 11776948910004305335
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim2:id"
+            AssetReference {
+              Id: 11776948910004305335
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 11776948910004305335
+            }
+          }
+          Overrides {
+            Name: "ma:Building_Floor:id"
+            AssetReference {
+              Id: 11776948910004305335
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 16035667700771845261
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:edistancerelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
         Id: 16482079448751604599
         Name: "Sci-fi Base Floor 02 4m"
         Transform {
@@ -6149,6 +6558,32 @@ Assets {
           }
         }
         ParentId: 9904037522104382328
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Trim2:id"
+            AssetReference {
+              Id: 2182858096830754829
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 2182858096830754829
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 2182858096830754829
+            }
+          }
+          Overrides {
+            Name: "ma:Building_Floor:id"
+            AssetReference {
+              Id: 2182858096830754829
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -6179,6 +6614,86 @@ Assets {
           SubobjectId: 18085458004154444552
           InstanceId: 4497345258721938253
           TemplateId: 1384621892821586104
+        }
+        Relevance {
+          Value: "mc:edistancerelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 7006473321708143118
+        Name: "Sci-fi Base Floor 02 4m"
+        Transform {
+          Location {
+            X: -769.323425
+            Y: 22.3613968
+            Z: -1077.6969
+          }
+          Rotation {
+            Pitch: 131.186295
+            Yaw: -3.20300293
+            Roll: -1.37670898
+          }
+          Scale {
+            X: 2.44276428
+            Y: 1.27582479
+            Z: 1.16564953
+          }
+        }
+        ParentId: 9904037522104382328
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Trim2:id"
+            AssetReference {
+              Id: 2182858096830754829
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Trim:id"
+            AssetReference {
+              Id: 2182858096830754829
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_Detail1:id"
+            AssetReference {
+              Id: 2182858096830754829
+            }
+          }
+          Overrides {
+            Name: "ma:Building_Floor:id"
+            AssetReference {
+              Id: 2182858096830754829
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 16035667700771845261
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
         }
         Relevance {
           Value: "mc:edistancerelevance:critical"
@@ -6706,19 +7221,19 @@ Assets {
         Name: "Wedge"
         Transform {
           Location {
-            X: 1864.55212
-            Y: 95.8513184
-            Z: 1280.14514
+            X: 1864.55103
+            Y: 112.072609
+            Z: 1348.86963
           }
           Rotation {
-            Pitch: -64.8746948
-            Yaw: -89.9998856
-            Roll: 89.9998856
+            Pitch: -70.0643921
+            Yaw: -90
+            Roll: 90
           }
           Scale {
             X: 0.346477181
-            Y: 11.9940681
-            Z: 12.2459936
+            Y: 11.9940701
+            Z: 12.2459946
           }
         }
         ParentId: 571032993266484655
@@ -7544,7 +8059,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4722912119346492871
+              Id: 11980858614403066996
             }
           }
           Overrides {
@@ -7633,7 +8148,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 4722912119346492871
+              Id: 11980858614403066996
             }
           }
           Overrides {
@@ -9464,7 +9979,7 @@ Assets {
           Overrides {
             Name: "ma:Shared_Trim:id"
             AssetReference {
-              Id: 4722912119346492871
+              Id: 11980858614403066996
             }
           }
           Overrides {
@@ -11903,13 +12418,13 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 5358627584883409578
-        Name: "Rocket Trail VFX"
+        Id: 5724948389145598062
+        Name: "Sci-fi Trails"
         Transform {
           Location {
-            X: 318.14444
-            Y: 113.571152
-            Z: -67.4626465
+            X: 238.307526
+            Y: 105.444221
+            Z: -88.3425293
           }
           Rotation {
             Yaw: 179.999985
@@ -11924,15 +12439,15 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "bp:Emissive Boost"
-            Float: 23.5572243
+            Float: 8.90922356
           }
           Overrides {
-            Name: "bp:Density"
-            Float: 5
+            Name: "bp:Life"
+            Float: 0.768031955
           }
           Overrides {
             Name: "bp:Particle Scale Multiplier"
-            Float: 2.76173925
+            Float: 3.1070137
           }
         }
         Collidable_v2 {
@@ -11949,7 +12464,7 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 10069588324162714145
+            Id: 14385080998547063219
           }
           TeamSettings {
           }
@@ -11966,13 +12481,13 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 5296658457487221743
-        Name: "Rocket Trail VFX"
+        Id: 747633369462823813
+        Name: "Sci-fi Trails"
         Transform {
           Location {
-            X: 318.144287
-            Y: -549.589661
-            Z: -67.4626465
+            X: 238.307358
+            Y: -561.608215
+            Z: -88.3425293
           }
           Rotation {
             Yaw: 179.999969
@@ -11987,15 +12502,15 @@ Assets {
         UnregisteredParameters {
           Overrides {
             Name: "bp:Emissive Boost"
-            Float: 23.5572243
+            Float: 8.90922356
           }
           Overrides {
-            Name: "bp:Density"
-            Float: 5
+            Name: "bp:Life"
+            Float: 0.768031955
           }
           Overrides {
             Name: "bp:Particle Scale Multiplier"
-            Float: 2.76173925
+            Float: 3.1070137
           }
         }
         Collidable_v2 {
@@ -12012,7 +12527,7 @@ Assets {
         }
         Blueprint {
           BlueprintAsset {
-            Id: 10069588324162714145
+            Id: 14385080998547063219
           }
           TeamSettings {
           }
@@ -12073,6 +12588,165 @@ Assets {
         }
         NetworkRelevanceDistance {
           Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 3828995658756940304
+        Name: "Decal Letters 01"
+        Transform {
+          Location {
+            X: 973.41156
+            Y: -324.98938
+            Z: 158.665527
+          }
+          Rotation {
+            Pitch: -0.00302124023
+            Yaw: -179.791672
+            Roll: 2.43449497
+          }
+          Scale {
+            X: 0.6
+            Y: 0.6
+            Z: 0.6
+          }
+        }
+        ParentId: 4133920080473883206
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Shape Index"
+            Int: 7
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 6853123240972965802
+          }
+          TeamSettings {
+          }
+          DecalBP {
+          }
+        }
+        Relevance {
+          Value: "mc:edistancerelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 13165204872150496460
+        Name: "Decal Letters 01"
+        Transform {
+          Location {
+            X: 845.129333
+            Y: -325.403412
+            Z: 158.658936
+          }
+          Rotation {
+            Pitch: -0.00302124023
+            Yaw: -179.791672
+            Roll: 2.43449402
+          }
+          Scale {
+            X: 0.6
+            Y: 0.6
+            Z: 0.6
+          }
+        }
+        ParentId: 4133920080473883206
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Shape Index"
+            Int: 4
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 6853123240972965802
+          }
+          TeamSettings {
+          }
+          DecalBP {
+          }
+        }
+        Relevance {
+          Value: "mc:edistancerelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 4263151163287631204
+        Name: "Decal Letters 01"
+        Transform {
+          Location {
+            X: 716.458679
+            Y: -325.867249
+            Z: 158.6521
+          }
+          Rotation {
+            Pitch: -0.00302124023
+            Yaw: -179.791672
+            Roll: 2.43449235
+          }
+          Scale {
+            X: 0.6
+            Y: 0.6
+            Z: 0.6
+          }
+        }
+        ParentId: 4133920080473883206
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Shape Index"
+            Int: 23
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 6853123240972965802
+          }
+          TeamSettings {
+          }
+          DecalBP {
+          }
+        }
+        Relevance {
+          Value: "mc:edistancerelevance:critical"
         }
         IsReplicationEnabledByDefault: true
       }
@@ -12204,15 +12878,6 @@ Assets {
       }
     }
     Assets {
-      Id: 4722912119346492871
-      Name: "Emissive Glow Transparent"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "mi_basic_emissive_001"
-      }
-    }
-    Assets {
       Id: 3374093864809822223
       Name: "Sci-fi Ship Fuselage 01"
       PlatformAssetType: 1
@@ -12276,12 +12941,12 @@ Assets {
       }
     }
     Assets {
-      Id: 10069588324162714145
-      Name: "Rocket Trail VFX"
+      Id: 14385080998547063219
+      Name: "Sci-fi Trails"
       PlatformAssetType: 8
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_rocket_trail"
+        AssetId: "fxbp_trail_variants"
       }
     }
     Assets {
@@ -12291,6 +12956,15 @@ Assets {
       PrimaryAsset {
         AssetType: "AudioAssetRef"
         AssetId: "sfx_ship_rocket_engine_thruster_loop_01_Cue_ref"
+      }
+    }
+    Assets {
+      Id: 6853123240972965802
+      Name: "Decal Letters 01"
+      PlatformAssetType: 14
+      PrimaryAsset {
+        AssetType: "DecalBlueprintAssetRef"
+        AssetId: "bp_decal_letters_001"
       }
     }
     PrimaryAssetId {

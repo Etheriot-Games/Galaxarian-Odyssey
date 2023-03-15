@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9942437019329146956
+  Name: "Grass Tall - Flat 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_grass_generic_001_unlit_ref"
+  }
+}
+Assets {
   Id: 8632514573060228995
   Name: "Nature - Mushroom Cap 08"
   PlatformAssetType: 1

@@ -1,0 +1,87 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "a142702557dc4c90a7caf735dbb74854"
+  OwnerAccountId: "fb40c144fb834e06bb58e1a11be5d9ff"
+  OwnerName: "CptPlastic"
+  Version: "1.1.0"
+}
+AssetIdsOriginalToNew {
+  key: 358097286200453044
+  value: 14783133731767153053
+}
+AssetIdsOriginalToNew {
+  key: 646052726322440552
+  value: 6901364155304642230
+}
+AssetIdsOriginalToNew {
+  key: 835254527229773630
+  value: 5303068776002628796
+}
+AssetIdsOriginalToNew {
+  key: 1090137530888889944
+  value: 16073579497996621683
+}
+AssetIdsOriginalToNew {
+  key: 2331688389429807128
+  value: 10511027307388955666
+}
+AssetIdsOriginalToNew {
+  key: 2767607796484791571
+  value: 4827859479867964507
+}
+AssetIdsOriginalToNew {
+  key: 5710745048638501027
+  value: 2313561080040964761
+}
+AssetIdsOriginalToNew {
+  key: 6098643652658573113
+  value: 14328170532348623653
+}
+AssetIdsOriginalToNew {
+  key: 6425644157032055174
+  value: 16554689743220722348
+}
+AssetIdsOriginalToNew {
+  key: 6459996864910878396
+  value: 6488207129469039634
+}
+AssetIdsOriginalToNew {
+  key: 8165387416327706120
+  value: 6395656378489426546
+}
+AssetIdsOriginalToNew {
+  key: 8215389785598953135
+  value: 7733988579329787858
+}
+AssetIdsOriginalToNew {
+  key: 9834885662358340270
+  value: 3270752118219248662
+}
+AssetIdsOriginalToNew {
+  key: 10363315717943035397
+  value: 3998654400758536072
+}
+AssetIdsOriginalToNew {
+  key: 11416831218200967396
+  value: 10890688345778306927
+}
+AssetIdsOriginalToNew {
+  key: 11907566637589764548
+  value: 6980056494077106952
+}
+AssetIdsOriginalToNew {
+  key: 12057931944137416704
+  value: 17080061425810918241
+}
+AssetIdsOriginalToNew {
+  key: 12613055467207454491
+  value: 1479035747839888891
+}
+AssetIdsOriginalToNew {
+  key: 18021207762031966698
+  value: 4372587355038734891
+}
+AssetIdsOriginalToNew {
+  key: 18392870569802880462
+  value: 4396482977829959984
+}

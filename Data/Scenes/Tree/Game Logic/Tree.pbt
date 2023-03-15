@@ -1702,7 +1702,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -20471,7 +20471,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -21239,25 +21239,6 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-        Overrides {
-          Name: "cs:CountdownTime"
-          Float: 15
-        }
-        Overrides {
-          Name: "cs:RequiredPlayers"
-          Int: 2
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 10797942087864427142
-      value {
-        Overrides {
-          Name: "Font"
-          AssetReference {
-            Id: 3966653476414909624
           }
         }
       }
@@ -22147,7 +22128,7 @@ Objects {
     }
     Overrides {
       Name: "cs:PercentAmount"
-      Int: 30
+      Int: 70
     }
   }
   Collidable_v2 {

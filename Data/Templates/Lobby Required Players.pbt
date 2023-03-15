@@ -370,7 +370,7 @@ Assets {
             }
             AutoWrapText: true
             Font {
-              Id: 18332548297823693081
+              Id: 3966653476414909624
             }
             VerticalJustification {
               Value: "mc:everticaljustification:center"
@@ -400,12 +400,12 @@ Assets {
       }
     }
     Assets {
-      Id: 18332548297823693081
-      Name: "Luckiest Guy"
+      Id: 3966653476414909624
+      Name: "Orbitron Bold"
       PlatformAssetType: 28
       PrimaryAsset {
         AssetType: "FontAssetRef"
-        AssetId: "LuckiestGuyRegular_ref"
+        AssetId: "OrbitronBold_ref"
       }
     }
     PrimaryAssetId {

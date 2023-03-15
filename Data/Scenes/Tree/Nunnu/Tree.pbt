@@ -728,6 +728,85 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 7579375609893316640
+      value {
+        Overrides {
+          Name: "ma:Nature_Leaves:color"
+          Color {
+            R: 0.710000038
+            B: 0.479602605
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7803169384106270227
+      value {
+        Overrides {
+          Name: "ma:Nature_Leaves:color"
+          Color {
+            R: 0.382914364
+            B: 0.98
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8119357966239895524
+      value {
+        Overrides {
+          Name: "ma:Nature_Leaves:color"
+          Color {
+            R: 0.710000038
+            B: 0.479602605
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9148865572068950460
+      value {
+        Overrides {
+          Name: "ma:Nature_Leaves:color"
+          Color {
+            R: 0.710000038
+            B: 0.479602605
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12328689191994250558
+      value {
+        Overrides {
+          Name: "ma:Nature_Leaves:color"
+          Color {
+            R: 0.220000029
+            G: 0.426622212
+            B: 1
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16500002079541732829
+      value {
+        Overrides {
+          Name: "ma:Nature_Leaves:color"
+          Color {
+            R: 0.710000038
+            B: 0.479602605
+            A: 1
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 1038657614272975683
     }
@@ -1006,6 +1085,45 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9834597812374498253
+      value {
+        Overrides {
+          Name: "ma:Nature_Leaves:color"
+          Color {
+            R: 0.0471525751
+            B: 0.89
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10695948948139432295
+      value {
+        Overrides {
+          Name: "ma:Nature_Leaves:color"
+          Color {
+            R: 0.0471525751
+            B: 0.89
+            A: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15157946185861257450
+      value {
+        Overrides {
+          Name: "ma:Nature_Leaves:color"
+          Color {
+            R: 0.0471525751
+            B: 0.89
+            A: 1
           }
         }
       }
@@ -2947,8 +3065,9 @@ Objects {
     Overrides {
       Name: "ma:Nature_Leaves:color"
       Color {
-        R: 0.0497065745
-        B: 0.693872035
+        R: 0.38
+        G: 0.778277814
+        B: 1
         A: 1
       }
     }
@@ -3554,12 +3673,12 @@ Objects {
   Name: "Sci-Fi Building Set"
   Transform {
     Location {
-      X: 20409.4453
-      Y: -29775
-      Z: 720
+      X: 7286.90332
+      Y: -33800.9258
+      Z: 4560.34521
     }
     Rotation {
-      Yaw: -44.9999962
+      Yaw: -45
     }
     Scale {
       X: 1
@@ -3589,9 +3708,6 @@ Objects {
   Name: "Sci_Fi_Building_5"
   Transform {
     Location {
-      X: -7908.91064
-      Y: -10296.7891
-      Z: 3825
     }
     Rotation {
       Yaw: 37.3607178
@@ -5520,9 +5636,8 @@ Objects {
       Z: 981.844604
     }
     Rotation {
-      Pitch: -0.215697363
       Yaw: -178.869049
-      Roll: -45.5753288
+      Roll: -45.5753174
     }
     Scale {
       X: 6.9
@@ -5591,9 +5706,7 @@ Objects {
       Z: 999.156616
     }
     Rotation {
-      Pitch: 0.495905846
-      Yaw: -2.94690108
-      Roll: -37.2766457
+      Roll: -37.2766418
     }
     Scale {
       X: 6.9
