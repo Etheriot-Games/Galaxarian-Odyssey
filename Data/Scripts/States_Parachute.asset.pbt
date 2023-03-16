@@ -13,7 +13,7 @@ Assets {
       Overrides {
         Name: "cs:DefultGlider"
         AssetReference {
-          Id: 10540693316158682128
+          Id: 176326376156028508
         }
       }
       Overrides {

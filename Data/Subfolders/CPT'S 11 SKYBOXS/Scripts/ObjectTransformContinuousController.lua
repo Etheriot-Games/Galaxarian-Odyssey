@@ -59,7 +59,7 @@ function StartAction()
     end
 
     -- Start the action
-    print ("Moving the heavens!")
+    --print ("Moving the heavens!")
     if MOVE_VELOCITY then
         OBJECT:MoveContinuous(MOVE_VELOCITY, LOCAL_SPACE)
     elseif ROTATE_VELOCITY then

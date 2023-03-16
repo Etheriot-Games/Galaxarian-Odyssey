@@ -15,6 +15,14 @@ function GivePlayerItem(player, objectID)
         return
     end
 
+    --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+     if Object.IsValid(player) then
+        if not player.clientUserData.hasHexane or player.team == 2 then
+            return
+        end
+    end
+    --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
     if spawnedItems[objectID] then
         --print("> Spawning for "..objectID)
         spawnedItems[objectID] = nil

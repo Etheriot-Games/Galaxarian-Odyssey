@@ -1,6 +1,68 @@
 Name: "Czinczar"
 RootId: 5189749998658829766
 Objects {
+  Id: 7204232750306516661
+  Name: "ocean"
+  Transform {
+    Location {
+      X: 26335.5312
+      Y: -2853.09033
+      Z: -3597.39014
+    }
+    Rotation {
+    }
+    Scale {
+      X: 10000
+      Y: 10000
+      Z: 1
+    }
+  }
+  ParentId: 5189749998658829766
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 16652813710343007973
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
   Id: 17001603576226577395
   Name: "Fexel\'s Spacious Spacebase"
   Transform {
@@ -82564,9 +82626,16 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 18377149712629892506
+  Id: 6405820042849952975
   Name: "HaloDayNight"
   Transform {
+    Location {
+      X: 26335.5312
+      Y: -2853.09033
+      Z: -2595.0874
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -82574,42 +82643,4109 @@ Objects {
     }
   }
   ParentId: 5189749998658829766
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 314440775383770216
-      value {
-        Overrides {
-          Name: "cs:DayLengthMinutes"
-          Float: 1
-        }
-      }
+  ChildIds: 18084987046647193003
+  ChildIds: 12588305407617416417
+  ChildIds: 10494017299384719721
+  ChildIds: 14817169857537957902
+  ChildIds: 9802676883017871322
+  ChildIds: 8657840877862253955
+  ChildIds: 6729192923223976603
+  ChildIds: 7991124527209229596
+  ChildIds: 2599870277808578986
+  ChildIds: 1305897113165884448
+  ChildIds: 14176549550015056698
+  ChildIds: 18131108725386413161
+  ChildIds: 15447038853560205515
+  ChildIds: 1812447761408009252
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 6405820042849952975
+    SubobjectId: 5015900548838122627
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+    WasRoot: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1812447761408009252
+  Name: "DayCycle"
+  Transform {
+    Location {
     }
-    ParameterOverrideMap {
-      key: 5015900548838122627
-      value {
-        Overrides {
-          Name: "Name"
-          String: "HaloDayNight"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 26335.5312
-            Y: -2853.09033
-            Z: -2595.0874
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
+    Rotation {
     }
-    TemplateAsset {
-      Id: 10321041788515504788
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
+  ParentId: 6405820042849952975
+  ChildIds: 9153953783129828549
+  ChildIds: 4434438114562918717
+  ChildIds: 18439275189408977473
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:DayLengthMinutes"
+      Float: 10
+    }
+    Overrides {
+      Name: "cs:UseRealMoonTiming"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:DayLengthMinutes:tooltip"
+      String: "How long a game day should be in real minutes."
+    }
+    Overrides {
+      Name: "cs:UseRealMoonTiming:tooltip"
+      String: "If true, moon can be seen during the day sometimes, instead of always being opposite the sun. In either case it will go through phases for flavor."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 1812447761408009252
+    SubobjectId: 314440775383770216
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 18439275189408977473
+  Name: "ClientContext"
+  Transform {
+    Location {
+      Z: 3248.05225
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1812447761408009252
+  ChildIds: 12431522024677839428
+  ChildIds: 13913671257026141338
+  ChildIds: 5141616910879655469
+  ChildIds: 9972311867415738673
+  ChildIds: 6481531477135713862
+  ChildIds: 6429736559385904995
+  ChildIds: 1663540334693204381
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    IsAllowedForPC: true
+    IsAllowedForMobile: true
+    IsAllowedForLowMemoryMobile: true
+    PCMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    PCMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    MobileMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MobileMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  InstanceHistory {
+    SelfId: 18439275189408977473
+    SubobjectId: 16329896720084079117
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1663540334693204381
+  Name: "Sky Dome"
+  Transform {
+    Location {
+      Z: -1183.67627
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18439275189408977473
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Zenith Color"
+      Color {
+        R: 0.0243181027
+        G: 0.0633459464
+        B: 0.212230757
+        A: 0.886000037
+      }
+    }
+    Overrides {
+      Name: "bp:Horizon Color"
+      Color {
+        R: 0.489468127
+        G: 0.480969489
+        B: 0.623960376
+        A: 0.895000041
+      }
+    }
+    Overrides {
+      Name: "bp:Haze Color"
+      Color {
+        R: 0.590618849
+        G: 0.590618849
+        B: 0.701101899
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Use Sun Color for Cloud Color"
+      Bool: false
+    }
+    Overrides {
+      Name: "bp:Cloud Ambient Brightness"
+      Float: 3
+    }
+    Overrides {
+      Name: "bp:Cloud Rim Brightness"
+      Float: 3.36080313
+    }
+    Overrides {
+      Name: "bp:Cloud Opacity"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Cloud Ambient Color"
+      Color {
+        R: 2
+        G: 2
+        B: 2
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Cloud Color"
+      Color {
+        R: 2
+        G: 2
+        B: 2
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Cloud Shape"
+      Int: 4
+    }
+    Overrides {
+      Name: "bp:Cloud Lighting Brightness"
+      Float: 1
+    }
+    Overrides {
+      Name: "bp:Cloud Wisp Opacity"
+      Float: 0.4
+    }
+    Overrides {
+      Name: "bp:Cloud Speed"
+      Float: 1
+    }
+    Overrides {
+      Name: "bp:Brightness"
+      Float: 0.384269923
+    }
+    Overrides {
+      Name: "bp:Background Clouds"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:High Cloud Index"
+      Int: 2
+    }
+    Overrides {
+      Name: "bp:High Cloud Opacity"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:High Cloud Noise Amount"
+      Float: 0.1
+    }
+    Overrides {
+      Name: "bp:High Cloud Noise Scale"
+      Float: 0.2
+    }
+    Overrides {
+      Name: "bp:Haze Falloff"
+      Float: 23.5346107
+    }
+    Overrides {
+      Name: "bp:Horizon Falloff"
+      Float: 7.49615479
+    }
+    Overrides {
+      Name: "bp:Clouds"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Enable Opaque Sky"
+      Bool: false
+    }
+    Overrides {
+      Name: "bp:Only Use Opaque Sky On Mobile"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 7887238662729938253
+    }
+  }
+  InstanceHistory {
+    SelfId: 1663540334693204381
+    SubobjectId: 750993397554381265
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6429736559385904995
+  Name: "Sun Light"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: -90
+      Yaw: 180
+      Roll: 180
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18439275189408977473
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Use Temperature"
+      Bool: false
+    }
+    Overrides {
+      Name: "bp:Light Color"
+      Color {
+        R: 1
+        G: 0.955973327
+        B: 0.73791039
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Shape"
+      Enum {
+        Value: "mc:esundiscshapes:3"
+      }
+    }
+    Overrides {
+      Name: "bp:Size"
+      Float: 25
+    }
+    Overrides {
+      Name: "bp:Light Shaft Bloom"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Cast Volumetric Shadows"
+      Bool: false
+    }
+    Overrides {
+      Name: "bp:Light Shaft Mask Darkness"
+      Float: 0.5
+    }
+    Overrides {
+      Name: "bp:Intensity"
+      Float: 0.83100152
+    }
+    Overrides {
+      Name: "bp:Sun Disc Color"
+      Color {
+        R: 3
+        G: 3
+        B: 3
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Light Shaft Bloom Scale"
+      Float: 0.2
+    }
+    Overrides {
+      Name: "bp:Light Shaft Bloom Threshold"
+      Float: 0.05
+    }
+    Overrides {
+      Name: "bp:Light Shaft Occlusion"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Light Shaft Bloom Tint"
+      Color {
+        R: 1
+        G: 0.998476863
+        B: 0.77
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 16910278292812118833
+    }
+  }
+  InstanceHistory {
+    SelfId: 6429736559385904995
+    SubobjectId: 4918219755711809327
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6481531477135713862
+  Name: "Star Dome"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18439275189408977473
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Star Brightness"
+      Float: 1
+    }
+    Overrides {
+      Name: "bp:Twinkle Mask Speed"
+      Float: 0.5
+    }
+    Overrides {
+      Name: "bp:Twinkle Mask"
+      Int: 0
+    }
+    Overrides {
+      Name: "bp:Star Appearance"
+      Int: 0
+    }
+    Overrides {
+      Name: "bp:Star Tiling Density"
+      Float: 6
+    }
+    Overrides {
+      Name: "bp:Real Stars"
+      Bool: false
+    }
+    Overrides {
+      Name: "bp:Star Visibility"
+      Float: 1
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 12344193518355455075
+    }
+  }
+  InstanceHistory {
+    SelfId: 6481531477135713862
+    SubobjectId: 4938481847872464394
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9972311867415738673
+  Name: "Skylight"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18439275189408977473
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Index"
+      Int: 3
+    }
+    Overrides {
+      Name: "bp:Occlusion Contrast"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Intensity"
+      Float: 0.611912847
+    }
+    Overrides {
+      Name: "bp:Lower Hemisphere Color"
+      Color {
+        R: 0.0666259378
+        G: 0.0307134502
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Occlusion Tint"
+      Color {
+        R: 0.0274509825
+        G: 0.0274509825
+        B: 0.0392156877
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Occlusion Exponent"
+      Float: 0.4
+    }
+    Overrides {
+      Name: "bp:Cast Shadows"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Cast Volumetric Shadows"
+      Bool: false
+    }
+    Overrides {
+      Name: "bp:Tint Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Blend Amount"
+      Float: 0.703831255
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 11515840070784317904
+    }
+  }
+  InstanceHistory {
+    SelfId: 9972311867415738673
+    SubobjectId: 10889353516383664509
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 5141616910879655469
+  Name: "Moon"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18439275189408977473
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Moon Appearance"
+      Enum {
+        Value: "mc:emoonappearance:0"
+      }
+    }
+    Overrides {
+      Name: "bp:Scale"
+      Float: 1.12921381
+    }
+    Overrides {
+      Name: "bp:Brightness"
+      Float: 20
+    }
+    Overrides {
+      Name: "bp:Use Sun Direction for Light Direction"
+      Bool: false
+    }
+    Overrides {
+      Name: "bp:Light Direction"
+      Vector {
+        X: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13406026407024307723
+    }
+  }
+  InstanceHistory {
+    SelfId: 5141616910879655469
+    SubobjectId: 6494389451858855521
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 13913671257026141338
+  Name: "Environment Fog Default VFX"
+  Transform {
+    Location {
+      Z: 1116.97656
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18439275189408977473
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.44655627
+        G: 0.39
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Falloff"
+      Float: 0.492344916
+    }
+    Overrides {
+      Name: "bp:Opacity"
+      Float: 0.594784379
+    }
+    Overrides {
+      Name: "bp:Fog Density"
+      Float: 2.57036924
+    }
+    Overrides {
+      Name: "bp:Start"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Layered Fog Falloff"
+      Float: 1.06949103
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2224571462023946700
+    }
+  }
+  InstanceHistory {
+    SelfId: 13913671257026141338
+    SubobjectId: 15883439218321775830
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12431522024677839428
+  Name: "DayCycleControllerClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18439275189408977473
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ComponentRoot"
+      ObjectReference {
+        SelfId: 1812447761408009252
+      }
+    }
+    Overrides {
+      Name: "cs:EnvironmentFog"
+      ObjectReference {
+        SelfId: 13913671257026141338
+      }
+    }
+    Overrides {
+      Name: "cs:Moon"
+      ObjectReference {
+        SelfId: 5141616910879655469
+      }
+    }
+    Overrides {
+      Name: "cs:SkyDome"
+      ObjectReference {
+        SelfId: 1663540334693204381
+      }
+    }
+    Overrides {
+      Name: "cs:Skylight"
+      ObjectReference {
+        SelfId: 9972311867415738673
+      }
+    }
+    Overrides {
+      Name: "cs:StarDome"
+      ObjectReference {
+        SelfId: 6481531477135713862
+      }
+    }
+    Overrides {
+      Name: "cs:SunLight"
+      ObjectReference {
+        SelfId: 6429736559385904995
+      }
+    }
+    Overrides {
+      Name: "cs:ServerScript"
+      ObjectReference {
+        SelfId: 4434438114562918717
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9459673672350753320
+    }
+  }
+  InstanceHistory {
+    SelfId: 12431522024677839428
+    SubobjectId: 12826153815197012488
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4434438114562918717
+  Name: "DayCycleControllerServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1812447761408009252
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:TimeOffset"
+      Float: 0
+    }
+    Overrides {
+      Name: "cs:TimeOffset:isrep"
+      Bool: true
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8153538542491979847
+    }
+  }
+  InstanceHistory {
+    SelfId: 4434438114562918717
+    SubobjectId: 2373480989762586993
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9153953783129828549
+  Name: "Planetary Ring"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Roll: 56.9125671
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1812447761408009252
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Ring Scale"
+      Float: 2
+    }
+    Overrides {
+      Name: "bp:Ring Appearance"
+      Int: 2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 17063449512846892296
+    }
+  }
+  InstanceHistory {
+    SelfId: 9153953783129828549
+    SubobjectId: 7094125909619453065
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15447038853560205515
+  Name: "Planet"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6405820042849952975
+  ChildIds: 16131696305047248083
+  ChildIds: 3103060576975160088
+  ChildIds: 11275356388324003123
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    IsAllowedForPC: true
+    IsAllowedForMobile: true
+    IsAllowedForLowMemoryMobile: true
+    PCMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    PCMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    MobileMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MobileMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  InstanceHistory {
+    SelfId: 15447038853560205515
+    SubobjectId: 14638073608741961863
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 11275356388324003123
+  Name: "Planet"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: -23.1318
+      Yaw: 64.7104645
+      Roll: -39.7424202
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15447038853560205515
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Distance"
+      Float: 15
+    }
+    Overrides {
+      Name: "bp:Scale"
+      Float: 3.62136102
+    }
+    Overrides {
+      Name: "bp:Brightness"
+      Float: 1.17978406
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 10735508760752857422
+    }
+    TeamSettings {
+    }
+  }
+  InstanceHistory {
+    SelfId: 11275356388324003123
+    SubobjectId: 9295457667079409023
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3103060576975160088
+  Name: "Object Rotator Continuous"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15447038853560205515
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Object"
+      ObjectReference {
+        SelfId: 16131696305047248083
+      }
+    }
+    Overrides {
+      Name: "cs:RotateVelocity"
+      Rotator {
+        Pitch: -1
+      }
+    }
+    Overrides {
+      Name: "cs:RotationMultiplier"
+      Float: 0.2
+    }
+    Overrides {
+      Name: "cs:LocalSpace"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:StartDelayRange"
+      Vector2 {
+      }
+    }
+    Overrides {
+      Name: "cs:RotationMultiplier:tooltip"
+      String: "Optional multiplier for very fast rotations."
+    }
+    Overrides {
+      Name: "cs:StartDelayRange:tooltip"
+      String: "Random delay range for the object to take action at the start of the game."
+    }
+    Overrides {
+      Name: "cs:LocalSpace:tooltip"
+      String: "Whether RotateTo is in local space"
+    }
+    Overrides {
+      Name: "cs:Object:tooltip"
+      String: "Object to transform"
+    }
+    Overrides {
+      Name: "cs:RotateVelocity:tooltip"
+      String: "Smoothly rotates the object over time by the given angular velocity."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17192428668198139289
+    }
+  }
+  InstanceHistory {
+    SelfId: 3103060576975160088
+    SubobjectId: 3921030802629411668
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16131696305047248083
+  Name: "PLEXUS"
+  Transform {
+    Location {
+      X: -1089
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15447038853560205515
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Scale"
+      Float: 4.90960789
+    }
+    Overrides {
+      Name: "bp:Brightness"
+      Float: 8.73616886
+    }
+    Overrides {
+      Name: "bp:Distance"
+      Float: 8
+    }
+    Overrides {
+      Name: "bp:Planet Appearance"
+      Enum {
+        Value: "mc:eplanetaryappearance:1"
+      }
+    }
+    Overrides {
+      Name: "bp:Cloud Appearance"
+      Enum {
+        Value: "mc:eplanetcloudappearance:1"
+      }
+    }
+    Overrides {
+      Name: "bp:Atmosphere Color"
+      Color {
+        R: 0.578543186
+        G: 0.26
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Water Color"
+      Color {
+        G: 0.244105756
+        B: 0.38
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Planet Rotation"
+      Vector {
+        X: -59.2325592
+        Y: -159.901871
+      }
+    }
+    Overrides {
+      Name: "bp:Use Sun Direction for Light Direction"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Dark Side Lights Transition Offset"
+      Float: 0.683889508
+    }
+    Overrides {
+      Name: "bp:Rim Power"
+      Float: 1
+    }
+    Overrides {
+      Name: "bp:Cloud Scale"
+      Vector {
+        X: 1
+        Y: 1
+        Z: 2.55696392
+      }
+    }
+    Overrides {
+      Name: "bp:Dark Side Lights Appearance"
+      Enum {
+        Value: "mc:edarksidelights:4"
+      }
+    }
+    Overrides {
+      Name: "bp:Specular Brightness"
+      Float: 1.13347673
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 10735508760752857422
+    }
+    TeamSettings {
+    }
+  }
+  InstanceHistory {
+    SelfId: 16131696305047248083
+    SubobjectId: 14025697751041989791
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 18131108725386413161
+  Name: "NEBULAS1"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: 146.249908
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6405820042849952975
+  ChildIds: 168120467406768505
+  ChildIds: 7444377157820390797
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    IsAllowedForPC: true
+    IsAllowedForMobile: true
+    IsAllowedForLowMemoryMobile: true
+    PCMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    PCMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    MobileMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MobileMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  InstanceHistory {
+    SelfId: 18131108725386413161
+    SubobjectId: 16637606302673814565
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7444377157820390797
+  Name: "Nebula"
+  Transform {
+    Location {
+      X: -396
+      Y: -274
+      Z: -27320
+    }
+    Rotation {
+      Pitch: -67.4999695
+      Yaw: -120
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18131108725386413161
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Hue Shift"
+      Float: 114.938034
+    }
+    Overrides {
+      Name: "bp:Nebula"
+      Enum {
+        Value: "mc:enebulae:4"
+      }
+    }
+    Overrides {
+      Name: "bp:Size"
+      Vector {
+        X: 10
+        Y: 10
+        Z: 10
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 0.279
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2617361319805279588
+    }
+    TeamSettings {
+    }
+  }
+  InstanceHistory {
+    SelfId: 7444377157820390797
+    SubobjectId: 8806147024159399361
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 168120467406768505
+  Name: "Object Rotator Continuous"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18131108725386413161
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Object"
+      ObjectReference {
+        SelfId: 7444377157820390797
+      }
+    }
+    Overrides {
+      Name: "cs:RotateVelocity"
+      Rotator {
+        Roll: 1
+      }
+    }
+    Overrides {
+      Name: "cs:RotationMultiplier"
+      Float: 0.1
+    }
+    Overrides {
+      Name: "cs:LocalSpace"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:StartDelayRange"
+      Vector2 {
+      }
+    }
+    Overrides {
+      Name: "cs:RotationMultiplier:tooltip"
+      String: "Optional multiplier for very fast rotations."
+    }
+    Overrides {
+      Name: "cs:StartDelayRange:tooltip"
+      String: "Random delay range for the object to take action at the start of the game."
+    }
+    Overrides {
+      Name: "cs:LocalSpace:tooltip"
+      String: "Whether RotateTo is in local space"
+    }
+    Overrides {
+      Name: "cs:Object:tooltip"
+      String: "Object to transform"
+    }
+    Overrides {
+      Name: "cs:RotateVelocity:tooltip"
+      String: "Smoothly rotates the object over time by the given angular velocity."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17192428668198139289
+    }
+  }
+  InstanceHistory {
+    SelfId: 168120467406768505
+    SubobjectId: 2247099634952964405
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14176549550015056698
+  Name: "NEBULAS1"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: 146.249908
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6405820042849952975
+  ChildIds: 10429991636944990628
+  ChildIds: 11341122502850900528
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    IsAllowedForPC: true
+    IsAllowedForMobile: true
+    IsAllowedForLowMemoryMobile: true
+    PCMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    PCMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    MobileMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MobileMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  InstanceHistory {
+    SelfId: 14176549550015056698
+    SubobjectId: 15692578696426146678
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 11341122502850900528
+  Name: "Nebula"
+  Transform {
+    Location {
+      X: -396
+      Y: -274
+      Z: -27320
+    }
+    Rotation {
+      Pitch: -67.4999695
+      Yaw: -12
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14176549550015056698
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Hue Shift"
+      Float: 85.4540939
+    }
+    Overrides {
+      Name: "bp:Nebula"
+      Enum {
+        Value: "mc:enebulae:4"
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 0.984
+      }
+    }
+    Overrides {
+      Name: "bp:Size"
+      Vector {
+        X: 21
+        Y: 21
+        Z: 21
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2617361319805279588
+    }
+    TeamSettings {
+    }
+  }
+  InstanceHistory {
+    SelfId: 11341122502850900528
+    SubobjectId: 9230628052979233404
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10429991636944990628
+  Name: "Object Rotator Continuous"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14176549550015056698
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Object"
+      ObjectReference {
+        SelfId: 11341122502850900528
+      }
+    }
+    Overrides {
+      Name: "cs:RotateVelocity"
+      Rotator {
+        Roll: 1
+      }
+    }
+    Overrides {
+      Name: "cs:RotationMultiplier"
+      Float: 0.1
+    }
+    Overrides {
+      Name: "cs:LocalSpace"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:StartDelayRange"
+      Vector2 {
+      }
+    }
+    Overrides {
+      Name: "cs:RotationMultiplier:tooltip"
+      String: "Optional multiplier for very fast rotations."
+    }
+    Overrides {
+      Name: "cs:StartDelayRange:tooltip"
+      String: "Random delay range for the object to take action at the start of the game."
+    }
+    Overrides {
+      Name: "cs:LocalSpace:tooltip"
+      String: "Whether RotateTo is in local space"
+    }
+    Overrides {
+      Name: "cs:Object:tooltip"
+      String: "Object to transform"
+    }
+    Overrides {
+      Name: "cs:RotateVelocity:tooltip"
+      String: "Smoothly rotates the object over time by the given angular velocity."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17192428668198139289
+    }
+  }
+  InstanceHistory {
+    SelfId: 10429991636944990628
+    SubobjectId: 10215505053539529192
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 1305897113165884448
+  Name: "NEBULAS1"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: 146.249908
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6405820042849952975
+  ChildIds: 3860266794605528060
+  ChildIds: 14292243676229697971
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    IsAllowedForPC: true
+    IsAllowedForMobile: true
+    IsAllowedForLowMemoryMobile: true
+    PCMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    PCMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    MobileMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MobileMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  InstanceHistory {
+    SelfId: 1305897113165884448
+    SubobjectId: 1109432639715880044
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14292243676229697971
+  Name: "Nebula"
+  Transform {
+    Location {
+      X: -396
+      Y: -274
+      Z: -27320
+    }
+    Rotation {
+      Pitch: -67.4999695
+      Yaw: -30
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1305897113165884448
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Hue Shift"
+      Float: 171.694595
+    }
+    Overrides {
+      Name: "bp:Nebula"
+      Enum {
+        Value: "mc:enebulae:2"
+      }
+    }
+    Overrides {
+      Name: "bp:Size"
+      Vector {
+        X: 15
+        Y: 15
+        Z: 15
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2617361319805279588
+    }
+    TeamSettings {
+    }
+  }
+  InstanceHistory {
+    SelfId: 14292243676229697971
+    SubobjectId: 15790247550381343231
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3860266794605528060
+  Name: "Object Rotator Continuous"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1305897113165884448
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Object"
+      ObjectReference {
+        SelfId: 14292243676229697971
+      }
+    }
+    Overrides {
+      Name: "cs:RotateVelocity"
+      Rotator {
+        Roll: 1
+      }
+    }
+    Overrides {
+      Name: "cs:RotationMultiplier"
+      Float: 0.1
+    }
+    Overrides {
+      Name: "cs:LocalSpace"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:StartDelayRange"
+      Vector2 {
+      }
+    }
+    Overrides {
+      Name: "cs:RotationMultiplier:tooltip"
+      String: "Optional multiplier for very fast rotations."
+    }
+    Overrides {
+      Name: "cs:StartDelayRange:tooltip"
+      String: "Random delay range for the object to take action at the start of the game."
+    }
+    Overrides {
+      Name: "cs:LocalSpace:tooltip"
+      String: "Whether RotateTo is in local space"
+    }
+    Overrides {
+      Name: "cs:Object:tooltip"
+      String: "Object to transform"
+    }
+    Overrides {
+      Name: "cs:RotateVelocity:tooltip"
+      String: "Smoothly rotates the object over time by the given angular velocity."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17192428668198139289
+    }
+  }
+  InstanceHistory {
+    SelfId: 3860266794605528060
+    SubobjectId: 2947722128700081072
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 2599870277808578986
+  Name: "NEBULAS1"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: 146.249908
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6405820042849952975
+  ChildIds: 14092708691386473248
+  ChildIds: 11541142014907010786
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    IsAllowedForPC: true
+    IsAllowedForMobile: true
+    IsAllowedForLowMemoryMobile: true
+    PCMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    PCMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    MobileMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MobileMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  InstanceHistory {
+    SelfId: 2599870277808578986
+    SubobjectId: 4138418438754836966
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 11541142014907010786
+  Name: "Nebula"
+  Transform {
+    Location {
+      X: -396
+      Y: -274
+      Z: -27320
+    }
+    Rotation {
+      Pitch: -67.4999619
+      Yaw: -19.9999924
+      Roll: -2.23101483e-06
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2599870277808578986
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Hue Shift"
+      Float: 126.731598
+    }
+    Overrides {
+      Name: "bp:Nebula"
+      Enum {
+        Value: "mc:enebulae:1"
+      }
+    }
+    Overrides {
+      Name: "bp:Size"
+      Vector {
+        X: 10
+        Y: 10
+        Z: 10
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 0.279
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2617361319805279588
+    }
+    TeamSettings {
+    }
+  }
+  InstanceHistory {
+    SelfId: 11541142014907010786
+    SubobjectId: 13641502335461396142
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14092708691386473248
+  Name: "Object Rotator Continuous"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2599870277808578986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Object"
+      ObjectReference {
+        SelfId: 11541142014907010786
+      }
+    }
+    Overrides {
+      Name: "cs:RotateVelocity"
+      Rotator {
+        Roll: 1
+      }
+    }
+    Overrides {
+      Name: "cs:RotationMultiplier"
+      Float: 0.1
+    }
+    Overrides {
+      Name: "cs:LocalSpace"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:StartDelayRange"
+      Vector2 {
+      }
+    }
+    Overrides {
+      Name: "cs:RotationMultiplier:tooltip"
+      String: "Optional multiplier for very fast rotations."
+    }
+    Overrides {
+      Name: "cs:StartDelayRange:tooltip"
+      String: "Random delay range for the object to take action at the start of the game."
+    }
+    Overrides {
+      Name: "cs:LocalSpace:tooltip"
+      String: "Whether RotateTo is in local space"
+    }
+    Overrides {
+      Name: "cs:Object:tooltip"
+      String: "Object to transform"
+    }
+    Overrides {
+      Name: "cs:RotateVelocity:tooltip"
+      String: "Smoothly rotates the object over time by the given angular velocity."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17192428668198139289
+    }
+  }
+  InstanceHistory {
+    SelfId: 14092708691386473248
+    SubobjectId: 16062473422163041132
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7991124527209229596
+  Name: "NEBULAS1"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: 146.249908
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6405820042849952975
+  ChildIds: 17161141424497924419
+  ChildIds: 4968940243719490660
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    IsAllowedForPC: true
+    IsAllowedForMobile: true
+    IsAllowedForLowMemoryMobile: true
+    PCMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    PCMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    MobileMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MobileMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  InstanceHistory {
+    SelfId: 7991124527209229596
+    SubobjectId: 8330578429757844816
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 4968940243719490660
+  Name: "Nebula"
+  Transform {
+    Location {
+      X: -396
+      Y: -274
+      Z: -27320
+    }
+    Rotation {
+      Pitch: -67.4999619
+      Yaw: -19.9999924
+      Roll: -2.23101483e-06
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7991124527209229596
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Hue Shift"
+      Float: 126.731598
+    }
+    Overrides {
+      Name: "bp:Nebula"
+      Enum {
+        Value: "mc:enebulae:0"
+      }
+    }
+    Overrides {
+      Name: "bp:Size"
+      Vector {
+        X: 10
+        Y: 10
+        Z: 10
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 0.279
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2617361319805279588
+    }
+    TeamSettings {
+    }
+  }
+  InstanceHistory {
+    SelfId: 4968940243719490660
+    SubobjectId: 6453444178109254696
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 17161141424497924419
+  Name: "Object Rotator Continuous"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7991124527209229596
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Object"
+      ObjectReference {
+        SelfId: 4968940243719490660
+      }
+    }
+    Overrides {
+      Name: "cs:RotateVelocity"
+      Rotator {
+        Roll: -1
+      }
+    }
+    Overrides {
+      Name: "cs:RotationMultiplier"
+      Float: 0.1
+    }
+    Overrides {
+      Name: "cs:LocalSpace"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:StartDelayRange"
+      Vector2 {
+      }
+    }
+    Overrides {
+      Name: "cs:RotationMultiplier:tooltip"
+      String: "Optional multiplier for very fast rotations."
+    }
+    Overrides {
+      Name: "cs:StartDelayRange:tooltip"
+      String: "Random delay range for the object to take action at the start of the game."
+    }
+    Overrides {
+      Name: "cs:LocalSpace:tooltip"
+      String: "Whether RotateTo is in local space"
+    }
+    Overrides {
+      Name: "cs:Object:tooltip"
+      String: "Object to transform"
+    }
+    Overrides {
+      Name: "cs:RotateVelocity:tooltip"
+      String: "Smoothly rotates the object over time by the given angular velocity."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17192428668198139289
+    }
+  }
+  InstanceHistory {
+    SelfId: 17161141424497924419
+    SubobjectId: 17533246351229868303
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6729192923223976603
+  Name: "NEBULAS1"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: 146.249908
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6405820042849952975
+  ChildIds: 13858001520652414708
+  ChildIds: 8186019434778085116
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    IsAllowedForPC: true
+    IsAllowedForMobile: true
+    IsAllowedForLowMemoryMobile: true
+    PCMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    PCMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    MobileMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MobileMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  InstanceHistory {
+    SelfId: 6729192923223976603
+    SubobjectId: 4618688625094077143
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8186019434778085116
+  Name: "Nebula"
+  Transform {
+    Location {
+      X: -396
+      Y: -274
+      Z: -27320
+    }
+    Rotation {
+      Pitch: -67.4999619
+      Yaw: -19.9999924
+      Roll: -2.23101483e-06
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6729192923223976603
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Hue Shift"
+      Float: 126.731598
+    }
+    Overrides {
+      Name: "bp:Nebula"
+      Enum {
+        Value: "mc:enebulae:5"
+      }
+    }
+    Overrides {
+      Name: "bp:Size"
+      Vector {
+        X: 10
+        Y: 10
+        Z: 10
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 0.279
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2617361319805279588
+    }
+    TeamSettings {
+    }
+  }
+  InstanceHistory {
+    SelfId: 8186019434778085116
+    SubobjectId: 7845429804129879728
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 13858001520652414708
+  Name: "Object Rotator Continuous"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6729192923223976603
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Object"
+      ObjectReference {
+        SelfId: 8186019434778085116
+      }
+    }
+    Overrides {
+      Name: "cs:RotateVelocity"
+      Rotator {
+        Roll: 1
+      }
+    }
+    Overrides {
+      Name: "cs:RotationMultiplier"
+      Float: 0.1
+    }
+    Overrides {
+      Name: "cs:LocalSpace"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:StartDelayRange"
+      Vector2 {
+      }
+    }
+    Overrides {
+      Name: "cs:RotationMultiplier:tooltip"
+      String: "Optional multiplier for very fast rotations."
+    }
+    Overrides {
+      Name: "cs:StartDelayRange:tooltip"
+      String: "Random delay range for the object to take action at the start of the game."
+    }
+    Overrides {
+      Name: "cs:LocalSpace:tooltip"
+      String: "Whether RotateTo is in local space"
+    }
+    Overrides {
+      Name: "cs:Object:tooltip"
+      String: "Object to transform"
+    }
+    Overrides {
+      Name: "cs:RotateVelocity:tooltip"
+      String: "Smoothly rotates the object over time by the given angular velocity."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17192428668198139289
+    }
+  }
+  InstanceHistory {
+    SelfId: 13858001520652414708
+    SubobjectId: 15936980618001755832
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8657840877862253955
+  Name: "NEBULAS1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6405820042849952975
+  ChildIds: 6439164379043543966
+  ChildIds: 7718037975500316843
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    IsAllowedForPC: true
+    IsAllowedForMobile: true
+    IsAllowedForLowMemoryMobile: true
+    PCMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    PCMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    MobileMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MobileMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  InstanceHistory {
+    SelfId: 8657840877862253955
+    SubobjectId: 7303943536252892623
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7718037975500316843
+  Name: "Nebula"
+  Transform {
+    Location {
+      X: -396
+      Y: -274
+      Z: -27320
+    }
+    Rotation {
+      Pitch: -67.4999695
+      Yaw: -120
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8657840877862253955
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Hue Shift"
+      Float: 114.938034
+    }
+    Overrides {
+      Name: "bp:Nebula"
+      Enum {
+        Value: "mc:enebulae:4"
+      }
+    }
+    Overrides {
+      Name: "bp:Size"
+      Vector {
+        X: 10
+        Y: 10
+        Z: 10
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 0.279
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2617361319805279588
+    }
+    TeamSettings {
+    }
+  }
+  InstanceHistory {
+    SelfId: 7718037975500316843
+    SubobjectId: 8530379817070305511
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6439164379043543966
+  Name: "Object Rotator Continuous"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8657840877862253955
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Object"
+      ObjectReference {
+        SelfId: 7718037975500316843
+      }
+    }
+    Overrides {
+      Name: "cs:RotateVelocity"
+      Rotator {
+        Roll: 1
+      }
+    }
+    Overrides {
+      Name: "cs:RotationMultiplier"
+      Float: 0.1
+    }
+    Overrides {
+      Name: "cs:LocalSpace"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:StartDelayRange"
+      Vector2 {
+      }
+    }
+    Overrides {
+      Name: "cs:RotationMultiplier:tooltip"
+      String: "Optional multiplier for very fast rotations."
+    }
+    Overrides {
+      Name: "cs:StartDelayRange:tooltip"
+      String: "Random delay range for the object to take action at the start of the game."
+    }
+    Overrides {
+      Name: "cs:LocalSpace:tooltip"
+      String: "Whether RotateTo is in local space"
+    }
+    Overrides {
+      Name: "cs:Object:tooltip"
+      String: "Object to transform"
+    }
+    Overrides {
+      Name: "cs:RotateVelocity:tooltip"
+      String: "Smoothly rotates the object over time by the given angular velocity."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17192428668198139289
+    }
+  }
+  InstanceHistory {
+    SelfId: 6439164379043543966
+    SubobjectId: 4910758094762802130
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9802676883017871322
+  Name: "NEBULAS1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6405820042849952975
+  ChildIds: 11322509910980116297
+  ChildIds: 12354438538603049343
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    IsAllowedForPC: true
+    IsAllowedForMobile: true
+    IsAllowedForLowMemoryMobile: true
+    PCMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    PCMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    MobileMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MobileMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  InstanceHistory {
+    SelfId: 9802676883017871322
+    SubobjectId: 10768140977701810070
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12354438538603049343
+  Name: "Nebula"
+  Transform {
+    Location {
+      X: -396
+      Y: -274
+      Z: -27320
+    }
+    Rotation {
+      Pitch: -67.4999695
+      Yaw: -12
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9802676883017871322
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Hue Shift"
+      Float: 85.4540939
+    }
+    Overrides {
+      Name: "bp:Nebula"
+      Enum {
+        Value: "mc:enebulae:4"
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 0.984
+      }
+    }
+    Overrides {
+      Name: "bp:Size"
+      Vector {
+        X: 21
+        Y: 21
+        Z: 21
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2617361319805279588
+    }
+    TeamSettings {
+    }
+  }
+  InstanceHistory {
+    SelfId: 12354438538603049343
+    SubobjectId: 13117241880831881523
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 11322509910980116297
+  Name: "Object Rotator Continuous"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9802676883017871322
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Object"
+      ObjectReference {
+        SelfId: 12354438538603049343
+      }
+    }
+    Overrides {
+      Name: "cs:RotateVelocity"
+      Rotator {
+        Roll: 1
+      }
+    }
+    Overrides {
+      Name: "cs:RotationMultiplier"
+      Float: 0.1
+    }
+    Overrides {
+      Name: "cs:LocalSpace"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:StartDelayRange"
+      Vector2 {
+      }
+    }
+    Overrides {
+      Name: "cs:RotationMultiplier:tooltip"
+      String: "Optional multiplier for very fast rotations."
+    }
+    Overrides {
+      Name: "cs:StartDelayRange:tooltip"
+      String: "Random delay range for the object to take action at the start of the game."
+    }
+    Overrides {
+      Name: "cs:LocalSpace:tooltip"
+      String: "Whether RotateTo is in local space"
+    }
+    Overrides {
+      Name: "cs:Object:tooltip"
+      String: "Object to transform"
+    }
+    Overrides {
+      Name: "cs:RotateVelocity:tooltip"
+      String: "Smoothly rotates the object over time by the given angular velocity."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17192428668198139289
+    }
+  }
+  InstanceHistory {
+    SelfId: 11322509910980116297
+    SubobjectId: 9249170276112400133
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14817169857537957902
+  Name: "NEBULAS1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6405820042849952975
+  ChildIds: 635015333625504495
+  ChildIds: 16422251940437926142
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    IsAllowedForPC: true
+    IsAllowedForMobile: true
+    IsAllowedForLowMemoryMobile: true
+    PCMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    PCMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    MobileMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MobileMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  InstanceHistory {
+    SelfId: 14817169857537957902
+    SubobjectId: 15049671928696807490
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16422251940437926142
+  Name: "Nebula"
+  Transform {
+    Location {
+      X: -396
+      Y: -274
+      Z: -27320
+    }
+    Rotation {
+      Pitch: -67.4999695
+      Yaw: -30
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14817169857537957902
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Hue Shift"
+      Float: 171.694595
+    }
+    Overrides {
+      Name: "bp:Nebula"
+      Enum {
+        Value: "mc:enebulae:2"
+      }
+    }
+    Overrides {
+      Name: "bp:Size"
+      Vector {
+        X: 15
+        Y: 15
+        Z: 15
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2617361319805279588
+    }
+    TeamSettings {
+    }
+  }
+  InstanceHistory {
+    SelfId: 16422251940437926142
+    SubobjectId: 18346972994733957298
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 635015333625504495
+  Name: "Object Rotator Continuous"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14817169857537957902
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Object"
+      ObjectReference {
+        SelfId: 16422251940437926142
+      }
+    }
+    Overrides {
+      Name: "cs:RotateVelocity"
+      Rotator {
+        Roll: 1
+      }
+    }
+    Overrides {
+      Name: "cs:RotationMultiplier"
+      Float: 0.1
+    }
+    Overrides {
+      Name: "cs:LocalSpace"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:StartDelayRange"
+      Vector2 {
+      }
+    }
+    Overrides {
+      Name: "cs:RotationMultiplier:tooltip"
+      String: "Optional multiplier for very fast rotations."
+    }
+    Overrides {
+      Name: "cs:StartDelayRange:tooltip"
+      String: "Random delay range for the object to take action at the start of the game."
+    }
+    Overrides {
+      Name: "cs:LocalSpace:tooltip"
+      String: "Whether RotateTo is in local space"
+    }
+    Overrides {
+      Name: "cs:Object:tooltip"
+      String: "Object to transform"
+    }
+    Overrides {
+      Name: "cs:RotateVelocity:tooltip"
+      String: "Smoothly rotates the object over time by the given angular velocity."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17192428668198139289
+    }
+  }
+  InstanceHistory {
+    SelfId: 635015333625504495
+    SubobjectId: 1561063030360662691
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10494017299384719721
+  Name: "NEBULAS1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6405820042849952975
+  ChildIds: 6694744469954071623
+  ChildIds: 88006903138905815
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    IsAllowedForPC: true
+    IsAllowedForMobile: true
+    IsAllowedForLowMemoryMobile: true
+    PCMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    PCMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    MobileMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MobileMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  InstanceHistory {
+    SelfId: 10494017299384719721
+    SubobjectId: 10148924126084569381
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 88006903138905815
+  Name: "Nebula"
+  Transform {
+    Location {
+      X: -396
+      Y: -274
+      Z: -27320
+    }
+    Rotation {
+      Pitch: -67.4999619
+      Yaw: -19.9999924
+      Roll: -2.23101483e-06
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10494017299384719721
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Hue Shift"
+      Float: 126.731598
+    }
+    Overrides {
+      Name: "bp:Nebula"
+      Enum {
+        Value: "mc:enebulae:1"
+      }
+    }
+    Overrides {
+      Name: "bp:Size"
+      Vector {
+        X: 10
+        Y: 10
+        Z: 10
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 0.279
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2617361319805279588
+    }
+    TeamSettings {
+    }
+  }
+  InstanceHistory {
+    SelfId: 88006903138905815
+    SubobjectId: 2036379463006596763
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6694744469954071623
+  Name: "Object Rotator Continuous"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10494017299384719721
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Object"
+      ObjectReference {
+        SelfId: 88006903138905815
+      }
+    }
+    Overrides {
+      Name: "cs:RotateVelocity"
+      Rotator {
+        Roll: 1
+      }
+    }
+    Overrides {
+      Name: "cs:RotationMultiplier"
+      Float: 0.1
+    }
+    Overrides {
+      Name: "cs:LocalSpace"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:StartDelayRange"
+      Vector2 {
+      }
+    }
+    Overrides {
+      Name: "cs:RotationMultiplier:tooltip"
+      String: "Optional multiplier for very fast rotations."
+    }
+    Overrides {
+      Name: "cs:StartDelayRange:tooltip"
+      String: "Random delay range for the object to take action at the start of the game."
+    }
+    Overrides {
+      Name: "cs:LocalSpace:tooltip"
+      String: "Whether RotateTo is in local space"
+    }
+    Overrides {
+      Name: "cs:Object:tooltip"
+      String: "Object to transform"
+    }
+    Overrides {
+      Name: "cs:RotateVelocity:tooltip"
+      String: "Smoothly rotates the object over time by the given angular velocity."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17192428668198139289
+    }
+  }
+  InstanceHistory {
+    SelfId: 6694744469954071623
+    SubobjectId: 4724987646380035083
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 12588305407617416417
+  Name: "NEBULAS1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6405820042849952975
+  ChildIds: 14810837884269129497
+  ChildIds: 15076546952970999202
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    IsAllowedForPC: true
+    IsAllowedForMobile: true
+    IsAllowedForLowMemoryMobile: true
+    PCMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    PCMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    MobileMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MobileMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12588305407617416417
+    SubobjectId: 12954780835955014829
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 15076546952970999202
+  Name: "Nebula"
+  Transform {
+    Location {
+      X: -396
+      Y: -274
+      Z: -27320
+    }
+    Rotation {
+      Pitch: -67.4999619
+      Yaw: -19.9999924
+      Roll: -2.23101483e-06
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12588305407617416417
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Hue Shift"
+      Float: 126.731598
+    }
+    Overrides {
+      Name: "bp:Nebula"
+      Enum {
+        Value: "mc:enebulae:0"
+      }
+    }
+    Overrides {
+      Name: "bp:Size"
+      Vector {
+        X: 10
+        Y: 10
+        Z: 10
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 0.279
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2617361319805279588
+    }
+    TeamSettings {
+    }
+  }
+  InstanceHistory {
+    SelfId: 15076546952970999202
+    SubobjectId: 14717941745482290670
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14810837884269129497
+  Name: "Object Rotator Continuous"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12588305407617416417
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Object"
+      ObjectReference {
+        SelfId: 15076546952970999202
+      }
+    }
+    Overrides {
+      Name: "cs:RotateVelocity"
+      Rotator {
+        Roll: -1
+      }
+    }
+    Overrides {
+      Name: "cs:RotationMultiplier"
+      Float: 0.1
+    }
+    Overrides {
+      Name: "cs:LocalSpace"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:StartDelayRange"
+      Vector2 {
+      }
+    }
+    Overrides {
+      Name: "cs:RotationMultiplier:tooltip"
+      String: "Optional multiplier for very fast rotations."
+    }
+    Overrides {
+      Name: "cs:StartDelayRange:tooltip"
+      String: "Random delay range for the object to take action at the start of the game."
+    }
+    Overrides {
+      Name: "cs:LocalSpace:tooltip"
+      String: "Whether RotateTo is in local space"
+    }
+    Overrides {
+      Name: "cs:Object:tooltip"
+      String: "Object to transform"
+    }
+    Overrides {
+      Name: "cs:RotateVelocity:tooltip"
+      String: "Smoothly rotates the object over time by the given angular velocity."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17192428668198139289
+    }
+  }
+  InstanceHistory {
+    SelfId: 14810837884269129497
+    SubobjectId: 15055726034782170965
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 18084987046647193003
+  Name: "NEBULAS1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6405820042849952975
+  ChildIds: 14822745532465656342
+  ChildIds: 7270053952425952735
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    MinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    IsAllowedForPC: true
+    IsAllowedForMobile: true
+    IsAllowedForLowMemoryMobile: true
+    PCMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    PCMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    MobileMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MobileMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  InstanceHistory {
+    SelfId: 18084987046647193003
+    SubobjectId: 16681546859591409127
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7270053952425952735
+  Name: "Nebula"
+  Transform {
+    Location {
+      X: -396
+      Y: -274
+      Z: -27320
+    }
+    Rotation {
+      Pitch: -67.4999619
+      Yaw: -19.9999924
+      Roll: -2.23101483e-06
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18084987046647193003
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Hue Shift"
+      Float: 126.731598
+    }
+    Overrides {
+      Name: "bp:Nebula"
+      Enum {
+        Value: "mc:enebulae:5"
+      }
+    }
+    Overrides {
+      Name: "bp:Size"
+      Vector {
+        X: 10
+        Y: 10
+        Z: 10
+      }
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 0.279
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2617361319805279588
+    }
+    TeamSettings {
+    }
+  }
+  InstanceHistory {
+    SelfId: 7270053952425952735
+    SubobjectId: 8763562973652239763
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 14822745532465656342
+  Name: "Object Rotator Continuous"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18084987046647193003
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Object"
+      ObjectReference {
+        SelfId: 7270053952425952735
+      }
+    }
+    Overrides {
+      Name: "cs:RotateVelocity"
+      Rotator {
+        Roll: 1
+      }
+    }
+    Overrides {
+      Name: "cs:RotationMultiplier"
+      Float: 0.1
+    }
+    Overrides {
+      Name: "cs:LocalSpace"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:StartDelayRange"
+      Vector2 {
+      }
+    }
+    Overrides {
+      Name: "cs:RotationMultiplier:tooltip"
+      String: "Optional multiplier for very fast rotations."
+    }
+    Overrides {
+      Name: "cs:StartDelayRange:tooltip"
+      String: "Random delay range for the object to take action at the start of the game."
+    }
+    Overrides {
+      Name: "cs:LocalSpace:tooltip"
+      String: "Whether RotateTo is in local space"
+    }
+    Overrides {
+      Name: "cs:Object:tooltip"
+      String: "Object to transform"
+    }
+    Overrides {
+      Name: "cs:RotateVelocity:tooltip"
+      String: "Smoothly rotates the object over time by the given angular velocity."
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17192428668198139289
+    }
+  }
+  InstanceHistory {
+    SelfId: 14822745532465656342
+    SubobjectId: 15046241710207627866
+    InstanceId: 18377149712629892506
+    TemplateId: 10321041788515504788
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 9005131211525262463

@@ -1,4 +1,31 @@
 Assets {
+  Id: 17063449512846892296
+  Name: "Planetary Ring"
+  PlatformAssetType: 6
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "CORESKY_PlanetaryRing"
+  }
+}
+Assets {
+  Id: 16910278292812118833
+  Name: "Sun Light"
+  PlatformAssetType: 6
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "CORESKY_SunLight"
+  }
+}
+Assets {
+  Id: 16652813710343007973
+  Name: "Generic Water"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_parameter_driven_water_manual"
+  }
+}
+Assets {
   Id: 16281989283233682780
   Name: "Sci-fi Base Antenna 01"
   PlatformAssetType: 1
@@ -89,12 +116,48 @@ Assets {
   }
 }
 Assets {
+  Id: 13406026407024307723
+  Name: "Moon"
+  PlatformAssetType: 6
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "CORESKY_Moon"
+  }
+}
+Assets {
+  Id: 12344193518355455075
+  Name: "Star Dome"
+  PlatformAssetType: 6
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "CORESKY_StarDome"
+  }
+}
+Assets {
+  Id: 12095835209017042614
+  Name: "Cube"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_002"
+  }
+}
+Assets {
   Id: 11586394121501580186
   Name: "\"Celestial Journey\" Music Construction Kit (Sections) 01"
   PlatformAssetType: 10
   PrimaryAsset {
     AssetType: "AudioBlueprintAssetRef"
     AssetId: "abp_celestial_journey_sections_kit_ref"
+  }
+}
+Assets {
+  Id: 11515840070784317904
+  Name: "Skylight"
+  PlatformAssetType: 6
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "CORESKY_Skylight"
   }
 }
 Assets {
@@ -122,6 +185,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_scifi_keyboard_001_ref"
+  }
+}
+Assets {
+  Id: 10735508760752857422
+  Name: "Planet"
+  PlatformAssetType: 6
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "CORESKY_Planet"
   }
 }
 Assets {
@@ -170,6 +242,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7887238662729938253
+  Name: "Sky Dome"
+  PlatformAssetType: 6
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "CORESKY_Sky"
+  }
+}
+Assets {
   Id: 7739609131653669376
   Name: "Sci-fi Base Roof 01 - 4m"
   PlatformAssetType: 1
@@ -194,6 +275,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_roof_001_ref"
+  }
+}
+Assets {
+  Id: 2617361319805279588
+  Name: "Nebula"
+  PlatformAssetType: 6
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "CORESKY_Nebula"
+  }
+}
+Assets {
+  Id: 2224571462023946700
+  Name: "Environment Fog Default VFX"
+  PlatformAssetType: 6
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "fxbp_env_fog_default"
   }
 }
 Assets {

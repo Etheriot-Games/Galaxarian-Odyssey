@@ -58,6 +58,7 @@ function NewState:Enter(player)
     end
 end
 
+
 function NewState:Exit(player)
     StateBase.Exit(self)
 

@@ -28,6 +28,14 @@ function OnInteracted(trigger, player)
     if Object.IsValid(player) and player.isDead then
         return
     end
+    
+    --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    if Object.IsValid(player) then
+        if not player.clientUserData.hasHexane or player.team == 2 then
+            return
+        end
+    end
+    --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
     if Object.IsValid(trigger) then
         trigger.isInteractable = false

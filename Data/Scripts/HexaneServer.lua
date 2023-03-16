@@ -23,7 +23,8 @@ end
 Game.playerJoinedEvent:Connect(OnPlayerJoined)
 
 
-
+--if team is 1 then player has the NFT, if team is 2 then player DOESN'T have NFT
+--this is in addition to 'hasHexane' boolean which is saved in serverUserData and clientUserData(through SetPrivateNetworkedData)
 function CheckForNftContract(player)
     
     local hasHexane = false
@@ -35,6 +36,7 @@ function CheckForNftContract(player)
             hasHexane = true
             player.serverUserData.hasHexane = true
             player:SetPrivateNetworkedData("HasHexane", hasHexane)
+            player.team = 1--set player team to 1 for hasHexane=true
             return hasHexane
         end
     end
@@ -70,6 +72,7 @@ function CheckForNftContract(player)
                     print("SERVER : ", player.name.." owns atleast one Hexane NFT.")
                     player.serverUserData.hasHexane = true
                     player:SetPrivateNetworkedData("HasHexane", hasHexane)
+                    player.team = 1--set player team to 1 for hasHexane=true
                     return hasHexane
 
                 end
@@ -86,6 +89,8 @@ function CheckForNftContract(player)
     print("SERVER : "..player.name.." doesn't own any Hexane NFT.")
     player.serverUserData.hasHexane = false
     player:SetPrivateNetworkedData("HasHexane", hasHexane)
+    player.team = 2--set player team to 2 for hasHexane=false
+
     return hasHexane
     
 end
