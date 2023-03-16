@@ -7,3 +7,12 @@ Assets {
     AssetId: "UI_Basic_Shape_002"
   }
 }
+Assets {
+  Id: 3966653476414909624
+  Name: "Orbitron Bold"
+  PlatformAssetType: 28
+  PrimaryAsset {
+    AssetType: "FontAssetRef"
+    AssetId: "OrbitronBold_ref"
+  }
+}

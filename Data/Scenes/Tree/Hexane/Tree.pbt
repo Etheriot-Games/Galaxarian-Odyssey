@@ -156,9 +156,9 @@ Objects {
   }
   Control {
     Width: 315
-    Height: 308
-    UIX: 12.0504456
-    UIY: -207.90126
+    Height: 159
+    UIX: 13.6357422
+    UIY: -166.638992
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -219,30 +219,30 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Control {
-    Width: 323
-    Height: 228
+    Width: 540
+    Height: 131
+    UIX: 142.676315
+    UIY: 60.3065796
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
-    UseParentWidth: true
-    UseParentHeight: true
     Text {
-      Label: "HEXANE STATUS"
+      Label: "PATHFINDER\r\nNFT STATUS"
       Color {
         R: 1
         G: 1
         B: 1
         A: 1
       }
-      Size: 8
+      Size: 22
       Justification {
         Value: "mc:etextjustify:center"
       }
       AutoWrapText: true
       Font {
-        Id: 841534158063459245
+        Id: 3966653476414909624
       }
       VerticalJustification {
         Value: "mc:everticaljustification:center"
@@ -306,21 +306,21 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Control {
-    Width: 803
+    Width: 843
     Height: 200
+    UIX: -87.1911621
+    UIY: 23.8051758
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
       }
     }
-    UseParentWidth: true
-    UseParentHeight: true
     Image {
       Brush {
         Id: 17289448223043935888
       }
       Color {
-        A: 0.708
+        A: 1
       }
       TeamSettings {
       }
@@ -475,6 +475,10 @@ Objects {
     Overrides {
       Name: "cs:Hexane_Cypher"
       String: "e3f3aad48c864eee971169a2a9f688c9"
+    }
+    Overrides {
+      Name: "cs:Hexane_0x1990c"
+      String: "94664ae18f2146a398b50de9e09f37b1"
     }
   }
   Collidable_v2 {
