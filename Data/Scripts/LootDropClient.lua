@@ -31,7 +31,7 @@ function OnInteracted(trigger, player)
     
     --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
     if Object.IsValid(player) then
-        if not player.clientUserData.hasHexane or player.team == 2 then
+        if player.team == 2 then
             return
         end
     end

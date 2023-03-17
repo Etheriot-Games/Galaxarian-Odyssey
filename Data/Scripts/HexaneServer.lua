@@ -89,7 +89,7 @@ function CheckForNftContract(player)
     print("SERVER : "..player.name.." doesn't own any Hexane NFT.")
     player.serverUserData.hasHexane = false
     player:SetPrivateNetworkedData("HasHexane", hasHexane)
-    player.team = 2--set player team to 2 for hasHexane=false
+    player.team = 1--set player team to 2 for hasHexane=false @@@@@ TEMPORARY = TEAM 1 for alpha testers
 
     return hasHexane
     

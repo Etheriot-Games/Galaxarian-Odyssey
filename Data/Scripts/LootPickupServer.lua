@@ -17,7 +17,7 @@ function GivePlayerItem(player, objectID)
 
     --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
      if Object.IsValid(player) then
-        if not player.clientUserData.hasHexane or player.team == 2 then
+        if player.team == 2 then
             return
         end
     end

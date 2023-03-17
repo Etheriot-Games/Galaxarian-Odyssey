@@ -219,8 +219,8 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Control {
-    Width: 540
-    Height: 131
+    Width: 487
+    Height: 88
     UIX: 142.676315
     UIY: 60.3065796
     RenderTransformPivot {
@@ -306,10 +306,10 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Control {
-    Width: 843
-    Height: 200
+    Width: 763
+    Height: 171
     UIX: -87.1911621
-    UIY: 23.8051758
+    UIY: 52.8776855
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -375,6 +375,12 @@ Objects {
         SubObjectId: 13605939042186298560
         InstanceId: 10275965033751846291
         TemplateId: 17781038344861663523
+      }
+    }
+    Overrides {
+      Name: "cs:Hexane UI Container"
+      ObjectReference {
+        SelfId: 16721055519886083242
       }
     }
   }
@@ -466,7 +472,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Hexane_Czinczar"
-      String: "f8265e5a95a3444f9ba16385438ce540"
+      String: "f8265e5a95a3444f9ba16385438ce5403"
     }
     Overrides {
       Name: "cs:Hexane_Nunnu"
