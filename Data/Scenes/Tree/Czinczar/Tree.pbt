@@ -19,6 +19,48 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 1937359740564726479
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 122.569366
+            Y: 195.544617
+            Z: -3963.74316
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -35.3557129
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9256355921856411437
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:smart"
+          Bool: false
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 4579918378298961707
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 67.2470093
+            Y: 58.003479
+            Z: -447.094727
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 13792810449151665424
       value {
         Overrides {
