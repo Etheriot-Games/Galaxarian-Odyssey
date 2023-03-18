@@ -6,7 +6,7 @@ Entries {
     Table {
       Entries {
         Key {
-          StringVar: "KI1METAA"
+          StringVar: "DA1METAA"
         }
         SimpleValue {
           IntVar: 0
@@ -14,7 +14,7 @@ Entries {
       }
       Entries {
         Key {
-          StringVar: "DA1METAA"
+          StringVar: "KI1METAA"
         }
         SimpleValue {
           IntVar: 0

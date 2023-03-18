@@ -24,9 +24,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 122.569366
-            Y: 195.544617
-            Z: -3963.74316
+            X: 27.4276695
+            Y: 128.278931
+            Z: -4021.08789
           }
         }
         Overrides {
@@ -38,11 +38,24 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 3736749369455260586
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1405.22681
+            Y: 40.2166
+            Z: 618.067383
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 9256355921856411437
       value {
         Overrides {
           Name: "ma:Shared_BaseMaterial:smart"
-          Bool: false
+          Bool: true
         }
         Overrides {
           Name: "ma:Shared_BaseMaterial:id"
@@ -53,9 +66,36 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 67.2470093
-            Y: 58.003479
-            Z: -447.094727
+            X: 27.9251022
+            Y: -117.984535
+            Z: -380.708588
+          }
+        }
+        Overrides {
+          Name: "StaticMesh"
+          AssetReference {
+            Id: 13213782596216803543
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 4.67299414
+            Y: 5.28388166
+            Z: 1.06083512
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10456705530848583516
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1541.98755
+            Y: -450
+            Z: -41.1108398
           }
         }
       }

@@ -116,6 +116,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13213782596216803543
+  Name: "Pipe Thin 01 - Large"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_thin_lg_001_ref"
+  }
+}
+Assets {
   Id: 12344193518355455075
   Name: "Star Dome"
   PlatformAssetType: 6
