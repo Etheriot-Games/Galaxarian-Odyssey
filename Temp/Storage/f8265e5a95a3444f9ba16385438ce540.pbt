@@ -1,5 +1,46 @@
 Entries {
   Key {
+    StringVar: "META_ACHIEVEMENTS"
+  }
+  SimpleValue {
+    Table {
+      Entries {
+        Key {
+          StringVar: "KI1METAA"
+        }
+        SimpleValue {
+          IntVar: 0
+        }
+      }
+      Entries {
+        Key {
+          StringVar: "DA1METAA"
+        }
+        SimpleValue {
+          IntVar: 0
+        }
+      }
+      Entries {
+        Key {
+          StringVar: "RO1METAA"
+        }
+        SimpleValue {
+          IntVar: 0
+        }
+      }
+      Entries {
+        Key {
+          StringVar: "METAT"
+        }
+        SimpleValue {
+          IntVar: 1679219037
+        }
+      }
+    }
+  }
+}
+Entries {
+  Key {
     StringVar: "COSMETICS"
   }
   SimpleValue {
@@ -28,47 +69,6 @@ Entries {
               }
             }
           }
-        }
-      }
-    }
-  }
-}
-Entries {
-  Key {
-    StringVar: "META_ACHIEVEMENTS"
-  }
-  SimpleValue {
-    Table {
-      Entries {
-        Key {
-          StringVar: "KI1METAA"
-        }
-        SimpleValue {
-          IntVar: 0
-        }
-      }
-      Entries {
-        Key {
-          StringVar: "METAT"
-        }
-        SimpleValue {
-          IntVar: 1679129977
-        }
-      }
-      Entries {
-        Key {
-          StringVar: "DA1METAA"
-        }
-        SimpleValue {
-          IntVar: 0
-        }
-      }
-      Entries {
-        Key {
-          StringVar: "RO1METAA"
-        }
-        SimpleValue {
-          IntVar: 0
         }
       }
     }

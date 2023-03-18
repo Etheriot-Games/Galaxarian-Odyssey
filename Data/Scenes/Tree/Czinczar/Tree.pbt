@@ -1,66 +1,50 @@
 Name: "Czinczar"
 RootId: 5189749998658829766
 Objects {
-  Id: 7204232750306516661
-  Name: "ocean"
+  Id: 5837330322834907828
+  Name: "New Lobby"
   Transform {
-    Location {
-      X: 26335.5312
-      Y: -2853.09033
-      Z: -3597.39014
-    }
-    Rotation {
-    }
     Scale {
-      X: 10000
-      Y: 10000
+      X: 1
+      Y: 1
       Z: 1
     }
   }
   ParentId: 5189749998658829766
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 16652813710343007973
-      }
-    }
-  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13792810449151665424
+      value {
+        Overrides {
+          Name: "Name"
+          String: "New Lobby"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -12609.4688
+            Y: -40445.0898
+            Z: 11710.6348
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 35.3557
+          }
+        }
       }
-      BoundsScale: 1
+    }
+    TemplateAsset {
+      Id: 269113895366748200
     }
   }
-  Relevance {
-    Value: "mc:edistancerelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 17001603576226577395
@@ -87059,80 +87043,6 @@ Objects {
   Blueprint {
     BlueprintAsset {
       Id: 15643444583939770376
-    }
-    TeamSettings {
-    }
-  }
-  Relevance {
-    Value: "mc:edistancerelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 9273327707371424852
-  Name: "Advanced Sketch Line Post Process"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5189749998658829766
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Background Color"
-      Color {
-        R: 1
-        G: 0.919531941
-        B: 0.734426
-      }
-    }
-    Overrides {
-      Name: "bp:Line Fade End"
-      Float: 0.325711638
-    }
-    Overrides {
-      Name: "bp:Line Width"
-      Float: 0.6665
-    }
-    Overrides {
-      Name: "bp:Ambient Occlusion Boost"
-      Float: 0.802784204
-    }
-    Overrides {
-      Name: "bp:Line Fade Start"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Highlight Line Color"
-      Color {
-        R: 0.5
-        G: 0.5
-        B: 0.5
-        A: 0.145000011
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 8168962497010845724
     }
     TeamSettings {
     }

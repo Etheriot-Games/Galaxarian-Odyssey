@@ -11492,7 +11492,11 @@ Objects {
   ParentId: 8716409801345301934
   ChildIds: 1497864761569094079
   ChildIds: 9981099056485646237
-  ChildIds: 15002007541826379097
+  ChildIds: 10249530994606571560
+  ChildIds: 3564823411702990669
+  ChildIds: 7895431711949368409
+  ChildIds: 8859747235656241783
+  ChildIds: 7827941979634435232
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -11518,50 +11522,6 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 15002007541826379097
-  Name: "MergedModel"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8874087746028868224
-  ChildIds: 10249530994606571560
-  ChildIds: 3564823411702990669
-  ChildIds: 7895431711949368409
-  ChildIds: 8859747235656241783
-  ChildIds: 7827941979634435232
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  Folder {
-    Model {
-    }
-  }
-  Relevance {
-    Value: "mc:edistancerelevance:critical"
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
   Id: 7827941979634435232
   Name: "Scifi Cargo Box"
   Transform {
@@ -11578,7 +11538,7 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 15002007541826379097
+  ParentId: 8874087746028868224
   TemplateInstance {
     ParameterOverrideMap {
       key: 89942495971582787
@@ -11631,7 +11591,7 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 15002007541826379097
+  ParentId: 8874087746028868224
   TemplateInstance {
     ParameterOverrideMap {
       key: 89942495971582787
@@ -11684,7 +11644,7 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 15002007541826379097
+  ParentId: 8874087746028868224
   TemplateInstance {
     ParameterOverrideMap {
       key: 89942495971582787
@@ -11715,6 +11675,19 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 8859628137997808734
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3455.36304
+            Y: 759.369568
+            Z: 0.540710449
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 1248027713884582734
     }
@@ -11736,7 +11709,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15002007541826379097
+  ParentId: 8874087746028868224
   ChildIds: 6815819633314610290
   ChildIds: 13897025970062174800
   ChildIds: 10484445716907948321
@@ -11904,7 +11877,7 @@ Objects {
       Z: 3
     }
   }
-  ParentId: 15002007541826379097
+  ParentId: 8874087746028868224
   TemplateInstance {
     ParameterOverrideMap {
       key: 89942495971582787

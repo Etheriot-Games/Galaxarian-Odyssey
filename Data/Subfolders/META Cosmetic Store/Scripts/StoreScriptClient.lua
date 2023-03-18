@@ -1702,6 +1702,7 @@ function SwapMannequin(button)
 end
 
 function OnBindingPressed(player, binding)
+    if true then return end--@@@@@@@@@@@@@@@@@@@@@
     if binding == 'ability_extra_29' then
         if localPlayer:GetOverrideCamera() == propCamera then
             HideStore()

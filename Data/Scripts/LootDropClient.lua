@@ -29,13 +29,13 @@ function OnInteracted(trigger, player)
         return
     end
     
-    --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    --[[@@@@@@@@@@@@@@@@@@@@@@@@
     if Object.IsValid(player) then
-        if player.team == 2 then
+        if not player.clientUserData.hasHexane then
             return
         end
     end
-    --@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    --]]
 
     if Object.IsValid(trigger) then
         trigger.isInteractable = false

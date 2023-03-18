@@ -28,6 +28,9 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
     PlayerScaleMultiplier: 1
     SpawnEffectsTemplate {
@@ -43,8 +46,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -1150
-      Y: -350
+      X: -1146
+      Y: -676
     }
     Rotation {
     }
@@ -65,6 +68,9 @@ Objects {
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
   }
   PlayerSpawnPoint {
     PlayerScaleMultiplier: 1
@@ -81,8 +87,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 1100
-      Y: -1200
+      X: 635
+      Y: -1009
     }
     Rotation {
     }
@@ -104,6 +110,9 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
     PlayerScaleMultiplier: 1
     SpawnEffectsTemplate {
@@ -119,7 +128,7 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 1500
+      X: 1257
       Y: -100
     }
     Rotation {
@@ -142,6 +151,9 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
   PlayerSpawnPoint {
     PlayerScaleMultiplier: 1
     SpawnEffectsTemplate {
@@ -157,9 +169,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 350
-      Y: 300
-      Z: 625
+      X: 734.851562
+      Y: 279.061157
     }
     Rotation {
     }
@@ -180,6 +191,9 @@ Objects {
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
   }
   PlayerSpawnPoint {
     PlayerScaleMultiplier: 1
@@ -196,9 +210,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 550
-      Y: -200
-      Z: 625
+      X: 692.885254
+      Y: -185.83342
     }
     Rotation {
     }
@@ -219,6 +232,9 @@ Objects {
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
   }
   PlayerSpawnPoint {
     PlayerScaleMultiplier: 1
@@ -235,9 +251,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -150
+      X: -314
       Y: 50
-      Z: 625
     }
     Rotation {
     }
@@ -258,6 +273,9 @@ Objects {
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
   }
   PlayerSpawnPoint {
     PlayerScaleMultiplier: 1
@@ -276,7 +294,6 @@ Objects {
     Location {
       X: 150
       Y: 800
-      Z: 625
     }
     Rotation {
     }
@@ -297,6 +314,9 @@ Objects {
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
   }
   PlayerSpawnPoint {
     PlayerScaleMultiplier: 1
@@ -313,9 +333,8 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 850
-      Y: 550
-      Z: 625
+      X: 822.904541
+      Y: 840.577942
     }
     Rotation {
     }
@@ -336,6 +355,9 @@ Objects {
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
   }
   PlayerSpawnPoint {
     PlayerScaleMultiplier: 1

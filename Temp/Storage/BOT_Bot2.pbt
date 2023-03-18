@@ -1,50 +1,18 @@
 Entries {
   Key {
-    StringVar: "META_ACHIEVEMENTS"
-  }
-  SimpleValue {
-    Table {
-      Entries {
-        Key {
-          StringVar: "KI1METAA"
-        }
-        SimpleValue {
-          IntVar: 0
-        }
-      }
-      Entries {
-        Key {
-          StringVar: "DA1METAA"
-        }
-        SimpleValue {
-          IntVar: 0
-        }
-      }
-      Entries {
-        Key {
-          StringVar: "RO1METAA"
-        }
-        SimpleValue {
-          IntVar: 0
-        }
-      }
-      Entries {
-        Key {
-          StringVar: "METAT"
-        }
-        SimpleValue {
-          IntVar: 1678963309
-        }
-      }
-    }
-  }
-}
-Entries {
-  Key {
     StringVar: "COSMETICS"
   }
   SimpleValue {
     Table {
+      Entries {
+        Key {
+          StringVar: "owned"
+        }
+        SimpleValue {
+          Table {
+          }
+        }
+      }
       Entries {
         Key {
           StringVar: "currency"
@@ -62,13 +30,45 @@ Entries {
           }
         }
       }
+    }
+  }
+}
+Entries {
+  Key {
+    StringVar: "META_ACHIEVEMENTS"
+  }
+  SimpleValue {
+    Table {
       Entries {
         Key {
-          StringVar: "owned"
+          StringVar: "RO1METAA"
         }
         SimpleValue {
-          Table {
-          }
+          IntVar: 1
+        }
+      }
+      Entries {
+        Key {
+          StringVar: "METAT"
+        }
+        SimpleValue {
+          IntVar: 1679163138
+        }
+      }
+      Entries {
+        Key {
+          StringVar: "DA1METAA"
+        }
+        SimpleValue {
+          IntVar: 65
+        }
+      }
+      Entries {
+        Key {
+          StringVar: "KI1METAA"
+        }
+        SimpleValue {
+          IntVar: 0
         }
       }
     }

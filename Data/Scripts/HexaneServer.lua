@@ -14,8 +14,14 @@ end
 
 
 function OnPlayerJoined(player)
-	print("SERVER : "..player.name.." joined the game, checking for Hexane NFT.")
+	print("SERVER : "..player.name.." joined the game, checking for Hexane NFT.", player.id)
     ---[[
+
+    --setting players hitPoints
+    player.maxHitPoints = 200
+    player.hitPoints = 200
+
+    --check if player has nft
     CheckForNftContract(player)
     
     --]]
@@ -36,7 +42,7 @@ function CheckForNftContract(player)
             hasHexane = true
             player.serverUserData.hasHexane = true
             player:SetPrivateNetworkedData("HasHexane", hasHexane)
-            player.team = 1--set player team to 1 for hasHexane=true
+            --player.team = 1--set player team to 1 for hasHexane=true
             return hasHexane
         end
     end
@@ -72,7 +78,7 @@ function CheckForNftContract(player)
                     print("SERVER : ", player.name.." owns atleast one Hexane NFT.")
                     player.serverUserData.hasHexane = true
                     player:SetPrivateNetworkedData("HasHexane", hasHexane)
-                    player.team = 1--set player team to 1 for hasHexane=true
+                    --player.team = 1--set player team to 1 for hasHexane=true
                     return hasHexane
 
                 end
@@ -89,7 +95,7 @@ function CheckForNftContract(player)
     print("SERVER : "..player.name.." doesn't own any Hexane NFT.")
     player.serverUserData.hasHexane = false
     player:SetPrivateNetworkedData("HasHexane", hasHexane)
-    player.team = 1--set player team to 2 for hasHexane=false @@@@@ TEMPORARY = TEAM 1 for alpha testers
+    --player.team = 1--set player team to 2 for hasHexane=false @@@@@ TEMPORARY = TEAM 1 for alpha testers
 
     return hasHexane
     

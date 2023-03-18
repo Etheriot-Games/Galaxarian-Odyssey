@@ -17,15 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16652813710343007973
-  Name: "Generic Water"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "fxma_parameter_driven_water_manual"
-  }
-}
-Assets {
   Id: 16281989283233682780
   Name: "Sci-fi Base Antenna 01"
   PlatformAssetType: 1
@@ -134,15 +125,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12095835209017042614
-  Name: "Cube"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_002"
-  }
-}
-Assets {
   Id: 11586394121501580186
   Name: "\"Celestial Journey\" Music Construction Kit (Sections) 01"
   PlatformAssetType: 10
@@ -230,15 +212,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_sconce_001_ref"
-  }
-}
-Assets {
-  Id: 8168962497010845724
-  Name: "Advanced Sketch Line Post Process"
-  PlatformAssetType: 20
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "fxbp_ppm_sketchline"
   }
 }
 Assets {

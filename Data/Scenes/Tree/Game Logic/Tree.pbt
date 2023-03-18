@@ -5173,6 +5173,14 @@ Objects {
             Z: 1
           }
         }
+        Overrides {
+          Name: "cs:ShowNumber"
+          Bool: false
+        }
+        Overrides {
+          Name: "cs:ShowMaximum"
+          Bool: false
+        }
       }
     }
     ParameterOverrideMap {
@@ -6716,7 +6724,7 @@ Objects {
 }
 Objects {
   Id: 15185938637873752206
-  Name: "Resource Display"
+  Name: "Resource Display COSMETIC CURRENCY"
   Transform {
     Location {
     }
@@ -6792,7 +6800,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -14042,7 +14050,7 @@ Objects {
       CanMoveUp: true
       CanMoveDown: true
       IsMountEnabled: true
-      MaxHitpoints: 100
+      MaxHitpoints: 200
       PlayerMasterVolumeMultiplier: 1
       ComplexCollision: true
     }
@@ -14222,17 +14230,16 @@ Objects {
   Name: "Lobby Trigger"
   Transform {
     Location {
-      X: -33075
-      Y: -37725
-      Z: 13150
+      X: -38659.6836
+      Y: -37223.5938
+      Z: 14905.8076
     }
     Rotation {
-      Yaw: -20.0000572
     }
     Scale {
-      X: 31.7
-      Y: 23.4000111
-      Z: 13.2999935
+      X: 57.0804291
+      Y: 54.6667976
+      Z: 14.9638491
     }
   }
   ParentId: 13485830547445914893
@@ -14246,6 +14253,9 @@ Objects {
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
   }
   Trigger {
     TeamSettings {
@@ -15533,6 +15543,8 @@ Objects {
   Name: "InitialZone"
   Transform {
     Location {
+      X: -1.77734375
+      Y: 1.578125
       Z: 15050
     }
     Rotation {
@@ -21075,6 +21087,24 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13787283499687129490
+      value {
+        Overrides {
+          Name: "PlayerMaxHitpoints"
+          Float: 200
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17377482215079717336
+      value {
+        Overrides {
+          Name: "PlayerMaxHitpoints"
+          Float: 200
         }
       }
     }

@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 8168962497010845724
+  Name: "Advanced Sketch Line Post Process"
+  PlatformAssetType: 20
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "fxbp_ppm_sketchline"
+  }
+}
+Assets {
   Id: 3966653476414909624
   Name: "Orbitron Bold"
   PlatformAssetType: 28

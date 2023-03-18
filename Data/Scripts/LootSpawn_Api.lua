@@ -41,7 +41,7 @@ function SpawnApi.HookUp(item, Entry)
                 if trig ~= trigger then return end 
                 local LOOT_VFX = properties['LootVFX']
                 Entry.shouldSpawn = false
-                trigger:Destroy()
+                if Object.IsValid(trigger) then trigger:Destroy() end
                 if LOOT_VFX then
                     World.SpawnAsset(LOOT_VFX, {position = item:GetWorldPosition()})
                 end

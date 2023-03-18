@@ -17,6 +17,7 @@ Objects {
   ParentId: 3141565349274426451
   ChildIds: 16510062608800768635
   ChildIds: 16721055519886083242
+  ChildIds: 9273327707371424852
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -54,6 +55,80 @@ Objects {
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9273327707371424852
+  Name: "Advanced Sketch Line Post Process"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4650007541451739638
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Background Color"
+      Color {
+        R: 1
+        G: 0.919531941
+        B: 0.734426
+      }
+    }
+    Overrides {
+      Name: "bp:Line Fade End"
+      Float: 0.325711638
+    }
+    Overrides {
+      Name: "bp:Line Width"
+      Float: 0.6665
+    }
+    Overrides {
+      Name: "bp:Ambient Occlusion Boost"
+      Float: 0.802784204
+    }
+    Overrides {
+      Name: "bp:Line Fade Start"
+      Float: 0
+    }
+    Overrides {
+      Name: "bp:Highlight Line Color"
+      Color {
+        R: 0.5
+        G: 0.5
+        B: 0.5
+        A: 0.145000011
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 8168962497010845724
+    }
+    TeamSettings {
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
   }
   IsReplicationEnabledByDefault: true
 }
@@ -472,7 +547,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Hexane_Czinczar"
-      String: "f8265e5a95a3444f9ba16385438ce5403"
+      String: "f8265e5a95a3444f9ba16385438ce540"
     }
     Overrides {
       Name: "cs:Hexane_Nunnu"
@@ -485,6 +560,10 @@ Objects {
     Overrides {
       Name: "cs:Hexane_0x1990c"
       String: "94664ae18f2146a398b50de9e09f37b1"
+    }
+    Overrides {
+      Name: "cs:Hexane_Test"
+      String: "BOT_Bot1"
     }
   }
   Collidable_v2 {
