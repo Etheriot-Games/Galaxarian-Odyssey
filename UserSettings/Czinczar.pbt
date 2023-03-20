@@ -26982,6 +26982,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 17772787730228856585
+    value {
+    }
+  }
+  ObjectStates {
     key: 17773278950210112745
     value {
     }
@@ -27992,7 +27997,7 @@ ObjectSettings {
     }
   }
 }
-LastSavedScene: "Main"
+LastSavedScene: "Test scene"
 PreviewDetailLevelPerScene {
   key: "Main"
   value: 3
