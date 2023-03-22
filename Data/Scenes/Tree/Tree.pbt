@@ -14,7 +14,6 @@ Objects {
       Z: 1
     }
   }
-  ChildIds: 8814062363386646908
   ChildIds: 16896047770239670745
   ChildIds: 150783326080356984
   ChildIds: 18172879844162108880
@@ -678,43 +677,4 @@ Objects {
     Value: "mc:eproxyrelevance:critical"
   }
   IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 8814062363386646908
-  Name: "First Person Camera Settings"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5052201122922792879
-      value {
-        Overrides {
-          Name: "CameraMinimumDistance"
-          Float: 0
-        }
-        Overrides {
-          Name: "CameraMaximumDistance"
-          Float: 0
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 18143788354451018607
-      value {
-        Overrides {
-          Name: "Name"
-          String: "First Person Camera Settings"
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 12639959206734540096
-    }
-  }
 }

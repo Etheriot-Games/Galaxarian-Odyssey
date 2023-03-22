@@ -1,33 +1,39 @@
 Entries {
   Key {
-    StringVar: "COSMETICS"
+    StringVar: "META_ACHIEVEMENTS"
   }
   SimpleValue {
     Table {
       Entries {
         Key {
-          StringVar: "currency"
+          StringVar: "RO1METAA"
         }
         SimpleValue {
-          Table {
-            Entries {
-              Key {
-                StringVar: "Cash"
-              }
-              SimpleValue {
-                IntVar: 0
-              }
-            }
-          }
+          IntVar: 0
         }
       }
       Entries {
         Key {
-          StringVar: "owned"
+          StringVar: "DA1METAA"
         }
         SimpleValue {
-          Table {
-          }
+          IntVar: 0
+        }
+      }
+      Entries {
+        Key {
+          StringVar: "KI1METAA"
+        }
+        SimpleValue {
+          IntVar: 0
+        }
+      }
+      Entries {
+        Key {
+          StringVar: "METAT"
+        }
+        SimpleValue {
+          IntVar: 1679567384
         }
       }
     }
@@ -47,18 +53,18 @@ Entries {
           Table {
             Entries {
               Key {
-                StringVar: "News1"
-              }
-              SimpleValue {
-                IntVar: 54858092
-              }
-            }
-            Entries {
-              Key {
                 StringVar: "News2"
               }
               SimpleValue {
                 IntVar: 54858093
+              }
+            }
+            Entries {
+              Key {
+                StringVar: "News3"
+              }
+              SimpleValue {
+                IntVar: 54858094
               }
             }
             Entries {
@@ -71,10 +77,10 @@ Entries {
             }
             Entries {
               Key {
-                StringVar: "News3"
+                StringVar: "News1"
               }
               SimpleValue {
-                IntVar: 54858094
+                IntVar: 54858092
               }
             }
           }
@@ -85,40 +91,34 @@ Entries {
 }
 Entries {
   Key {
-    StringVar: "META_ACHIEVEMENTS"
+    StringVar: "COSMETICS"
   }
   SimpleValue {
     Table {
       Entries {
         Key {
-          StringVar: "KI1METAA"
+          StringVar: "owned"
         }
         SimpleValue {
-          IntVar: 0
+          Table {
+          }
         }
       }
       Entries {
         Key {
-          StringVar: "DA1METAA"
+          StringVar: "currency"
         }
         SimpleValue {
-          IntVar: 0
-        }
-      }
-      Entries {
-        Key {
-          StringVar: "METAT"
-        }
-        SimpleValue {
-          IntVar: 1679567384
-        }
-      }
-      Entries {
-        Key {
-          StringVar: "RO1METAA"
-        }
-        SimpleValue {
-          IntVar: 0
+          Table {
+            Entries {
+              Key {
+                StringVar: "Cash"
+              }
+              SimpleValue {
+                IntVar: 0
+              }
+            }
+          }
         }
       }
     }
