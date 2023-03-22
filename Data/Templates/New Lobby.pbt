@@ -24,7 +24,9 @@ Assets {
         ChildIds: 7989598535496629373
         ChildIds: 7614268258201895304
         ChildIds: 12847953941884065090
-        ChildIds: 17475024172775228892
+        ChildIds: 13382778152541952068
+        ChildIds: 660850783592142359
+        ChildIds: 3150943704627158012
         ChildIds: 4366926177162744865
         ChildIds: 4789122960913025138
         ChildIds: 16413518659486313490
@@ -10392,12 +10394,12 @@ Assets {
       }
       Objects {
         Id: 12847953941884065090
-        Name: "World Leaderboard"
+        Name: "World Leaderboard MOST KILLS WEEKLY"
         Transform {
           Location {
-            X: 43.1757812
-            Y: -1394.62109
-            Z: 1232.63086
+            X: 43.1759644
+            Y: -1394.61938
+            Z: 860.277344
           }
           Rotation {
             Yaw: -97.3962402
@@ -10418,7 +10420,7 @@ Assets {
           Overrides {
             Name: "cs:LeaderboardReference"
             NetReference {
-              Key: "4F955CF2360DA1F9"
+              Key: "C1EC36B8C4D92C03"
               Type {
                 Value: "mc:enetreferencetype:leaderboard"
               }
@@ -10426,11 +10428,11 @@ Assets {
           }
           Overrides {
             Name: "cs:LeaderboardType"
-            String: "GLOBAL"
+            String: "WEEKLY"
           }
           Overrides {
             Name: "cs:LeaderboardStat"
-            String: "RESOURCE"
+            String: "KILLS"
           }
           Overrides {
             Name: "cs:LeaderboardPersistence"
@@ -10438,7 +10440,7 @@ Assets {
           }
           Overrides {
             Name: "cs:ResourceName"
-            String: "BEST PLAYERS"
+            String: ""
           }
           Overrides {
             Name: "cs:DisplayAsInteger"
@@ -10466,7 +10468,7 @@ Assets {
           }
           Overrides {
             Name: "cs:UpdateOnRoundEnd"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "cs:FirstPlaceColor"
@@ -10597,7 +10599,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
+          Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CameraCollidable {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -10794,7 +10796,7 @@ Assets {
           Scale {
             X: 0.1
             Y: 0.7
-            Z: 4
+            Z: 5.39999866
           }
         }
         ParentId: 12845433741808970331
@@ -10802,12 +10804,12 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 13948944933562880915
+              Id: 3098633967912998414
             }
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
+            Bool: true
           }
           Overrides {
             Name: "ma:Shared_BaseMaterial:utile"
@@ -11165,7 +11167,7 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Text {
-          Text: "BEST PLAYERS"
+          Text: "MOST KILLS WEEKLY"
           FontAsset {
           }
           Color {
@@ -11386,9 +11388,17 @@ Assets {
         IsReplicationEnabledByDefault: true
       }
       Objects {
-        Id: 17475024172775228892
-        Name: "Leaderboard Dependencies"
+        Id: 13382778152541952068
+        Name: "World Leaderboard MOST KILLS ALLTIME"
         Transform {
+          Location {
+            X: -553.82074
+            Y: -1139.3269
+            Z: 860.277344
+          }
+          Rotation {
+            Yaw: -123.45285
+          }
           Scale {
             X: 1
             Y: 1
@@ -11396,41 +11406,2755 @@ Assets {
           }
         }
         ParentId: 13792810449151665424
-        TemplateInstance {
-          ParameterOverrideMap {
-            key: 4193786343402076394
-            value {
-              Overrides {
-                Name: "Name"
-                String: "Leaderboard Dependencies"
-              }
-              Overrides {
-                Name: "Position"
-                Vector {
-                  X: 1630.10339
-                  Y: 94.9683228
-                  Z: 674.999939
-                }
-              }
-              Overrides {
-                Name: "Rotation"
-                Rotator {
-                }
-              }
-              Overrides {
-                Name: "Scale"
-                Vector {
-                  X: 1
-                  Y: 1
-                  Z: 1
-                }
+        ChildIds: 17596263694599377468
+        ChildIds: 6090035428230210492
+        ChildIds: 6409721977092612070
+        ChildIds: 18177416870749051510
+        ChildIds: 5894024915295138185
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:LeaderboardReference"
+            NetReference {
+              Key: "C1EC36B8C4D92C03"
+              Type {
+                Value: "mc:enetreferencetype:leaderboard"
               }
             }
           }
-          TemplateAsset {
-            Id: 16092355269682845657
+          Overrides {
+            Name: "cs:LeaderboardType"
+            String: "GLOBAL"
+          }
+          Overrides {
+            Name: "cs:LeaderboardStat"
+            String: "KILLS"
+          }
+          Overrides {
+            Name: "cs:LeaderboardPersistence"
+            String: "TOTAL"
+          }
+          Overrides {
+            Name: "cs:ResourceName"
+            String: ""
+          }
+          Overrides {
+            Name: "cs:DisplayAsInteger"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:UpdateTimer"
+            Float: 30
+          }
+          Overrides {
+            Name: "cs:UpdateOnEvent"
+            String: "UpdateLeaderboards"
+          }
+          Overrides {
+            Name: "cs:UpdateOnResourceChanged"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:UpdateOnPlayerDied"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:UpdateOnDamageDealt"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:UpdateOnRoundEnd"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:FirstPlaceColor"
+            Color {
+              R: 1
+              G: 0.957198799
+              B: 0.034897089
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "cs:SecondPlaceColor"
+            Color {
+              R: 0.527115345
+              G: 0.527115345
+              B: 0.527115345
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "cs:ThirdPlaceColor"
+            Color {
+              R: 0.610495746
+              G: 0.212230787
+              B: 0.0318960398
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "cs:NoPodiumPlacementColor"
+            Color {
+              R: 0.783538043
+              G: 0.701102138
+              B: 0.617206752
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "cs:UsernameColor"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "cs:ScoreColor"
+            Color {
+              G: 0.496933132
+              B: 1
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "cs:LeaderboardType:tooltip"
+            String: "The LeaderboardType for the leaderboard referenced | GLOBAL, MONTLY, WEEKLY, DAILY"
+          }
+          Overrides {
+            Name: "cs:LeaderboardStat:tooltip"
+            String: "What is being tracked by the leaderboard | RESOURCE, KDR, KILLS, DEATHS, DAMAGE_DEALT"
+          }
+          Overrides {
+            Name: "cs:UpdateTimer:tooltip"
+            String: "The seconds for the leaderboard to update naturally; must be greater than 0"
+          }
+          Overrides {
+            Name: "cs:ResourceName:tooltip"
+            String: "The name of the resource that will be monitored; only applies if LeaderboardStat is RESOURCE"
+          }
+          Overrides {
+            Name: "cs:DisplayAsInteger:tooltip"
+            String: "Determines if the score is shown as an interger (1) or a float (1.0)"
+          }
+          Overrides {
+            Name: "cs:UpdateOnEvent:tooltip"
+            String: "The leaderboard will update upon this event being fired"
+          }
+          Overrides {
+            Name: "cs:UpdateOnResourceChanged:tooltip"
+            String: "The leaderboard will update upon a player\'s resource changing that corresponds to this leaderboard\'s ResourceName; does not apply if LeaderboardStat is not RESOURCE"
+          }
+          Overrides {
+            Name: "cs:UpdateOnPlayerDied:tooltip"
+            String: "The leaderboard will update upon a player dying; does not apply if LeaderboardStat is not KDR, KILLS, or DEATHS"
+          }
+          Overrides {
+            Name: "cs:UpdateOnDamageDealt:tooltip"
+            String: "The leaderboard will update upon a player being damaged; does not apply if LeaderboardStat is not DAMAGE_DEALT"
+          }
+          Overrides {
+            Name: "cs:UpdateOnRoundEnd:tooltip"
+            String: "The leaderboard will update upon Game.roundEndEvent"
+          }
+          Overrides {
+            Name: "cs:LeaderboardPersistence:tooltip"
+            String: "How data should be tracked | TOTAL, ROUND"
+          }
+          Overrides {
+            Name: "cs:LeaderboardReference:tooltip"
+            String: "The NetReference for the Leaderboard (View -> Global Leaderboards)"
+          }
+          Overrides {
+            Name: "cs:FirstPlaceColor:tooltip"
+            String: "The color for the person in the first place on the leaderbard"
+          }
+          Overrides {
+            Name: "cs:SecondPlaceColor:tooltip"
+            String: "The color for the person in the second place on the leaderbard"
+          }
+          Overrides {
+            Name: "cs:ThirdPlaceColor:tooltip"
+            String: "The color for the person in the third place on the leaderbard"
+          }
+          Overrides {
+            Name: "cs:NoPodiumPlacementColor:tooltip"
+            String: "The color for the everyone not on the podium (not top 3)"
+          }
+          Overrides {
+            Name: "cs:UsernameColor:tooltip"
+            String: "The color for each player\'s username"
+          }
+          Overrides {
+            Name: "cs:ScoreColor:tooltip"
+            String: "The color for each player\'s score"
           }
         }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 17596263694599377468
+        Name: "Leaderboard"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13382778152541952068
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Leaderboard"
+            ObjectReference {
+              SubObjectId: 13382778152541952068
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6733625039630036972
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 6090035428230210492
+        Name: "Scenery"
+        Transform {
+          Location {
+            Z: 200
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13382778152541952068
+        ChildIds: 18343267031628710513
+        ChildIds: 13933843377599526701
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 18343267031628710513
+        Name: "Board"
+        Transform {
+          Location {
+            Z: -35
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.1
+            Y: 4
+            Z: 3.3
+          }
+        }
+        ParentId: 6090035428230210492
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 13948944933562880915
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 1.5
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 1
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12095835209017042614
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:edistancerelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 13933843377599526701
+        Name: "Underline"
+        Transform {
+          Location {
+            Z: 165
+          }
+          Rotation {
+            Yaw: -3.62451172
+            Roll: 90
+          }
+          Scale {
+            X: 0.100048169
+            Y: 0.700000048
+            Z: 5.68442631
+          }
+        }
+        ParentId: 6090035428230210492
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 3098633967912998414
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: true
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 0.4
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 1.5
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.5
+              G: 0.5
+              B: 0.5
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12095835209017042614
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:edistancerelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 6409721977092612070
+        Name: "ClientContext"
+        Transform {
+          Location {
+            Z: 200
+          }
+          Rotation {
+            Yaw: -3.62451172
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13382778152541952068
+        ChildIds: 18213263666234530674
+        ChildIds: 5363326929549949024
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        NetworkContext {
+          MinDetailLevel {
+            Value: "mc:edetaillevel:low"
+          }
+          MaxDetailLevel {
+            Value: "mc:edetaillevel:ultra"
+          }
+          IsAllowedForPC: true
+          IsAllowedForMobile: true
+          IsAllowedForLowMemoryMobile: true
+          PCMinDetailLevel {
+            Value: "mc:edetaillevel:low"
+          }
+          PCMaxDetailLevel {
+            Value: "mc:edetaillevel:ultra"
+          }
+          MobileMinDetailLevel {
+            Value: "mc:edetaillevel:low"
+          }
+          MobileMaxDetailLevel {
+            Value: "mc:edetaillevel:ultra"
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 18213263666234530674
+        Name: "Leaderboard_World"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6409721977092612070
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:EntryTemplate"
+            AssetReference {
+              Id: 14813391189914706759
+            }
+          }
+          Overrides {
+            Name: "cs:Leaderboard"
+            ObjectReference {
+              SubObjectId: 13382778152541952068
+            }
+          }
+          Overrides {
+            Name: "cs:Entries"
+            ObjectReference {
+              SubObjectId: 8568071682746414425
+            }
+          }
+          Overrides {
+            Name: "cs:Title"
+            ObjectReference {
+              SubObjectId: 7612738511389017783
+            }
+          }
+          Overrides {
+            Name: "cs:UpdateTimer"
+            ObjectReference {
+              SubObjectId: 11479499034166841357
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16277688871957137685
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 5363326929549949024
+        Name: "Screen"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 6409721977092612070
+        ChildIds: 18345715429502430707
+        ChildIds: 8568071682746414425
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 18345715429502430707
+        Name: "Header"
+        Transform {
+          Location {
+            X: -5.01001
+            Z: 165
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5363326929549949024
+        ChildIds: 7612738511389017783
+        ChildIds: 5780695170705648626
+        ChildIds: 11479499034166841357
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 7612738511389017783
+        Name: "Title"
+        Transform {
+          Location {
+            Z: 7
+          }
+          Rotation {
+            Yaw: 179.999954
+          }
+          Scale {
+            X: 1
+            Y: 1.25
+            Z: 1.25
+          }
+        }
+        ParentId: 18345715429502430707
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Text {
+          Text: "LEADERBOARD NAME"
+          FontAsset {
+          }
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+          HorizontalSize: 1
+          VerticalSize: 1
+          HorizontalAlignment {
+            Value: "mc:ecoretexthorizontalalign:center"
+          }
+          VerticalAlignment {
+            Value: "mc:ecoretextverticalalign:center"
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 5780695170705648626
+        Name: "MYTitle"
+        Transform {
+          Location {
+            Z: 6.96679688
+          }
+          Rotation {
+            Yaw: 179.999908
+          }
+          Scale {
+            X: 1.70569813
+            Y: 2.13212252
+            Z: 2.13212252
+          }
+        }
+        ParentId: 18345715429502430707
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Text {
+          Text: "MOST KILLS  ALL-TIME"
+          FontAsset {
+          }
+          Color {
+            R: 0.62
+            G: 0.529668927
+            A: 1
+          }
+          HorizontalSize: 1
+          VerticalSize: 1
+          HorizontalAlignment {
+            Value: "mc:ecoretexthorizontalalign:center"
+          }
+          VerticalAlignment {
+            Value: "mc:ecoretextverticalalign:center"
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 11479499034166841357
+        Name: "UpdateTimer"
+        Transform {
+          Location {
+            Z: -23.0029297
+          }
+          Rotation {
+            Yaw: 179.999954
+          }
+          Scale {
+            X: 1
+            Y: 0.675
+            Z: 0.7
+          }
+        }
+        ParentId: 18345715429502430707
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Text {
+          Text: "UPDATES IN 30 SECONDS"
+          FontAsset {
+          }
+          Color {
+            R: 0.86
+            G: 0.700529873
+            A: 1
+          }
+          HorizontalSize: 1
+          VerticalSize: 1
+          HorizontalAlignment {
+            Value: "mc:ecoretexthorizontalalign:center"
+          }
+          VerticalAlignment {
+            Value: "mc:ecoretextverticalalign:center"
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 8568071682746414425
+        Name: "Entries"
+        Transform {
+          Location {
+            X: -5.01001
+            Z: 100
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5363326929549949024
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 18177416870749051510
+        Name: "Leaderboards_README"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13382778152541952068
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Script {
+          ScriptAsset {
+            Id: 3039537471862039272
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 5894024915295138185
+        Name: "Sci-fi Wall Screen 01"
+        Transform {
+          Location {
+            X: -4.2793808
+            Y: -26.6345882
+            Z: -66.1232
+          }
+          Rotation {
+            Yaw: 85.8581924
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13382778152541952068
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Detail3:color"
+            Color {
+              R: 1
+              G: 0.922516584
+              B: 0.100000024
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2313569108976891236
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:edistancerelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 660850783592142359
+        Name: "World Leaderboard MOST WINS WEEKLY"
+        Transform {
+          Location {
+            X: -0.271392822
+            Y: 1635.14355
+            Z: 860.277344
+          }
+          Rotation {
+            Yaw: 108.117355
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13792810449151665424
+        ChildIds: 10352993556065735664
+        ChildIds: 9873174476874905485
+        ChildIds: 1616714469637121258
+        ChildIds: 16368349503709011170
+        ChildIds: 14689747178804461053
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:LeaderboardReference"
+            NetReference {
+              Key: "F8A3C52E448ADE34"
+              Type {
+                Value: "mc:enetreferencetype:leaderboard"
+              }
+            }
+          }
+          Overrides {
+            Name: "cs:LeaderboardType"
+            String: "WEEKLY"
+          }
+          Overrides {
+            Name: "cs:LeaderboardStat"
+            String: "RESOURCE"
+          }
+          Overrides {
+            Name: "cs:LeaderboardPersistence"
+            String: "TOTAL"
+          }
+          Overrides {
+            Name: "cs:ResourceName"
+            String: "Wins"
+          }
+          Overrides {
+            Name: "cs:DisplayAsInteger"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:UpdateTimer"
+            Float: 30
+          }
+          Overrides {
+            Name: "cs:UpdateOnEvent"
+            String: "UpdateLeaderboards"
+          }
+          Overrides {
+            Name: "cs:UpdateOnResourceChanged"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:UpdateOnPlayerDied"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:UpdateOnDamageDealt"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:UpdateOnRoundEnd"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:FirstPlaceColor"
+            Color {
+              R: 1
+              G: 0.957198799
+              B: 0.034897089
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "cs:SecondPlaceColor"
+            Color {
+              R: 0.527115345
+              G: 0.527115345
+              B: 0.527115345
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "cs:ThirdPlaceColor"
+            Color {
+              R: 0.610495746
+              G: 0.212230787
+              B: 0.0318960398
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "cs:NoPodiumPlacementColor"
+            Color {
+              R: 0.783538043
+              G: 0.701102138
+              B: 0.617206752
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "cs:UsernameColor"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "cs:ScoreColor"
+            Color {
+              G: 0.496933132
+              B: 1
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "cs:LeaderboardType:tooltip"
+            String: "The LeaderboardType for the leaderboard referenced | GLOBAL, MONTLY, WEEKLY, DAILY"
+          }
+          Overrides {
+            Name: "cs:LeaderboardStat:tooltip"
+            String: "What is being tracked by the leaderboard | RESOURCE, KDR, KILLS, DEATHS, DAMAGE_DEALT"
+          }
+          Overrides {
+            Name: "cs:UpdateTimer:tooltip"
+            String: "The seconds for the leaderboard to update naturally; must be greater than 0"
+          }
+          Overrides {
+            Name: "cs:ResourceName:tooltip"
+            String: "The name of the resource that will be monitored; only applies if LeaderboardStat is RESOURCE"
+          }
+          Overrides {
+            Name: "cs:DisplayAsInteger:tooltip"
+            String: "Determines if the score is shown as an interger (1) or a float (1.0)"
+          }
+          Overrides {
+            Name: "cs:UpdateOnEvent:tooltip"
+            String: "The leaderboard will update upon this event being fired"
+          }
+          Overrides {
+            Name: "cs:UpdateOnResourceChanged:tooltip"
+            String: "The leaderboard will update upon a player\'s resource changing that corresponds to this leaderboard\'s ResourceName; does not apply if LeaderboardStat is not RESOURCE"
+          }
+          Overrides {
+            Name: "cs:UpdateOnPlayerDied:tooltip"
+            String: "The leaderboard will update upon a player dying; does not apply if LeaderboardStat is not KDR, KILLS, or DEATHS"
+          }
+          Overrides {
+            Name: "cs:UpdateOnDamageDealt:tooltip"
+            String: "The leaderboard will update upon a player being damaged; does not apply if LeaderboardStat is not DAMAGE_DEALT"
+          }
+          Overrides {
+            Name: "cs:UpdateOnRoundEnd:tooltip"
+            String: "The leaderboard will update upon Game.roundEndEvent"
+          }
+          Overrides {
+            Name: "cs:LeaderboardPersistence:tooltip"
+            String: "How data should be tracked | TOTAL, ROUND"
+          }
+          Overrides {
+            Name: "cs:LeaderboardReference:tooltip"
+            String: "The NetReference for the Leaderboard (View -> Global Leaderboards)"
+          }
+          Overrides {
+            Name: "cs:FirstPlaceColor:tooltip"
+            String: "The color for the person in the first place on the leaderbard"
+          }
+          Overrides {
+            Name: "cs:SecondPlaceColor:tooltip"
+            String: "The color for the person in the second place on the leaderbard"
+          }
+          Overrides {
+            Name: "cs:ThirdPlaceColor:tooltip"
+            String: "The color for the person in the third place on the leaderbard"
+          }
+          Overrides {
+            Name: "cs:NoPodiumPlacementColor:tooltip"
+            String: "The color for the everyone not on the podium (not top 3)"
+          }
+          Overrides {
+            Name: "cs:UsernameColor:tooltip"
+            String: "The color for each player\'s username"
+          }
+          Overrides {
+            Name: "cs:ScoreColor:tooltip"
+            String: "The color for each player\'s score"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 10352993556065735664
+        Name: "Leaderboard"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 660850783592142359
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Leaderboard"
+            ObjectReference {
+              SubObjectId: 660850783592142359
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6733625039630036972
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 9873174476874905485
+        Name: "Scenery"
+        Transform {
+          Location {
+            Z: 200
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 660850783592142359
+        ChildIds: 11422124164010279821
+        ChildIds: 2785635668290536565
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 11422124164010279821
+        Name: "Board"
+        Transform {
+          Location {
+            Z: -35
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.1
+            Y: 4
+            Z: 3.3
+          }
+        }
+        ParentId: 9873174476874905485
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 13948944933562880915
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 1.5
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 1
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12095835209017042614
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:edistancerelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 2785635668290536565
+        Name: "Underline"
+        Transform {
+          Location {
+            Z: 165
+          }
+          Rotation {
+            Yaw: -3.62451172
+            Roll: 90
+          }
+          Scale {
+            X: 0.100048169
+            Y: 0.700000048
+            Z: 5.68442631
+          }
+        }
+        ParentId: 9873174476874905485
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 3098633967912998414
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: true
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 0.4
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 1.5
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.5
+              G: 0.5
+              B: 0.5
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12095835209017042614
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:edistancerelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 1616714469637121258
+        Name: "ClientContext"
+        Transform {
+          Location {
+            Z: 200
+          }
+          Rotation {
+            Yaw: -3.62451172
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 660850783592142359
+        ChildIds: 1496530401351520002
+        ChildIds: 7698918513197993565
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        NetworkContext {
+          MinDetailLevel {
+            Value: "mc:edetaillevel:low"
+          }
+          MaxDetailLevel {
+            Value: "mc:edetaillevel:ultra"
+          }
+          IsAllowedForPC: true
+          IsAllowedForMobile: true
+          IsAllowedForLowMemoryMobile: true
+          PCMinDetailLevel {
+            Value: "mc:edetaillevel:low"
+          }
+          PCMaxDetailLevel {
+            Value: "mc:edetaillevel:ultra"
+          }
+          MobileMinDetailLevel {
+            Value: "mc:edetaillevel:low"
+          }
+          MobileMaxDetailLevel {
+            Value: "mc:edetaillevel:ultra"
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 1496530401351520002
+        Name: "Leaderboard_World"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 1616714469637121258
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:EntryTemplate"
+            AssetReference {
+              Id: 14813391189914706759
+            }
+          }
+          Overrides {
+            Name: "cs:Leaderboard"
+            ObjectReference {
+              SubObjectId: 660850783592142359
+            }
+          }
+          Overrides {
+            Name: "cs:Entries"
+            ObjectReference {
+              SubObjectId: 6608825138226423835
+            }
+          }
+          Overrides {
+            Name: "cs:Title"
+            ObjectReference {
+              SubObjectId: 10272343530220024365
+            }
+          }
+          Overrides {
+            Name: "cs:UpdateTimer"
+            ObjectReference {
+              SubObjectId: 16984771112910036087
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16277688871957137685
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 7698918513197993565
+        Name: "Screen"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 1616714469637121258
+        ChildIds: 2212581247619809979
+        ChildIds: 6608825138226423835
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 2212581247619809979
+        Name: "Header"
+        Transform {
+          Location {
+            X: -5.01001
+            Z: 165
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 7698918513197993565
+        ChildIds: 10272343530220024365
+        ChildIds: 15680817958817397778
+        ChildIds: 16984771112910036087
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 10272343530220024365
+        Name: "Title"
+        Transform {
+          Location {
+            Z: 7
+          }
+          Rotation {
+            Yaw: 179.999954
+          }
+          Scale {
+            X: 1
+            Y: 1.25
+            Z: 1.25
+          }
+        }
+        ParentId: 2212581247619809979
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Text {
+          Text: "LEADERBOARD NAME"
+          FontAsset {
+          }
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+          HorizontalSize: 1
+          VerticalSize: 1
+          HorizontalAlignment {
+            Value: "mc:ecoretexthorizontalalign:center"
+          }
+          VerticalAlignment {
+            Value: "mc:ecoretextverticalalign:center"
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 15680817958817397778
+        Name: "MYTitle"
+        Transform {
+          Location {
+            Z: 6.96679688
+          }
+          Rotation {
+            Yaw: 179.999908
+          }
+          Scale {
+            X: 1.70569813
+            Y: 2.13212252
+            Z: 2.13212252
+          }
+        }
+        ParentId: 2212581247619809979
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Text {
+          Text: "MOST WINS WEEKLY"
+          FontAsset {
+          }
+          Color {
+            R: 0.62
+            G: 0.529668927
+            A: 1
+          }
+          HorizontalSize: 1
+          VerticalSize: 1
+          HorizontalAlignment {
+            Value: "mc:ecoretexthorizontalalign:center"
+          }
+          VerticalAlignment {
+            Value: "mc:ecoretextverticalalign:center"
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 16984771112910036087
+        Name: "UpdateTimer"
+        Transform {
+          Location {
+            Z: -23.0029297
+          }
+          Rotation {
+            Yaw: 179.999954
+          }
+          Scale {
+            X: 1
+            Y: 0.675
+            Z: 0.7
+          }
+        }
+        ParentId: 2212581247619809979
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Text {
+          Text: "UPDATES IN 30 SECONDS"
+          FontAsset {
+          }
+          Color {
+            R: 0.86
+            G: 0.700529873
+            A: 1
+          }
+          HorizontalSize: 1
+          VerticalSize: 1
+          HorizontalAlignment {
+            Value: "mc:ecoretexthorizontalalign:center"
+          }
+          VerticalAlignment {
+            Value: "mc:ecoretextverticalalign:center"
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 6608825138226423835
+        Name: "Entries"
+        Transform {
+          Location {
+            X: -5.01001
+            Z: 100
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 7698918513197993565
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 16368349503709011170
+        Name: "Leaderboards_README"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 660850783592142359
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Script {
+          ScriptAsset {
+            Id: 3039537471862039272
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 14689747178804461053
+        Name: "Sci-fi Wall Screen 01"
+        Transform {
+          Location {
+            X: -4.2793808
+            Y: -26.6345882
+            Z: -66.1232
+          }
+          Rotation {
+            Yaw: 85.8581924
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 660850783592142359
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Detail3:color"
+            Color {
+              R: 1
+              G: 0.922516584
+              B: 0.100000024
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2313569108976891236
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:edistancerelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 3150943704627158012
+        Name: "World Leaderboard MOST WINS ALLTIME"
+        Transform {
+          Location {
+            X: -603.300415
+            Y: 1360.46899
+            Z: 860.277344
+          }
+          Rotation {
+            Yaw: 129.648575
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 13792810449151665424
+        ChildIds: 4371863192024939901
+        ChildIds: 6756143523404053964
+        ChildIds: 5015542578640379066
+        ChildIds: 12058992490634518988
+        ChildIds: 3058555066645460450
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:LeaderboardReference"
+            NetReference {
+              Key: "F8A3C52E448ADE34"
+              Type {
+                Value: "mc:enetreferencetype:leaderboard"
+              }
+            }
+          }
+          Overrides {
+            Name: "cs:LeaderboardType"
+            String: "GLOBAL"
+          }
+          Overrides {
+            Name: "cs:LeaderboardStat"
+            String: "RESOURCE"
+          }
+          Overrides {
+            Name: "cs:LeaderboardPersistence"
+            String: "TOTAL"
+          }
+          Overrides {
+            Name: "cs:ResourceName"
+            String: "Wins"
+          }
+          Overrides {
+            Name: "cs:DisplayAsInteger"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:UpdateTimer"
+            Float: 30
+          }
+          Overrides {
+            Name: "cs:UpdateOnEvent"
+            String: "UpdateLeaderboards"
+          }
+          Overrides {
+            Name: "cs:UpdateOnResourceChanged"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:UpdateOnPlayerDied"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:UpdateOnDamageDealt"
+            Bool: false
+          }
+          Overrides {
+            Name: "cs:UpdateOnRoundEnd"
+            Bool: true
+          }
+          Overrides {
+            Name: "cs:FirstPlaceColor"
+            Color {
+              R: 1
+              G: 0.957198799
+              B: 0.034897089
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "cs:SecondPlaceColor"
+            Color {
+              R: 0.527115345
+              G: 0.527115345
+              B: 0.527115345
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "cs:ThirdPlaceColor"
+            Color {
+              R: 0.610495746
+              G: 0.212230787
+              B: 0.0318960398
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "cs:NoPodiumPlacementColor"
+            Color {
+              R: 0.783538043
+              G: 0.701102138
+              B: 0.617206752
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "cs:UsernameColor"
+            Color {
+              R: 1
+              G: 1
+              B: 1
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "cs:ScoreColor"
+            Color {
+              G: 0.496933132
+              B: 1
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "cs:LeaderboardType:tooltip"
+            String: "The LeaderboardType for the leaderboard referenced | GLOBAL, MONTLY, WEEKLY, DAILY"
+          }
+          Overrides {
+            Name: "cs:LeaderboardStat:tooltip"
+            String: "What is being tracked by the leaderboard | RESOURCE, KDR, KILLS, DEATHS, DAMAGE_DEALT"
+          }
+          Overrides {
+            Name: "cs:UpdateTimer:tooltip"
+            String: "The seconds for the leaderboard to update naturally; must be greater than 0"
+          }
+          Overrides {
+            Name: "cs:ResourceName:tooltip"
+            String: "The name of the resource that will be monitored; only applies if LeaderboardStat is RESOURCE"
+          }
+          Overrides {
+            Name: "cs:DisplayAsInteger:tooltip"
+            String: "Determines if the score is shown as an interger (1) or a float (1.0)"
+          }
+          Overrides {
+            Name: "cs:UpdateOnEvent:tooltip"
+            String: "The leaderboard will update upon this event being fired"
+          }
+          Overrides {
+            Name: "cs:UpdateOnResourceChanged:tooltip"
+            String: "The leaderboard will update upon a player\'s resource changing that corresponds to this leaderboard\'s ResourceName; does not apply if LeaderboardStat is not RESOURCE"
+          }
+          Overrides {
+            Name: "cs:UpdateOnPlayerDied:tooltip"
+            String: "The leaderboard will update upon a player dying; does not apply if LeaderboardStat is not KDR, KILLS, or DEATHS"
+          }
+          Overrides {
+            Name: "cs:UpdateOnDamageDealt:tooltip"
+            String: "The leaderboard will update upon a player being damaged; does not apply if LeaderboardStat is not DAMAGE_DEALT"
+          }
+          Overrides {
+            Name: "cs:UpdateOnRoundEnd:tooltip"
+            String: "The leaderboard will update upon Game.roundEndEvent"
+          }
+          Overrides {
+            Name: "cs:LeaderboardPersistence:tooltip"
+            String: "How data should be tracked | TOTAL, ROUND"
+          }
+          Overrides {
+            Name: "cs:LeaderboardReference:tooltip"
+            String: "The NetReference for the Leaderboard (View -> Global Leaderboards)"
+          }
+          Overrides {
+            Name: "cs:FirstPlaceColor:tooltip"
+            String: "The color for the person in the first place on the leaderbard"
+          }
+          Overrides {
+            Name: "cs:SecondPlaceColor:tooltip"
+            String: "The color for the person in the second place on the leaderbard"
+          }
+          Overrides {
+            Name: "cs:ThirdPlaceColor:tooltip"
+            String: "The color for the person in the third place on the leaderbard"
+          }
+          Overrides {
+            Name: "cs:NoPodiumPlacementColor:tooltip"
+            String: "The color for the everyone not on the podium (not top 3)"
+          }
+          Overrides {
+            Name: "cs:UsernameColor:tooltip"
+            String: "The color for each player\'s username"
+          }
+          Overrides {
+            Name: "cs:ScoreColor:tooltip"
+            String: "The color for each player\'s score"
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 4371863192024939901
+        Name: "Leaderboard"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3150943704627158012
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:Leaderboard"
+            ObjectReference {
+              SubObjectId: 3150943704627158012
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 6733625039630036972
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 6756143523404053964
+        Name: "Scenery"
+        Transform {
+          Location {
+            Z: 200
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3150943704627158012
+        ChildIds: 10667444183102289107
+        ChildIds: 14551816116934449718
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 10667444183102289107
+        Name: "Board"
+        Transform {
+          Location {
+            Z: -35
+          }
+          Rotation {
+          }
+          Scale {
+            X: 0.1
+            Y: 4
+            Z: 3.3
+          }
+        }
+        ParentId: 6756143523404053964
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 13948944933562880915
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 1.5
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 1
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12095835209017042614
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:edistancerelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 14551816116934449718
+        Name: "Underline"
+        Transform {
+          Location {
+            Z: 165
+          }
+          Rotation {
+            Yaw: -3.62451172
+            Roll: 90
+          }
+          Scale {
+            X: 0.100048169
+            Y: 0.700000048
+            Z: 5.68442631
+          }
+        }
+        ParentId: 6756143523404053964
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 3098633967912998414
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: true
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:utile"
+            Float: 0.4
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:vtile"
+            Float: 1.5
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.5
+              G: 0.5
+              B: 0.5
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceon"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 12095835209017042614
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          InteractWithTriggers: true
+          StaticMesh {
+            Physics {
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:edistancerelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 5015542578640379066
+        Name: "ClientContext"
+        Transform {
+          Location {
+            Z: 200
+          }
+          Rotation {
+            Yaw: -3.62451172
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3150943704627158012
+        ChildIds: 10076762046484821706
+        ChildIds: 17320152801011206328
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        NetworkContext {
+          MinDetailLevel {
+            Value: "mc:edetaillevel:low"
+          }
+          MaxDetailLevel {
+            Value: "mc:edetaillevel:ultra"
+          }
+          IsAllowedForPC: true
+          IsAllowedForMobile: true
+          IsAllowedForLowMemoryMobile: true
+          PCMinDetailLevel {
+            Value: "mc:edetaillevel:low"
+          }
+          PCMaxDetailLevel {
+            Value: "mc:edetaillevel:ultra"
+          }
+          MobileMinDetailLevel {
+            Value: "mc:edetaillevel:low"
+          }
+          MobileMaxDetailLevel {
+            Value: "mc:edetaillevel:ultra"
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 10076762046484821706
+        Name: "Leaderboard_World"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5015542578640379066
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:EntryTemplate"
+            AssetReference {
+              Id: 14813391189914706759
+            }
+          }
+          Overrides {
+            Name: "cs:Leaderboard"
+            ObjectReference {
+              SubObjectId: 3150943704627158012
+            }
+          }
+          Overrides {
+            Name: "cs:Entries"
+            ObjectReference {
+              SubObjectId: 5918714502818482612
+            }
+          }
+          Overrides {
+            Name: "cs:Title"
+            ObjectReference {
+              SubObjectId: 2943438938900140967
+            }
+          }
+          Overrides {
+            Name: "cs:UpdateTimer"
+            ObjectReference {
+              SubObjectId: 12281348385689008696
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 16277688871957137685
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 17320152801011206328
+        Name: "Screen"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 5015542578640379066
+        ChildIds: 17966433892786264870
+        ChildIds: 5918714502818482612
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 17966433892786264870
+        Name: "Header"
+        Transform {
+          Location {
+            X: -5.01001
+            Z: 165
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17320152801011206328
+        ChildIds: 2943438938900140967
+        ChildIds: 17596042561001564898
+        ChildIds: 12281348385689008696
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 2943438938900140967
+        Name: "Title"
+        Transform {
+          Location {
+            Z: 7
+          }
+          Rotation {
+            Yaw: 179.999954
+          }
+          Scale {
+            X: 1
+            Y: 1.25
+            Z: 1.25
+          }
+        }
+        ParentId: 17966433892786264870
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Text {
+          Text: "LEADERBOARD NAME"
+          FontAsset {
+          }
+          Color {
+            R: 1
+            G: 1
+            B: 1
+            A: 1
+          }
+          HorizontalSize: 1
+          VerticalSize: 1
+          HorizontalAlignment {
+            Value: "mc:ecoretexthorizontalalign:center"
+          }
+          VerticalAlignment {
+            Value: "mc:ecoretextverticalalign:center"
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 17596042561001564898
+        Name: "MYTitle"
+        Transform {
+          Location {
+            Z: 6.96679688
+          }
+          Rotation {
+            Yaw: 179.999908
+          }
+          Scale {
+            X: 1.70569813
+            Y: 2.13212252
+            Z: 2.13212252
+          }
+        }
+        ParentId: 17966433892786264870
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Text {
+          Text: "MOST WINS ALL-TIME"
+          FontAsset {
+          }
+          Color {
+            R: 0.62
+            G: 0.529668927
+            A: 1
+          }
+          HorizontalSize: 1
+          VerticalSize: 1
+          HorizontalAlignment {
+            Value: "mc:ecoretexthorizontalalign:center"
+          }
+          VerticalAlignment {
+            Value: "mc:ecoretextverticalalign:center"
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 12281348385689008696
+        Name: "UpdateTimer"
+        Transform {
+          Location {
+            Z: -23.0029297
+          }
+          Rotation {
+            Yaw: 179.999954
+          }
+          Scale {
+            X: 1
+            Y: 0.675
+            Z: 0.7
+          }
+        }
+        ParentId: 17966433892786264870
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Text {
+          Text: "UPDATES IN 30 SECONDS"
+          FontAsset {
+          }
+          Color {
+            R: 0.86
+            G: 0.700529873
+            A: 1
+          }
+          HorizontalSize: 1
+          VerticalSize: 1
+          HorizontalAlignment {
+            Value: "mc:ecoretexthorizontalalign:center"
+          }
+          VerticalAlignment {
+            Value: "mc:ecoretextverticalalign:center"
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 5918714502818482612
+        Name: "Entries"
+        Transform {
+          Location {
+            X: -5.01001
+            Z: 100
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 17320152801011206328
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Folder {
+          IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 12058992490634518988
+        Name: "Leaderboards_README"
+        Transform {
+          Location {
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3150943704627158012
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        Script {
+          ScriptAsset {
+            Id: 3039537471862039272
+          }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
+      }
+      Objects {
+        Id: 3058555066645460450
+        Name: "Sci-fi Wall Screen 01"
+        Transform {
+          Location {
+            X: -4.2793808
+            Y: -26.6345882
+            Z: -66.1232
+          }
+          Rotation {
+            Yaw: 85.8581924
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 3150943704627158012
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_Detail3:color"
+            Color {
+              R: 1
+              G: 0.922516584
+              B: 0.100000024
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CameraCollidable {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        EditorIndicatorVisibility {
+          Value: "mc:eindicatorvisibility:visiblewhenselected"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2313569108976891236
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          StaticMesh {
+            Physics {
+              Mass: 100
+              LinearDamping: 0.01
+            }
+            BoundsScale: 1
+          }
+        }
+        Relevance {
+          Value: "mc:edistancerelevance:critical"
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
+        IsReplicationEnabledByDefault: true
       }
       Objects {
         Id: 4366926177162744865
@@ -11618,12 +14342,12 @@ Assets {
         Name: "big tower"
         Transform {
           Location {
-            X: 166.115173
-            Y: -131.422791
-            Z: -3963.74316
+            X: 167.127914
+            Y: 194.952332
+            Z: -4021.08789
           }
           Rotation {
-            Yaw: -35.3557053
+            Yaw: -35.3557129
           }
           Scale {
             X: 58.6660042
@@ -11693,17 +14417,17 @@ Assets {
         Name: "top of tower"
         Transform {
           Location {
-            X: 221.874573
-            Y: 133.301666
-            Z: -447.094727
+            X: 331.409027
+            Y: -32.4164619
+            Z: -237.302734
           }
           Rotation {
             Yaw: 133.847046
           }
           Scale {
-            X: 47.088131
-            Y: 53.2438393
-            Z: 11.3187914
+            X: 4.26794863
+            Y: 4.82588577
+            Z: 0.96888411
           }
         }
         ParentId: 13792810449151665424
@@ -11711,8 +14435,12 @@ Assets {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 9335020882237466211
+              Id: 4579918378298961707
             }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: true
           }
         }
         Collidable_v2 {
@@ -11729,7 +14457,7 @@ Assets {
         }
         CoreMesh {
           MeshAsset {
-            Id: 17573120111418082711
+            Id: 13213782596216803543
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -11879,9 +14607,9 @@ Assets {
         Name: "Point Light red"
         Transform {
           Location {
-            X: -1442.52881
-            Y: 40.2153473
-            Z: 572.925781
+            X: -1405.22681
+            Y: 40.2166
+            Z: 618.067383
           }
           Rotation {
           }
@@ -12287,6 +15015,15 @@ Assets {
       }
     }
     Assets {
+      Id: 3098633967912998414
+      Name: "Rubber Pattern 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_scf_rubber_panels_003_uv"
+      }
+    }
+    Assets {
       Id: 2313569108976891236
       Name: "Sci-fi Wall Screen 01"
       PlatformAssetType: 1
@@ -12320,15 +15057,6 @@ Assets {
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_cylinder_002"
-      }
-    }
-    Assets {
-      Id: 17573120111418082711
-      Name: "Pipe"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_pipe_001"
       }
     }
     PrimaryAssetId {

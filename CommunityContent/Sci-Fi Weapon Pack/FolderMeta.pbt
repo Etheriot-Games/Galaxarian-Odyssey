@@ -1,0 +1,67 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "1453a8d009d642bdad90fcc969ed454b"
+  OwnerAccountId: "eeb3becc940342b8b510158dd1d346a3"
+  OwnerName: "awknn"
+  Version: "1.1.0"
+}
+AssetIdsOriginalToNew {
+  key: 41441575472624651
+  value: 13581388108426106313
+}
+AssetIdsOriginalToNew {
+  key: 1333857668488907073
+  value: 14584056996180177023
+}
+AssetIdsOriginalToNew {
+  key: 1335011425695668397
+  value: 10627412451501866455
+}
+AssetIdsOriginalToNew {
+  key: 1860080161848718603
+  value: 15454145151208908617
+}
+AssetIdsOriginalToNew {
+  key: 4073053603522915811
+  value: 12864772867829292601
+}
+AssetIdsOriginalToNew {
+  key: 4464318854644583104
+  value: 8758785006683200922
+}
+AssetIdsOriginalToNew {
+  key: 4918452653171219652
+  value: 8574004054049602278
+}
+AssetIdsOriginalToNew {
+  key: 5081156660965797107
+  value: 592608561557917980
+}
+AssetIdsOriginalToNew {
+  key: 5774790273129933952
+  value: 14212730654365143597
+}
+AssetIdsOriginalToNew {
+  key: 7344473463658323888
+  value: 5359546309046586642
+}
+AssetIdsOriginalToNew {
+  key: 11272293726133992883
+  value: 17337918544691311259
+}
+AssetIdsOriginalToNew {
+  key: 13898236548118358643
+  value: 16681412752737573125
+}
+AssetIdsOriginalToNew {
+  key: 16067551115359037111
+  value: 3765698184295570031
+}
+AssetIdsOriginalToNew {
+  key: 16344208889107458019
+  value: 17793379410689366742
+}
+AssetIdsOriginalToNew {
+  key: 18109047064300742335
+  value: 13307796257083581750
+}

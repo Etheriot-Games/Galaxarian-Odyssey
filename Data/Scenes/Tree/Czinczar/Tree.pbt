@@ -1,9 +1,17 @@
 Name: "Czinczar"
 RootId: 5189749998658829766
 Objects {
-  Id: 5837330322834907828
+  Id: 17751231170088630288
   Name: "New Lobby"
   Transform {
+    Location {
+      X: -12609.4688
+      Y: -40445.0898
+      Z: 11710.6348
+    }
+    Rotation {
+      Yaw: 35.3557
+    }
     Scale {
       X: 1
       Y: 1
@@ -11,122 +19,467 @@ Objects {
     }
   }
   ParentId: 5189749998658829766
+  ChildIds: 18195670672094480053
+  ChildIds: 2409828216675096960
+  ChildIds: 16627177709453574375
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 1937359740564726479
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 27.4276695
-            Y: 128.278931
-            Z: -4021.08789
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -35.3557129
-          }
-        }
-      }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 17751231170088630288
+    SubobjectId: 13792810449151665424
+    InstanceId: 5837330322834907828
+    TemplateId: 269113895366748200
+    WasRoot: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 16627177709453574375
+  Name: "Leaderboards and News boards"
+  Transform {
+    Location {
     }
-    ParameterOverrideMap {
-      key: 3736749369455260586
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1405.22681
-            Y: 40.2166
-            Z: 618.067383
-          }
-        }
-      }
+    Rotation {
     }
-    ParameterOverrideMap {
-      key: 9256355921856411437
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:smart"
-          Bool: true
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 4579918378298961707
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 27.9251022
-            Y: -117.984535
-            Z: -380.708588
-          }
-        }
-        Overrides {
-          Name: "StaticMesh"
-          AssetReference {
-            Id: 13213782596216803543
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 4.67299414
-            Y: 5.28388166
-            Z: 1.06083512
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 10456705530848583516
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1541.98755
-            Y: -450
-            Z: -41.1108398
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13792810449151665424
-      value {
-        Overrides {
-          Name: "Name"
-          String: "New Lobby"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -12609.4688
-            Y: -40445.0898
-            Z: 11710.6348
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 35.3557
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 269113895366748200
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
+  ParentId: 17751231170088630288
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Leaderboards and News boards"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 2409828216675096960
+  Name: "lights ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17751231170088630288
+  ChildIds: 10808683287510100724
+  ChildIds: 8857308832650096298
+  ChildIds: 3760905058318145606
+  ChildIds: 10717681033845055109
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  NetworkContext {
+    IsAllowedForPC: true
+    IsAllowedForMobile: true
+    IsAllowedForLowMemoryMobile: true
+    PCMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    PCMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+    MobileMinDetailLevel {
+      Value: "mc:edetaillevel:low"
+    }
+    MobileMaxDetailLevel {
+      Value: "mc:edetaillevel:ultra"
+    }
+  }
+  InstanceHistory {
+    SelfId: 2409828216675096960
+    SubobjectId: 7512443203998680192
+    InstanceId: 5837330322834907828
+    TemplateId: 269113895366748200
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10717681033845055109
+  Name: "Spotlight yellow"
+  Transform {
+    Location {
+      X: -405.710297
+      Y: -1212.85754
+      Z: 1276.9834
+    }
+    Rotation {
+      Pitch: -90
+      Yaw: -19.47122
+      Roll: 19.4712219
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2409828216675096960
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Light {
+    Intensity: 1.14845121
+    Color {
+      R: 1
+      G: 0.695364296
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 5734.44824
+        SpotLight {
+          SourceRadius: 3.96485853
+          SoftSourceRadius: 4.37141275
+          FallOffExponent: 16
+          UseFallOffExponent: true
+          InnerConeAngle: 2
+          OuterConeAngle: 47.2914925
+          Profile {
+            Value: "mc:espotlightprofile:basicspotlight"
+          }
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  InstanceHistory {
+    SelfId: 10717681033845055109
+    SubobjectId: 15964197080965366661
+    InstanceId: 5837330322834907828
+    TemplateId: 269113895366748200
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 3760905058318145606
+  Name: "Point Light blue"
+  Transform {
+    Location {
+      X: 656.961487
+      Y: 103.920471
+      Z: 862.762695
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2409828216675096960
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Light {
+    Intensity: 9.73125839
+    Color {
+      G: 0.269536316
+      B: 0.74
+      A: 1
+    }
+    CastShadows: true
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 1000
+        PointLight {
+          SourceRadius: 500
+          SoftSourceRadius: 20
+          FallOffExponent: 8
+          UseFallOffExponent: true
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  InstanceHistory {
+    SelfId: 3760905058318145606
+    SubobjectId: 9007631968972014918
+    InstanceId: 5837330322834907828
+    TemplateId: 269113895366748200
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 8857308832650096298
+  Name: "Point Light red"
+  Transform {
+    Location {
+      X: -1405.22681
+      Y: 40.2166
+      Z: 618.067383
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2409828216675096960
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Light {
+    Intensity: 50
+    Color {
+      R: 1
+      G: 0.0400000215
+      B: 0.0400000215
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 1000
+        PointLight {
+          SourceRadius: 20
+          SoftSourceRadius: 20
+          FallOffExponent: 8
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  InstanceHistory {
+    SelfId: 8857308832650096298
+    SubobjectId: 3736749369455260586
+    InstanceId: 5837330322834907828
+    TemplateId: 269113895366748200
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10808683287510100724
+  Name: "Area Light green"
+  Transform {
+    Location {
+      X: 275.000031
+      Y: 124.997917
+      Z: 1525
+    }
+    Rotation {
+      Pitch: -90
+      Yaw: -19.47122
+      Roll: 19.4712219
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2409828216675096960
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Light {
+    Intensity: 174.48764
+    Color {
+      R: 0.504668236
+      G: 0.864583313
+      B: 0.49983722
+      A: 1
+    }
+    CastShadows: true
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 6000
+        AreaLight {
+          BarnDoorAngle: 46.5676613
+          BarnDoorLength: 366.281342
+          SourceWidth: 3038.823
+          SourceHeight: 3942.27466
+        }
+      }
+      MaxDrawDistance: 4828.0083
+      MaxDistanceFadeRange: 977.988037
+    }
+    ShadowBias: 0.4
+    ShadowSlopeBias: 0.6
+  }
+  InstanceHistory {
+    SelfId: 10808683287510100724
+    SubobjectId: 16082577035079186420
+    InstanceId: 5837330322834907828
+    TemplateId: 269113895366748200
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 18195670672094480053
+  Name: "Geometry"
+  Transform {
+    Location {
+      X: -75.2758408
+      Y: 14.6303015
+      Z: -4021.08789
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17751231170088630288
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Geometry"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
 }
 Objects {
   Id: 17001603576226577395
@@ -86986,6 +87339,62 @@ Objects {
     }
     TemplateAsset {
       Id: 16947464521930657650
+    }
+  }
+}
+Objects {
+  Id: 13530738517492911364
+  Name: "Leaderboard Dependencies"
+  Transform {
+    Location {
+      X: -37670.4805
+      Y: -36571.2852
+      Z: 14980.7227
+    }
+    Rotation {
+      Yaw: 35.3557053
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5189749998658829766
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4193786343402076394
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Leaderboard Dependencies"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -11334.9492
+            Y: -39424.375
+            Z: 12385.6348
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 35.3557091
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16092355269682845657
     }
   }
 }

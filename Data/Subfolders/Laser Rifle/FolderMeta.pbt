@@ -1,0 +1,111 @@
+MetaVersion: 1
+MarketplaceDetails {
+  Id: "83b08ce1809943f481bca02c4145e49d"
+  OwnerAccountId: "c0771146830c4675a78b224f0dccda2f"
+  OwnerName: "Flubbedbiscuit"
+  Version: "1.0.0"
+}
+AssetIdsOriginalToNew {
+  key: 74360994419920734
+  value: 16706666900647722176
+}
+AssetIdsOriginalToNew {
+  key: 440168262593430639
+  value: 8699220244428423366
+}
+AssetIdsOriginalToNew {
+  key: 1683114021203363022
+  value: 11463936980862705316
+}
+AssetIdsOriginalToNew {
+  key: 2472577150731722024
+  value: 15193832501838837342
+}
+AssetIdsOriginalToNew {
+  key: 4089458878558742940
+  value: 2304358770845534105
+}
+AssetIdsOriginalToNew {
+  key: 4156168509254213209
+  value: 9105158252938998473
+}
+AssetIdsOriginalToNew {
+  key: 6652974207271369531
+  value: 12251052778607724068
+}
+AssetIdsOriginalToNew {
+  key: 6795206535065158887
+  value: 9829043483243009120
+}
+AssetIdsOriginalToNew {
+  key: 7766883827523033344
+  value: 10424859754413998878
+}
+AssetIdsOriginalToNew {
+  key: 8163343952479535019
+  value: 2937306612495787703
+}
+AssetIdsOriginalToNew {
+  key: 8459825612529451237
+  value: 5980456271073077084
+}
+AssetIdsOriginalToNew {
+  key: 9075597484512156658
+  value: 10678047957739897426
+}
+AssetIdsOriginalToNew {
+  key: 9654009968499969690
+  value: 3879394228985119953
+}
+AssetIdsOriginalToNew {
+  key: 9981202147386701182
+  value: 18250195749514083743
+}
+AssetIdsOriginalToNew {
+  key: 10139659402558168400
+  value: 2929381954602342820
+}
+AssetIdsOriginalToNew {
+  key: 10349576318411308767
+  value: 956298598311941886
+}
+AssetIdsOriginalToNew {
+  key: 11739187330987241719
+  value: 5623660438920304402
+}
+AssetIdsOriginalToNew {
+  key: 12210489528647249200
+  value: 18164543284738472353
+}
+AssetIdsOriginalToNew {
+  key: 12511104622175442574
+  value: 2783276557657406785
+}
+AssetIdsOriginalToNew {
+  key: 12685862443571260158
+  value: 6754267908870628837
+}
+AssetIdsOriginalToNew {
+  key: 15515637826283224864
+  value: 17412373230302408482
+}
+AssetIdsOriginalToNew {
+  key: 16064653477604779480
+  value: 11955979656220619911
+}
+AssetIdsOriginalToNew {
+  key: 16336659379268708328
+  value: 3580456575998925930
+}
+AssetIdsOriginalToNew {
+  key: 16835281631238556216
+  value: 13839778279712967088
+}
+AssetIdsOriginalToNew {
+  key: 16975801195317677333
+  value: 1798050528690709232
+}
+AssetIdsOriginalToNew {
+  key: 17169051963161242240
+  value: 6320345675802920044
+}

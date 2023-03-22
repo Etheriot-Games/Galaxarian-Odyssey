@@ -85,6 +85,7 @@ function Tick(deltaTime)
             if winner then
                 Events.Broadcast('PlayerVictory', winner)
                 Reward_API.RewardCash(winner, 1000, "Victory")
+                winner:AddResource("Wins",1)    --@@@@@@@@@@@@@@@@@@@@@@@@@@ for leaderboards
             else
                 Events.Broadcast('TieVictory')
             end

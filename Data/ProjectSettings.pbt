@@ -1,14 +1,26 @@
 LeaderboardConfigs {
   Config {
-    HasMonthly: true
+    HasWeekly: true
     SortType {
       Value: "mc:ecoresdkleaderboardsorting:higherisbetter"
     }
     FormatType {
       Value: "mc:ecoresdkleaderboardformat:numeric"
     }
-    Name: "BEST PLAYERS"
-    Id: "4F955CF2360DA1F9"
+    Name: "Most Klls"
+    Id: "C1EC36B8C4D92C03"
+    EntryLimit: 10
+  }
+  Config {
+    HasWeekly: true
+    SortType {
+      Value: "mc:ecoresdkleaderboardsorting:higherisbetter"
+    }
+    FormatType {
+      Value: "mc:ecoresdkleaderboardformat:numeric"
+    }
+    Name: "Most Wins"
+    Id: "F8A3C52E448ADE34"
     EntryLimit: 10
   }
 }

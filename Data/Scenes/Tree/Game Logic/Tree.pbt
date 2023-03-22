@@ -21088,6 +21088,15 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "cs:DefaultPlayerSettings"
+          ObjectReference {
+            SelfId: 4841476697353387820
+            SubObjectId: 503681998163126313
+            InstanceId: 8814062363386646908
+            TemplateId: 12639959206734540096
+          }
+        }
       }
     }
     ParameterOverrideMap {
@@ -21583,7 +21592,6 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Camera {
-    UseAsDefault: true
     AttachToLocalPlayer: true
     InitialDistance: 400
     MinDistance: 300
