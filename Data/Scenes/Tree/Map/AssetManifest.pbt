@@ -2627,6 +2627,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10580025296799892835
+  Name: "Cylinder"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_002"
+  }
+}
+Assets {
   Id: 10567192068688216948
   Name: "Craftsman Stairs 01 L"
   PlatformAssetType: 1

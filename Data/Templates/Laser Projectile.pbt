@@ -7,7 +7,7 @@ Assets {
       RootId: 10801338030236837208
       Objects {
         Id: 10801338030236837208
-        Name: "Laser Projectile"
+        Name: "Legendary Laser Projectile"
         Transform {
           Scale {
             X: 1
@@ -78,6 +78,14 @@ Assets {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
               Id: 2980358278724373590
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 0.420000017
+              G: 0.371000022
+              A: 1
             }
           }
         }

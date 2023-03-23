@@ -132,5 +132,11 @@ Assets {
       VirtualFolderPath: "Assault"
       PlatformAssetType: 5
     }
+    Folders {
+      VirtualFolderPath: "Weapons"
+      VirtualFolderPath: "Weapon"
+      VirtualFolderPath: "Laser Assault Rifles"
+      PlatformAssetType: 5
+    }
   }
 }

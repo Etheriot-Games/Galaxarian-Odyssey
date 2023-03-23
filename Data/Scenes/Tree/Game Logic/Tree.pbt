@@ -16521,6 +16521,7 @@ Objects {
   }
   ParentId: 18088915350799616123
   ChildIds: 1070182418697833503
+  ChildIds: 9782728844862838794
   ChildIds: 16005623323472151819
   ChildIds: 15870547900555631050
   ChildIds: 2995913499377575582
@@ -17531,6 +17532,50 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
+  Id: 9782728844862838794
+  Name: "Rare Weapon"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7176192893297606539
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:LootTemplate"
+      AssetReference {
+        Id: 8267885230783564524
+      }
+    }
+    Overrides {
+      Name: "cs:Weight"
+      Int: 30
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
   Id: 1070182418697833503
   Name: "Rare Weapon"
   Transform {
@@ -17734,6 +17779,7 @@ Objects {
   ChildIds: 3118874933114159197
   ChildIds: 4800053437836416741
   ChildIds: 471085781226078313
+  ChildIds: 7951161901758690807
   ChildIds: 12756522365120513177
   ChildIds: 11222263304104586626
   ChildIds: 11776609949289345662
@@ -18544,6 +18590,50 @@ Objects {
     Overrides {
       Name: "cs:Weight"
       Int: 100
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 7951161901758690807
+  Name: "Rare Weapon"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7299759754686907394
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:LootTemplate"
+      AssetReference {
+        Id: 8267885230783564524
+      }
+    }
+    Overrides {
+      Name: "cs:Weight"
+      Int: 75
     }
   }
   Collidable_v2 {
@@ -19541,6 +19631,7 @@ Objects {
   }
   ParentId: 9760043183256339815
   ChildIds: 10873989388595038604
+  ChildIds: 12698630481497182099
   ChildIds: 2609363503148901718
   ChildIds: 11766603855672353847
   ChildIds: 881473015863150216
@@ -19548,6 +19639,7 @@ Objects {
   ChildIds: 1632281903438911059
   ChildIds: 12709799559227397857
   ChildIds: 10173351176959236962
+  ChildIds: 11427364149640662578
   ChildIds: 15090378144427473088
   ChildIds: 2649351856408921536
   ChildIds: 12316189033813943764
@@ -20108,6 +20200,50 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
+  Id: 11427364149640662578
+  Name: "Epic Weapon"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17637827727900827977
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:LootTemplate"
+      AssetReference {
+        Id: 15322173289433207957
+      }
+    }
+    Overrides {
+      Name: "cs:Weight"
+      Int: 400
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
   Id: 10173351176959236962
   Name: "Epic Weapon"
   Transform {
@@ -20416,7 +20552,7 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
-  Id: 10873989388595038604
+  Id: 12698630481497182099
   Name: "Legendary Weapon"
   Transform {
     Location {
@@ -20435,6 +20571,50 @@ Objects {
       Name: "cs:LootTemplate"
       AssetReference {
         Id: 13084938325616395290
+      }
+    }
+    Overrides {
+      Name: "cs:Weight"
+      Int: 700
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 10873989388595038604
+  Name: "Legendary Weapon"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17637827727900827977
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:LootTemplate"
+      AssetReference {
+        Id: 16806355325656646779
       }
     }
     Overrides {
