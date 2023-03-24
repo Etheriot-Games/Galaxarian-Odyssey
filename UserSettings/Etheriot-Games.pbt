@@ -1,0 +1,3 @@
+ObjectSettings {
+}
+LastSavedScene: "Main"

@@ -1147,7 +1147,7 @@ Objects {
     Overrides {
       Name: "cs:LeaderboardReference"
       NetReference {
-        Key: "F8A3C52E448ADE34"
+        Key: "1DCACF0999C537FC"
         Type {
           Value: "mc:enetreferencetype:leaderboard"
         }
@@ -2074,7 +2074,7 @@ Objects {
     Overrides {
       Name: "cs:LeaderboardReference"
       NetReference {
-        Key: "F8A3C52E448ADE34"
+        Key: "1DCACF0999C537FC"
         Type {
           Value: "mc:enetreferencetype:leaderboard"
         }
@@ -3001,7 +3001,7 @@ Objects {
     Overrides {
       Name: "cs:LeaderboardReference"
       NetReference {
-        Key: "C1EC36B8C4D92C03"
+        Key: "B6B097BB1E314899"
         Type {
           Value: "mc:enetreferencetype:leaderboard"
         }
@@ -3928,7 +3928,7 @@ Objects {
     Overrides {
       Name: "cs:LeaderboardReference"
       NetReference {
-        Key: "C1EC36B8C4D92C03"
+        Key: "B6B097BB1E314899"
         Type {
           Value: "mc:enetreferencetype:leaderboard"
         }

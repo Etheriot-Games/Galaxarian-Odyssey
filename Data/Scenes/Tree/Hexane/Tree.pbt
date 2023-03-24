@@ -296,8 +296,8 @@ Objects {
   Control {
     Width: 487
     Height: 88
-    UIX: 142.676315
-    UIY: 60.3065796
+    UIX: 104.662704
+    UIY: 64.8656616
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -311,9 +311,9 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 22
+      Size: 18
       Justification {
-        Value: "mc:etextjustify:center"
+        Value: "mc:etextjustify:left"
       }
       AutoWrapText: true
       Font {
@@ -381,7 +381,7 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Control {
-    Width: 763
+    Width: 564
     Height: 171
     UIX: -87.1911621
     UIY: 52.8776855

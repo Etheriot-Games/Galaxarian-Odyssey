@@ -7,8 +7,8 @@ LeaderboardConfigs {
     FormatType {
       Value: "mc:ecoresdkleaderboardformat:numeric"
     }
-    Name: "Most Klls"
-    Id: "C1EC36B8C4D92C03"
+    Name: "Most Wins"
+    Id: "1DCACF0999C537FC"
     EntryLimit: 10
   }
   Config {
@@ -19,8 +19,8 @@ LeaderboardConfigs {
     FormatType {
       Value: "mc:ecoresdkleaderboardformat:numeric"
     }
-    Name: "Most Wins"
-    Id: "F8A3C52E448ADE34"
+    Name: "Most Kills"
+    Id: "B6B097BB1E314899"
     EntryLimit: 10
   }
 }
