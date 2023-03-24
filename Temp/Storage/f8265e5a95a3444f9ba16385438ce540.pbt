@@ -1,55 +1,12 @@
 Entries {
   Key {
-    StringVar: "COSMETICS"
-  }
-  SimpleValue {
-    Table {
-      Entries {
-        Key {
-          StringVar: "owned"
-        }
-        SimpleValue {
-          Table {
-          }
-        }
-      }
-      Entries {
-        Key {
-          StringVar: "currency"
-        }
-        SimpleValue {
-          Table {
-            Entries {
-              Key {
-                StringVar: "Cash"
-              }
-              SimpleValue {
-                IntVar: 0
-              }
-            }
-          }
-        }
-      }
-    }
-  }
-}
-Entries {
-  Key {
     StringVar: "META_ACHIEVEMENTS"
   }
   SimpleValue {
     Table {
       Entries {
         Key {
-          StringVar: "METAT"
-        }
-        SimpleValue {
-          IntVar: 1679567384
-        }
-      }
-      Entries {
-        Key {
-          StringVar: "KI1METAA"
+          StringVar: "RO1METAA"
         }
         SimpleValue {
           IntVar: 0
@@ -65,10 +22,18 @@ Entries {
       }
       Entries {
         Key {
-          StringVar: "RO1METAA"
+          StringVar: "KI1METAA"
         }
         SimpleValue {
           IntVar: 0
+        }
+      }
+      Entries {
+        Key {
+          StringVar: "METAT"
+        }
+        SimpleValue {
+          IntVar: 1679747598
         }
       }
     }
@@ -96,10 +61,10 @@ Entries {
             }
             Entries {
               Key {
-                StringVar: "News4"
+                StringVar: "News3"
               }
               SimpleValue {
-                IntVar: 54858067
+                IntVar: 54858094
               }
             }
             Entries {
@@ -112,12 +77,47 @@ Entries {
             }
             Entries {
               Key {
-                StringVar: "News3"
+                StringVar: "News4"
               }
               SimpleValue {
-                IntVar: 54858094
+                IntVar: 54858067
               }
             }
+          }
+        }
+      }
+    }
+  }
+}
+Entries {
+  Key {
+    StringVar: "COSMETICS"
+  }
+  SimpleValue {
+    Table {
+      Entries {
+        Key {
+          StringVar: "currency"
+        }
+        SimpleValue {
+          Table {
+            Entries {
+              Key {
+                StringVar: "Cash"
+              }
+              SimpleValue {
+                IntVar: 0
+              }
+            }
+          }
+        }
+      }
+      Entries {
+        Key {
+          StringVar: "owned"
+        }
+        SimpleValue {
+          Table {
           }
         }
       }

@@ -535,11 +535,12 @@ Objects {
   Name: "Urban Pipe Clamp 02"
   Transform {
     Location {
-      X: -1539.27344
-      Y: 697.163086
+      X: -2503.26758
+      Y: 1482.74561
       Z: 57.1572266
     }
     Rotation {
+      Yaw: 53.0730133
     }
     Scale {
       X: 4.89079285
@@ -589,12 +590,12 @@ Objects {
   Name: "Housing Complex"
   Transform {
     Location {
-      X: -438.505859
-      Y: 578.57959
-      Z: 131.04126
+      X: -4164.16211
+      Y: 1701.97119
+      Z: 263.114
     }
     Rotation {
-      Yaw: 84.0534744
+      Yaw: 37.8953629
     }
     Scale {
       X: 1
@@ -70858,12 +70859,12 @@ Objects {
   Name: "Single Housing Unit"
   Transform {
     Location {
-      X: -3607.08594
-      Y: -1034.56104
-      Z: 106.310303
+      X: 5011.15039
+      Y: -473.200195
+      Z: 164.159424
     }
     Rotation {
-      Yaw: 85.7742386
+      Yaw: 165.087494
     }
     Scale {
       X: 0.584945083

@@ -3331,16 +3331,15 @@ Objects {
   }
 }
 Objects {
-  Id: 18065887857306937431
-  Name: "Sci-Fi Building Set"
+  Id: 11840619886266545042
+  Name: "Big Blue Scifi Building"
   Transform {
     Location {
-      X: 7286.90332
-      Y: -33800.9258
-      Z: 4560.34521
+      X: 17564.9375
+      Y: -32923.0703
+      Z: 1198.16553
     }
     Rotation {
-      Yaw: -45
     }
     Scale {
       X: 1
@@ -3349,38 +3348,6 @@ Objects {
     }
   }
   ParentId: 8716409801345301934
-  ChildIds: 11840619886266545042
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 18065887857306937431
-    SubobjectId: 8147547739143453480
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-    WasRoot: true
-  }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-  IsReplicationEnabledByDefault: true
-}
-Objects {
-  Id: 11840619886266545042
-  Name: "Sci_Fi_Building_5"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Yaw: 37.3607178
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 18065887857306937431
   ChildIds: 13139428260238678324
   ChildIds: 6054321009777868698
   ChildIds: 13967696508003148405
@@ -3409,6 +3376,11 @@ Objects {
   ChildIds: 10606451322601257215
   ChildIds: 17262696188940629728
   ChildIds: 8232356818440560054
+  ChildIds: 6786806312719432696
+  ChildIds: 18357274880214656150
+  ChildIds: 13903723310893703875
+  ChildIds: 11775255251347147261
+  ChildIds: 462987831027073943
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3424,11 +3396,407 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 11840619886266545042
-    SubobjectId: 3455773588012654829
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 462987831027073943
+  Name: "floor"
+  Transform {
+    Location {
+      X: -0.05078125
+      Y: 1028.12207
+      Z: -271.813965
+    }
+    Rotation {
+    }
+    Scale {
+      X: 40.567791
+      Y: 40.1049767
+      Z: 0.68161875
+    }
+  }
+  ParentId: 11840619886266545042
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 626214966385950788
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 11775255251347147261
+  Name: "Wedge - Convex Polished"
+  Transform {
+    Location {
+      X: -1781.80762
+      Y: -811.00293
+      Z: -230.484863
+    }
+    Rotation {
+      Yaw: -44.9457397
+    }
+    Scale {
+      X: 8.78284645
+      Y: 4.53117418
+      Z: 2.90192604
+    }
+  }
+  ParentId: 11840619886266545042
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18265403797905967385
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.141737178
+        G: 0.265870422
+        B: 0.494791657
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 2
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 1
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3557897935692166826
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 13903723310893703875
+  Name: "Wedge - Convex Polished"
+  Transform {
+    Location {
+      X: 1812.83984
+      Y: 2770.42188
+      Z: -265.506348
+    }
+    Rotation {
+      Yaw: 132.745163
+    }
+    Scale {
+      X: 8.78284645
+      Y: 4.53117418
+      Z: 2.90192604
+    }
+  }
+  ParentId: 11840619886266545042
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18265403797905967385
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.141737178
+        G: 0.265870422
+        B: 0.494791657
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 2
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 1
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3557897935692166826
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 18357274880214656150
+  Name: "Wedge - Convex Polished"
+  Transform {
+    Location {
+      X: -1798.69922
+      Y: 2769.79102
+      Z: -265.506348
+    }
+    Rotation {
+      Yaw: -136.64563
+    }
+    Scale {
+      X: 8.78284645
+      Y: 4.53117418
+      Z: 2.90192604
+    }
+  }
+  ParentId: 11840619886266545042
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18265403797905967385
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.141737178
+        G: 0.265870422
+        B: 0.494791657
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 2
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 1
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3557897935692166826
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 6786806312719432696
+  Name: "Wedge - Convex Polished"
+  Transform {
+    Location {
+      X: 1794.78906
+      Y: -727.72168
+      Z: -265.506348
+    }
+    Rotation {
+      Yaw: 43.8901062
+    }
+    Scale {
+      X: 8.78284645
+      Y: 4.53117418
+      Z: 2.90192604
+    }
+  }
+  ParentId: 11840619886266545042
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 18265403797905967385
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.141737178
+        G: 0.265870422
+        B: 0.494791657
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 2
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 1
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3557897935692166826
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+  Relevance {
+    Value: "mc:edistancerelevance:critical"
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -3442,7 +3810,7 @@ Objects {
     Location {
       X: 6
       Y: -1086
-      Z: -3512.72729
+      Z: -229.340332
     }
     Rotation {
     }
@@ -3476,12 +3844,6 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 8232356818440560054
-    SubobjectId: 17985193425029697225
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -3492,8 +3854,8 @@ Objects {
   Name: "Sci-fi Base Door 01"
   Transform {
     Location {
-      X: 1936
-      Y: 2115
+      X: 1935.99988
+      Y: 2289.93262
     }
     Rotation {
       Yaw: -90
@@ -3529,12 +3891,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13727072633961341423
-    SubobjectId: 3830119194871755408
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -3548,8 +3904,8 @@ Objects {
   Name: "Sci-fi Base Door 01"
   Transform {
     Location {
-      X: 1936
-      Y: 1725
+      X: 1935.99988
+      Y: 1552.93799
     }
     Rotation {
       Yaw: 90
@@ -3585,12 +3941,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7276616124120507716
-    SubobjectId: 17247855314362512955
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -3604,8 +3954,8 @@ Objects {
   Name: "Sci-fi Base Door 01"
   Transform {
     Location {
-      X: -206
-      Y: 3850
+      X: -374.881653
+      Y: 3827.34912
     }
     Rotation {
     }
@@ -3640,12 +3990,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9012054137462838499
-    SubobjectId: 17777455629673416604
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -3659,8 +4003,8 @@ Objects {
   Name: "Sci-fi Base Door 01"
   Transform {
     Location {
-      X: 184
-      Y: 3850
+      X: 358.24292
+      Y: 3855.01685
     }
     Rotation {
       Yaw: 180
@@ -3696,12 +4040,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 14879930091339992337
-    SubobjectId: 4982999191141441134
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -3715,8 +4053,8 @@ Objects {
   Name: "Sci-fi Base Door 01"
   Transform {
     Location {
-      X: -1993
-      Y: 1714
+      X: -1972.29956
+      Y: 1553.36768
     }
     Rotation {
       Yaw: 90
@@ -3752,12 +4090,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5161170324934611171
-    SubobjectId: 14701758925435290524
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -3771,8 +4103,8 @@ Objects {
   Name: "Sci-fi Base Door 01"
   Transform {
     Location {
-      X: -1993
-      Y: 2104
+      X: -1967.04126
+      Y: 2133.26221
     }
     Rotation {
       Yaw: -90
@@ -3808,12 +4140,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 9628938729741619044
-    SubobjectId: 1011011986629860379
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -3827,7 +4153,7 @@ Objects {
   Name: "Sci-fi Base Door 01"
   Transform {
     Location {
-      X: 195
+      X: 361.796844
     }
     Rotation {
       Yaw: 179.999924
@@ -3863,12 +4189,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11662168164137449104
-    SubobjectId: 3062257401155823087
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -3882,10 +4202,10 @@ Objects {
   Name: "Sci-fi Base Door 01"
   Transform {
     Location {
-      X: -195
+      X: -361.297333
     }
     Rotation {
-      Yaw: -2.39056553e-05
+      Yaw: -3.05175781e-05
     }
     Scale {
       X: 1.1
@@ -3918,12 +4238,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15658323534917919994
-    SubobjectId: 5974729154113304453
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -3938,7 +4252,7 @@ Objects {
   Transform {
     Location {
       Y: 1100
-      Z: -3550
+      Z: -266.612793
     }
     Rotation {
     }
@@ -4035,12 +4349,6 @@ Objects {
   Folder {
     IsGroup: true
   }
-  InstanceHistory {
-    SelfId: 17262696188940629728
-    SubobjectId: 7221065092857046431
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
@@ -4052,13 +4360,13 @@ Objects {
   Transform {
     Location {
       X: 1757.96387
-      Y: 1636.64185
+      Y: 1636.6416
       Z: 2197.41016
     }
     Rotation {
-      Pitch: -88.5712357
+      Pitch: -88.571228
       Yaw: 89.9661713
-      Roll: -44.9657135
+      Roll: -44.9657
     }
     Scale {
       X: 5.4
@@ -4109,12 +4417,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 2328373566165296073
-    SubobjectId: 12391374710654185654
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -4129,13 +4431,13 @@ Objects {
   Transform {
     Location {
       X: 1458.04102
-      Y: 1318.948
-      Z: 2422.16187
+      Y: 1318.94824
+      Z: 2422.16162
     }
     Rotation {
-      Pitch: -88.57
+      Pitch: -88.5700073
       Yaw: 89.9846725
-      Roll: -44.9833031
+      Roll: -44.9833069
     }
     Scale {
       X: 4.73724174
@@ -4186,12 +4488,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 10810913137250052484
-    SubobjectId: 2138962370802268923
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -4206,13 +4502,13 @@ Objects {
   Transform {
     Location {
       X: 1193.88867
-      Y: 958.934692
+      Y: 958.93457
       Z: 2658.74854
     }
     Rotation {
-      Pitch: -88.5695953
+      Pitch: -88.5695801
       Yaw: 89.999588
-      Roll: -44.9996567
+      Roll: -44.9996643
     }
     Scale {
       X: 4.73724174
@@ -4263,12 +4559,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6007860117947907510
-    SubobjectId: 15620522258072170185
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -4287,7 +4577,7 @@ Objects {
       Z: 2126.72852
     }
     Rotation {
-      Pitch: -88.5709686
+      Pitch: -88.5709839
       Yaw: -179.992722
       Roll: 44.9909401
     }
@@ -4340,12 +4630,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17132483258469839857
-    SubobjectId: 7378519110765240462
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -4360,11 +4644,11 @@ Objects {
   Transform {
     Location {
       X: -1444.7959
-      Y: -1454.32397
+      Y: -1454.32422
       Z: 2351.7915
     }
     Rotation {
-      Pitch: -88.5720596
+      Pitch: -88.572052
       Yaw: -179.993
       Roll: 44.9922447
     }
@@ -4417,12 +4701,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 8102218872241013283
-    SubobjectId: 18147210626699120988
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -4437,11 +4715,11 @@ Objects {
   Transform {
     Location {
       X: -1174.56641
-      Y: -1100.32568
-      Z: 2590.62378
+      Y: -1100.32617
+      Z: 2590.62354
     }
     Rotation {
-      Pitch: -88.5716476
+      Pitch: -88.5716553
       Yaw: -179.993134
       Roll: 44.9920502
     }
@@ -4494,12 +4772,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17731161549565325674
-    SubobjectId: 9058629692279218709
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -4514,7 +4786,7 @@ Objects {
   Transform {
     Location {
       X: 1180.38184
-      Y: -1232.78076
+      Y: -1232.78125
       Z: 2560.11084
     }
     Rotation {
@@ -4571,12 +4843,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 2179861791577420517
-    SubobjectId: 10801714423108411802
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -4591,11 +4857,11 @@ Objects {
   Transform {
     Location {
       X: 1528.1709
-      Y: -1496.93408
+      Y: -1496.93359
       Z: 2266.11084
     }
     Rotation {
-      Pitch: -88.5737076
+      Pitch: -88.5737
       Yaw: -179.98613
       Roll: 134.985886
     }
@@ -4648,12 +4914,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 8744430894686810281
-    SubobjectId: 17509290942895367126
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -4672,7 +4932,7 @@ Objects {
       Z: 2050.11084
     }
     Rotation {
-      Pitch: -88.5748062
+      Pitch: -88.5748
       Yaw: -179.961899
       Roll: 134.962326
     }
@@ -4725,12 +4985,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 10756658916801583304
-    SubobjectId: 2224882130926898103
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -4749,9 +5003,9 @@ Objects {
       Z: 2663.76123
     }
     Rotation {
-      Pitch: -88.5712357
+      Pitch: -88.571228
       Yaw: -179.998489
-      Roll: -44.999752
+      Roll: -44.9997559
     }
     Scale {
       X: 4.73724174
@@ -4802,12 +5056,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 2046364940411287076
-    SubobjectId: 10935070691673449819
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -4822,13 +5070,13 @@ Objects {
   Transform {
     Location {
       X: -1481.66602
-      Y: 1395.30713
+      Y: 1395.30664
       Z: 2427.16797
     }
     Rotation {
-      Pitch: -88.5712357
+      Pitch: -88.571228
       Yaw: 179.985
-      Roll: -44.9844551
+      Roll: -44.9844666
     }
     Scale {
       X: 4.73724174
@@ -4879,12 +5127,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17135829126756060782
-    SubobjectId: 7379635092708810001
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -4899,13 +5141,13 @@ Objects {
   Transform {
     Location {
       X: -1799.36621
-      Y: 1695.2312
+      Y: 1695.23145
       Z: 2202.41455
     }
     Rotation {
-      Pitch: -88.571785
+      Pitch: -88.5717773
       Yaw: 179.965805
-      Roll: -44.9656487
+      Roll: -44.9656372
     }
     Scale {
       X: 5.4
@@ -4956,12 +5198,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11139299560475199973
-    SubobjectId: 1238972751511165594
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -4976,11 +5212,11 @@ Objects {
   Transform {
     Location {
       X: 1884
-      Y: 1726.00024
-      Z: 766.000061
+      Y: 1726
+      Z: 766
     }
     Rotation {
-      Yaw: -44.9999847
+      Yaw: -45
       Roll: 179.999954
     }
     Scale {
@@ -5018,12 +5254,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15372518181843090635
-    SubobjectId: 6841298921915002804
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -5038,8 +5268,8 @@ Objects {
   Transform {
     Location {
       X: -1890
-      Y: 1822.00024
-      Z: 766.000061
+      Y: 1822
+      Z: 766
     }
     Rotation {
       Yaw: 44.9999428
@@ -5080,12 +5310,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 8780066441875569434
-    SubobjectId: 17473409244822644837
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -5100,11 +5324,11 @@ Objects {
   Transform {
     Location {
       X: -1890
-      Y: -1825.99976
-      Z: 766.000061
+      Y: -1826
+      Z: 766
     }
     Rotation {
-      Yaw: -44.9999161
+      Yaw: -44.9999084
       Roll: -179.999954
     }
     Scale {
@@ -5142,12 +5366,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7065222906902510942
-    SubobjectId: 16837758362725412385
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -5162,8 +5380,8 @@ Objects {
   Transform {
     Location {
       X: 1884
-      Y: -1921.99976
-      Z: 766.000061
+      Y: -1922
+      Z: 766
     }
     Rotation {
       Yaw: 44.9999847
@@ -5204,12 +5422,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 4148842547455778285
-    SubobjectId: 12841078210919452306
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -5225,11 +5437,11 @@ Objects {
     Location {
       X: -1885.1582
       Y: -68
-      Z: 1122.34497
+      Z: 1122.34521
     }
     Rotation {
       Yaw: 89.9999771
-      Roll: -44.9999924
+      Roll: -45
     }
     Scale {
       X: 6.9
@@ -5274,12 +5486,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17249070145328370655
-    SubobjectId: 7261503689551757472
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -5294,8 +5500,8 @@ Objects {
   Transform {
     Location {
       X: 28.2695312
-      Y: -2089.5874
-      Z: 981.844604
+      Y: -2089.58789
+      Z: 981.844727
     }
     Rotation {
       Yaw: -178.869049
@@ -5344,12 +5550,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 474948489645025017
-    SubobjectId: 10173721628980704646
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -5364,8 +5564,8 @@ Objects {
   Transform {
     Location {
       X: 22.7324219
-      Y: 1792.00024
-      Z: 999.156616
+      Y: 1792
+      Z: 999.156738
     }
     Rotation {
       Roll: -37.2766418
@@ -5413,12 +5613,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 2846561394667668551
-    SubobjectId: 12404617926181508920
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -5437,8 +5631,8 @@ Objects {
       Z: 1157.40088
     }
     Rotation {
-      Yaw: -89.9999771
-      Roll: -35.9530258
+      Yaw: -89.9999695
+      Roll: -35.9530334
     }
     Scale {
       X: 6.9
@@ -5483,12 +5677,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5553991948317813484
-    SubobjectId: 14318267618440575379
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -5503,8 +5691,8 @@ Objects {
   Transform {
     Location {
       X: 2118.04688
-      Y: -1160.00049
-      Z: 682.019226
+      Y: -1160
+      Z: 682.019043
     }
     Rotation {
       Yaw: 89.9999542
@@ -5560,12 +5748,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 2725333238840415452
-    SubobjectId: 12571058309481220003
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -5580,8 +5762,8 @@ Objects {
   Transform {
     Location {
       X: -2088
-      Y: -1160.00928
-      Z: 681.999939
+      Y: -1160.00977
+      Z: 682
     }
     Rotation {
       Yaw: -89.999939
@@ -5637,12 +5819,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 16221760242987326260
-    SubobjectId: 7689982362438617163
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -5656,12 +5832,12 @@ Objects {
   Name: "Craftsman Roof 01 Corner Out"
   Transform {
     Location {
-      X: 2117.99902
-      Y: 1093.0249
-      Z: 681.999939
+      X: 2117.99805
+      Y: 1093.02539
+      Z: 682
     }
     Rotation {
-      Yaw: -89.9999542
+      Yaw: -89.999939
     }
     Scale {
       X: -1.2
@@ -5714,12 +5890,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 18303800915104582752
-    SubobjectId: 8476657672043323167
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -5734,7 +5904,7 @@ Objects {
   Transform {
     Location {
       X: -2088.03906
-      Y: 1048.01147
+      Y: 1048.01172
       Z: 682
     }
     Rotation {
@@ -5791,12 +5961,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 4305143703216484593
-    SubobjectId: 12689450135907099534
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -5812,10 +5976,10 @@ Objects {
     Location {
       X: -1140
       Y: 2026
-      Z: 736.000122
+      Z: 736
     }
     Rotation {
-      Roll: -44.9999924
+      Roll: -45
     }
     Scale {
       X: 4.20000029
@@ -5859,12 +6023,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 4811915876417463373
-    SubobjectId: 14510687296154564402
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -5881,10 +6039,10 @@ Objects {
     Location {
       X: -796.345703
       Y: 2017
-      Z: 727.000122
+      Z: 727
     }
     Rotation {
-      Roll: -44.9999924
+      Roll: -45
     }
     Scale {
       X: 4.20000029
@@ -5928,12 +6086,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 13525573631991912955
-    SubobjectId: 3464243686122490500
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -5949,11 +6101,11 @@ Objects {
   Transform {
     Location {
       X: 846
-      Y: 2025.99976
-      Z: 736.000122
+      Y: 2026
+      Z: 736
     }
     Rotation {
-      Roll: -44.9999924
+      Roll: -45
     }
     Scale {
       X: 4.20000029
@@ -5997,12 +6149,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 4427515316981492895
-    SubobjectId: 13174923852762087392
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -6018,11 +6164,11 @@ Objects {
   Transform {
     Location {
       X: 1189.65332
-      Y: 2016.99951
-      Z: 727.000122
+      Y: 2017
+      Z: 727
     }
     Rotation {
-      Roll: -44.9999924
+      Roll: -45
     }
     Scale {
       X: 4.20000029
@@ -6067,12 +6213,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11512063307629706274
-    SubobjectId: 1469328360934977373
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -6087,8 +6227,8 @@ Objects {
   Transform {
     Location {
       X: -1140
-      Y: -1765.99976
-      Z: 1227.99988
+      Y: -1766
+      Z: 1228
     }
     Rotation {
       Roll: 44.9999847
@@ -6135,12 +6275,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 2485486023809887037
-    SubobjectId: 12238869086605342786
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -6156,8 +6290,8 @@ Objects {
   Transform {
     Location {
       X: -796.34668
-      Y: -1774.99976
-      Z: 1218.99988
+      Y: -1775
+      Z: 1219
     }
     Rotation {
       Roll: 44.9999847
@@ -6204,12 +6338,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 455136743234835434
-    SubobjectId: 10229911973504581781
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -6225,8 +6353,8 @@ Objects {
   Transform {
     Location {
       X: 846
-      Y: -1766.00049
-      Z: 1227.99988
+      Y: -1766
+      Z: 1228
     }
     Rotation {
       Roll: 44.9999847
@@ -6273,12 +6401,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 8623085521304177397
-    SubobjectId: 18161979708346620298
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -6294,8 +6416,8 @@ Objects {
   Transform {
     Location {
       X: 1189.65234
-      Y: -1775.00049
-      Z: 1218.99988
+      Y: -1775
+      Z: 1219
     }
     Rotation {
       Roll: 44.9999847
@@ -6343,12 +6465,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 16795663088199115039
-    SubobjectId: 7111505276427285088
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -6363,11 +6479,11 @@ Objects {
   Transform {
     Location {
       X: -1728
-      Y: 1127.65381
-      Z: 1227.99988
+      Y: 1127.6543
+      Z: 1228
     }
     Rotation {
-      Yaw: -89.9999771
+      Yaw: -89.9999695
       Roll: 44.9999733
     }
     Scale {
@@ -6412,12 +6528,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 5157466015902834947
-    SubobjectId: 14714397760995832444
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -6433,11 +6543,11 @@ Objects {
   Transform {
     Location {
       X: -1737
-      Y: 784.000183
-      Z: 1218.99988
+      Y: 784
+      Z: 1219
     }
     Rotation {
-      Yaw: -89.9999771
+      Yaw: -89.9999695
       Roll: 44.9999733
     }
     Scale {
@@ -6483,12 +6593,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 11578227405768443138
-    SubobjectId: 3101056766465103485
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -6503,11 +6607,11 @@ Objects {
   Transform {
     Location {
       X: -1728
-      Y: -858.345947
-      Z: 1227.99988
+      Y: -858.345703
+      Z: 1228
     }
     Rotation {
-      Yaw: -89.9999771
+      Yaw: -89.9999695
       Roll: 44.9999733
     }
     Scale {
@@ -6553,12 +6657,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 508595103244308845
-    SubobjectId: 10135894414608646674
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -6573,11 +6671,11 @@ Objects {
   Transform {
     Location {
       X: -1737
-      Y: -1201.99976
-      Z: 1218.99988
+      Y: -1202
+      Z: 1219
     }
     Rotation {
-      Yaw: -89.9999771
+      Yaw: -89.9999695
       Roll: 44.9999733
     }
     Scale {
@@ -6622,12 +6720,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 4596938935480540760
-    SubobjectId: 13000926008361536807
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -6644,11 +6736,11 @@ Objects {
     Location {
       X: 2118
       Y: -1202
-      Z: 754.000122
+      Z: 754
     }
     Rotation {
-      Yaw: -89.9999924
-      Roll: -44.9999924
+      Yaw: -90
+      Roll: -45
     }
     Scale {
       X: 4.20000029
@@ -6692,12 +6784,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 13089196902239852125
-    SubobjectId: 4467889629027779874
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -6713,12 +6799,12 @@ Objects {
   Transform {
     Location {
       X: 2127
-      Y: -858.346191
-      Z: 763.000122
+      Y: -858.345703
+      Z: 763
     }
     Rotation {
-      Yaw: -89.9999924
-      Roll: -44.9999924
+      Yaw: -90
+      Roll: -45
     }
     Scale {
       X: 4.20000029
@@ -6762,12 +6848,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 13340348764646088501
-    SubobjectId: 3640450343863651402
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -6783,12 +6863,12 @@ Objects {
   Transform {
     Location {
       X: 2127
-      Y: 1127.65381
-      Z: 763.000122
+      Y: 1127.6543
+      Z: 763
     }
     Rotation {
-      Yaw: -89.9999924
-      Roll: -44.9999924
+      Yaw: -90
+      Roll: -45
     }
     Scale {
       X: 4.20000029
@@ -6833,12 +6913,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17764179693696313728
-    SubobjectId: 9016208213322103551
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -6853,12 +6927,12 @@ Objects {
   Transform {
     Location {
       X: 2118
-      Y: 784.000122
-      Z: 754.000122
+      Y: 784
+      Z: 754
     }
     Rotation {
-      Yaw: -89.9999924
-      Roll: -44.9999924
+      Yaw: -90
+      Roll: -45
     }
     Scale {
       X: 4.20000029
@@ -6902,12 +6976,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 12617202071456275725
-    SubobjectId: 2647629114328305266
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -6938,6 +7006,17 @@ Objects {
     }
   }
   ParentId: 17262696188940629728
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.43
+        G: 1
+        B: 0.932053149
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6965,12 +7044,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 10062787990072214076
-    SubobjectId: 350285162500419
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -6986,7 +7059,7 @@ Objects {
   Transform {
     Location {
       X: -473.998047
-      Y: 1941.99829
+      Y: 1941.99805
       Z: 712
     }
     Rotation {
@@ -7001,6 +7074,17 @@ Objects {
     }
   }
   ParentId: 17262696188940629728
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.43
+        G: 1
+        B: 0.932053149
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7028,12 +7112,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 2771970979136763464
-    SubobjectId: 12528748231651190071
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -7064,6 +7142,17 @@ Objects {
     }
   }
   ParentId: 17262696188940629728
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.43
+        G: 1
+        B: 0.932053149
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7091,12 +7180,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 6275467384188236354
-    SubobjectId: 15902767324238373181
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -7127,6 +7210,17 @@ Objects {
     }
   }
   ParentId: 17262696188940629728
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Building_WallOuter:color"
+      Color {
+        R: 0.43
+        G: 1
+        B: 0.932053149
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -7155,12 +7249,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 7112539531104066305
-    SubobjectId: 16795009107745409150
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -7180,7 +7268,7 @@ Objects {
     }
     Rotation {
       Yaw: -179.999954
-      Roll: -44.9999924
+      Roll: -45
     }
     Scale {
       X: 1.2
@@ -7216,12 +7304,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 4352755053413974510
-    SubobjectId: 13244837333481214609
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -7242,7 +7324,7 @@ Objects {
     }
     Rotation {
       Yaw: 89.9999771
-      Roll: -44.9999924
+      Roll: -45
     }
     Scale {
       X: 1.2
@@ -7278,12 +7360,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 14096137277091323462
-    SubobjectId: 5204051081651785017
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -7304,7 +7380,7 @@ Objects {
     }
     Rotation {
       Yaw: 89.9999771
-      Roll: -44.9999924
+      Roll: -45
     }
     Scale {
       X: 1.2
@@ -7341,12 +7417,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17057051169738407466
-    SubobjectId: 7426958479280516437
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -7361,11 +7431,11 @@ Objects {
   Transform {
     Location {
       X: -1440
-      Y: 1984.00024
+      Y: 1984
       Z: 712
     }
     Rotation {
-      Roll: -44.9999924
+      Roll: -45
     }
     Scale {
       X: 1.2
@@ -7402,12 +7472,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 16936226759693786719
-    SubobjectId: 6966675308556537120
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -7422,11 +7486,11 @@ Objects {
   Transform {
     Location {
       X: 462
-      Y: 1996.72827
-      Z: 724.728149
+      Y: 1996.72852
+      Z: 724.728
     }
     Rotation {
-      Roll: -44.9999924
+      Roll: -45
     }
     Scale {
       X: 1.2
@@ -7463,12 +7527,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 4311709787583252545
-    SubobjectId: 12714031169604524862
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -7482,13 +7540,13 @@ Objects {
   Name: "Sci-fi Base Wall 01"
   Transform {
     Location {
-      X: 2129.99902
-      Y: -553.999512
+      X: 2129.99805
+      Y: -554
       Z: 718
     }
     Rotation {
-      Yaw: -89.9999924
-      Roll: -44.9999924
+      Yaw: -90
+      Roll: -45
     }
     Scale {
       X: 1.2
@@ -7524,12 +7582,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 15471082671280193419
-    SubobjectId: 6706802615451610356
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -7546,11 +7598,11 @@ Objects {
     Location {
       X: 2117.27148
       Y: 1348
-      Z: 705.271729
+      Z: 705.272
     }
     Rotation {
-      Yaw: -89.9999924
-      Roll: -44.9999924
+      Yaw: -90
+      Roll: -45
     }
     Scale {
       X: 1.2
@@ -7586,12 +7638,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 236032938865103824
-    SubobjectId: 9863310329791152303
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -7608,11 +7654,11 @@ Objects {
     Location {
       X: 1446
       Y: -2180
-      Z: 736.000122
+      Z: 736
     }
     Rotation {
       Yaw: -179.999954
-      Roll: -44.9999924
+      Roll: -45
     }
     Scale {
       X: 1.2
@@ -7648,12 +7694,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 6103316071735955578
-    SubobjectId: 16074577873884480261
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -7696,12 +7736,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "ma:Shared_Trim:id"
-      AssetReference {
-        Id: 9141573289663609666
-      }
-    }
-    Overrides {
       Name: "ma:Shared_Trim:color"
       Color {
         G: 15
@@ -7738,12 +7772,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 16511953921710171741
-    SubobjectId: 7962703143561278754
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -7757,12 +7785,12 @@ Objects {
   Name: "Sci-fi Base Wall 01 - Doorway 01"
   Transform {
     Location {
-      X: 2099.99902
+      X: 2099.99805
       Y: 388
       Z: -2
     }
     Rotation {
-      Yaw: -89.9999847
+      Yaw: -90
     }
     Scale {
       X: 1.2
@@ -7785,12 +7813,6 @@ Objects {
       }
     }
     Overrides {
-      Name: "ma:Shared_Trim:id"
-      AssetReference {
-        Id: 9141573289663609666
-      }
-    }
-    Overrides {
       Name: "ma:Shared_Trim:color"
       Color {
         G: 15
@@ -7827,12 +7849,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 4735892427366712788
-    SubobjectId: 14564166049451464363
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -7846,12 +7862,12 @@ Objects {
   Name: "Sci-fi Base Wall 01"
   Transform {
     Location {
-      X: 2111.99902
+      X: 2111.99805
       Y: 1348
       Z: -2
     }
     Rotation {
-      Yaw: -89.9999847
+      Yaw: -90
     }
     Scale {
       X: 1.2
@@ -7915,12 +7931,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 3836611676117693662
-    SubobjectId: 13734126425577908129
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -7935,12 +7945,12 @@ Objects {
   Name: "Sci-fi Base Wall 01"
   Transform {
     Location {
-      X: 2129.99902
-      Y: -553.999512
+      X: 2129.99805
+      Y: -554
       Z: -2
     }
     Rotation {
-      Yaw: -89.9999847
+      Yaw: -90
     }
     Scale {
       X: 1.2
@@ -8004,12 +8014,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 15827110265968313674
-    SubobjectId: 5765234415773341237
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -8025,7 +8029,7 @@ Objects {
   Transform {
     Location {
       X: 2130
-      Y: -1495.99951
+      Y: -1496
       Z: -2
     }
     Rotation {
@@ -8093,12 +8097,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 17954699602312036985
-    SubobjectId: 8254221671789236486
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -8183,12 +8181,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 5226092259147850582
-    SubobjectId: 14060737153945645097
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -8272,12 +8264,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12756544002740667837
-    SubobjectId: 4228690827867805378
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -8292,11 +8278,11 @@ Objects {
   Transform {
     Location {
       X: -2106
-      Y: -1543.99976
+      Y: -1544
       Z: -2
     }
     Rotation {
-      Yaw: -44.9999847
+      Yaw: -45
     }
     Scale {
       X: 1.2
@@ -8360,12 +8346,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 2962970890843805097
-    SubobjectId: 11725575290417399510
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -8450,12 +8430,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 18145557612948755067
-    SubobjectId: 8103930986855530756
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -8496,20 +8470,6 @@ Objects {
         Id: 11597307684761773640
       }
     }
-    Overrides {
-      Name: "ma:Shared_Trim:id"
-      AssetReference {
-        Id: 9141573289663609666
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Trim:color"
-      Color {
-        G: 15
-        B: 5.75000191
-        A: 1
-      }
-    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -8538,12 +8498,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 11360549686198284105
-    SubobjectId: 1589715100241640502
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -8628,12 +8582,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 14389842310795441909
-    SubobjectId: 5482560383600633226
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -8652,7 +8600,7 @@ Objects {
       Z: -2
     }
     Rotation {
-      Yaw: -44.9999924
+      Yaw: -45
     }
     Scale {
       X: 1.2
@@ -8689,12 +8637,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 3966530767174759519
-    SubobjectId: 13595514595860539168
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -8713,7 +8655,7 @@ Objects {
       Z: -2
     }
     Rotation {
-      Yaw: -44.9999847
+      Yaw: -45
     }
     Scale {
       X: -1.2
@@ -8777,12 +8719,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 595548011212936404
-    SubobjectId: 9503937766706481067
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -8867,12 +8803,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6265328978896196168
-    SubobjectId: 15948901369468780855
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -8927,12 +8857,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 18073616458917567585
-    SubobjectId: 8175555739135463198
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -8947,7 +8871,7 @@ Objects {
   Transform {
     Location {
       X: -486
-      Y: 1972.00024
+      Y: 1972
       Z: -2
     }
     Rotation {
@@ -8970,12 +8894,6 @@ Objects {
       Name: "ma:Building_UpperTrimOuter:id"
       AssetReference {
         Id: 11597307684761773640
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_Trim:id"
-      AssetReference {
-        Id: 9141573289663609666
       }
     }
     Overrides {
@@ -9014,12 +8932,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 4443614341268887896
-    SubobjectId: 13118398002124671527
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -9103,12 +9015,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 3015674574261811750
-    SubobjectId: 11709041021549635929
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -9123,7 +9029,7 @@ Objects {
   Transform {
     Location {
       X: -1446
-      Y: 1984.00024
+      Y: 1984
       Z: -2
     }
     Rotation {
@@ -9191,12 +9097,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 17949416444314692763
-    SubobjectId: 8268092069152735204
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -9211,7 +9111,7 @@ Objects {
   Transform {
     Location {
       X: -1446
-      Y: 1984.00024
+      Y: 1984
       Z: -2
     }
     Rotation {
@@ -9251,12 +9151,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15393959425255907065
-    SubobjectId: 6774924847410285958
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -9271,7 +9165,7 @@ Objects {
   Transform {
     Location {
       Y: -190
-      Z: -750
+      Z: 2533.38721
     }
     Rotation {
       Pitch: 90
@@ -9322,12 +9216,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 10606451322601257215
-    SubobjectId: 1771785480709516160
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -9343,7 +9231,7 @@ Objects {
   Transform {
     Location {
       Y: -190
-      Z: -750
+      Z: 2533.38721
     }
     Rotation {
       Pitch: -90
@@ -9394,12 +9282,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 10321784942319372291
-    SubobjectId: 331386750688566140
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -9415,7 +9297,7 @@ Objects {
   Transform {
     Location {
       Y: -190
-      Z: -1235
+      Z: 2048.38721
     }
     Rotation {
       Pitch: -90
@@ -9466,12 +9348,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 14977551803067964707
-    SubobjectId: 4935380914937826908
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -9487,7 +9363,7 @@ Objects {
   Transform {
     Location {
       Y: -190
-      Z: -1235
+      Z: 2048.38721
     }
     Rotation {
       Pitch: 90
@@ -9538,12 +9414,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 10182485815398669189
-    SubobjectId: 497786502738512122
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -9559,7 +9429,7 @@ Objects {
   Transform {
     Location {
       Y: -190
-      Z: -1650
+      Z: 1633.38721
     }
     Rotation {
       Pitch: -90
@@ -9610,12 +9480,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 4812389002779033796
-    SubobjectId: 14514539219073373115
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -9631,7 +9495,7 @@ Objects {
   Transform {
     Location {
       Y: -190
-      Z: -1650
+      Z: 1633.38721
     }
     Rotation {
       Pitch: 90
@@ -9682,12 +9546,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 8075887181416257826
-    SubobjectId: 18137220912771910237
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -9703,7 +9561,7 @@ Objects {
   Transform {
     Location {
       Y: -190
-      Z: 3550
+      Z: 6833.38916
     }
     Rotation {
       Pitch: 90
@@ -9754,12 +9612,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 8411671685822962241
-    SubobjectId: 18382365595049675070
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -9775,7 +9627,7 @@ Objects {
   Transform {
     Location {
       Y: -190
-      Z: 3550
+      Z: 6833.38916
     }
     Rotation {
       Pitch: -90
@@ -9827,12 +9679,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 14017393311756691325
-    SubobjectId: 5269425120816772098
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -9847,7 +9693,7 @@ Objects {
   Transform {
     Location {
       Y: -190
-      Z: 3065
+      Z: 6348.38916
     }
     Rotation {
       Pitch: -90
@@ -9898,12 +9744,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 8542180090100909407
-    SubobjectId: 18243203860482823712
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -9919,7 +9759,7 @@ Objects {
   Transform {
     Location {
       Y: -190
-      Z: 3065
+      Z: 6348.38916
     }
     Rotation {
       Pitch: 90
@@ -9971,12 +9811,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13691445342948978112
-    SubobjectId: 3865990869221539519
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -9991,7 +9825,7 @@ Objects {
   Transform {
     Location {
       Y: -190
-      Z: 2650
+      Z: 5933.38916
     }
     Rotation {
       Pitch: -90
@@ -10043,12 +9877,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 8717256167649608350
-    SubobjectId: 17536700864489230817
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -10063,7 +9891,7 @@ Objects {
   Transform {
     Location {
       Y: -190
-      Z: 2650
+      Z: 5933.38916
     }
     Rotation {
       Pitch: 90
@@ -10115,12 +9943,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 15246108850800458139
-    SubobjectId: 6355148557927475940
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -10135,7 +9957,7 @@ Objects {
   Transform {
     Location {
       Y: -190
-      Z: 11.8657227
+      Z: 3295.25342
     }
     Rotation {
       Pitch: -89.0483704
@@ -10189,12 +10011,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 4303529370999350917
-    SubobjectId: 12690651035008267770
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -10210,7 +10026,7 @@ Objects {
     Location {
       X: -2.2734375
       Y: -190
-      Z: 25
+      Z: 3308.38721
     }
     Rotation {
       Pitch: 90
@@ -10261,12 +10077,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 12222939167399815740
-    SubobjectId: 2452087539011369283
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -10282,7 +10092,7 @@ Objects {
   Transform {
     Location {
       Y: -190
-      Z: 510
+      Z: 3793.38721
     }
     Rotation {
       Pitch: -90
@@ -10333,12 +10143,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 13552365661023258192
-    SubobjectId: 4014015731174888751
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -10354,7 +10158,7 @@ Objects {
   Transform {
     Location {
       Y: -190
-      Z: 510
+      Z: 3793.38721
     }
     Rotation {
       Pitch: 90
@@ -10405,12 +10209,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 2756852045468580499
-    SubobjectId: 12530496981552507372
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -10426,7 +10224,7 @@ Objects {
   Transform {
     Location {
       Y: -190
-      Z: 925
+      Z: 4208.38623
     }
     Rotation {
       Pitch: -90
@@ -10477,12 +10275,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 3922456263586950648
-    SubobjectId: 13675276996524326535
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -10498,7 +10290,7 @@ Objects {
   Transform {
     Location {
       Y: -190
-      Z: 925
+      Z: 4208.38623
     }
     Rotation {
       Pitch: 90
@@ -10550,12 +10342,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 12915916369485518768
-    SubobjectId: 4078439681390953679
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -10570,7 +10356,7 @@ Objects {
   Transform {
     Location {
       Y: -190
-      Z: 1410
+      Z: 4693.38721
     }
     Rotation {
       Pitch: 90
@@ -10621,12 +10407,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 13952159206844845870
-    SubobjectId: 5334245657321593937
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -10642,7 +10422,7 @@ Objects {
   Transform {
     Location {
       Y: -190
-      Z: 1410
+      Z: 4693.38721
     }
     Rotation {
       Pitch: -90
@@ -10694,12 +10474,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6842437127965103608
-    SubobjectId: 15371404111328167559
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -10714,7 +10488,7 @@ Objects {
   Transform {
     Location {
       Y: -190
-      Z: 1895
+      Z: 5178.38916
     }
     Rotation {
       Pitch: 90
@@ -10766,12 +10540,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 14564213347865818206
-    SubobjectId: 4735939807379154721
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -10786,7 +10554,7 @@ Objects {
   Transform {
     Location {
       Y: -190
-      Z: 1895
+      Z: 5178.38916
     }
     Rotation {
       Pitch: -90
@@ -10837,12 +10605,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 8486376961389993619
-    SubobjectId: 18330389542131568108
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"
@@ -10859,7 +10621,7 @@ Objects {
     Location {
       X: -50
       Y: -200
-      Z: 2310
+      Z: 5593.38916
     }
     Rotation {
       Pitch: 90
@@ -10911,12 +10673,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13482814058637085734
-    SubobjectId: 3511568809813663577
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -10932,7 +10688,7 @@ Objects {
     Location {
       X: -50
       Y: -200
-      Z: 2310
+      Z: 5593.38916
     }
     Rotation {
       Pitch: -90
@@ -10984,12 +10740,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 13967696508003148405
-    SubobjectId: 5363843445519675658
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -11005,7 +10755,7 @@ Objects {
     Location {
       X: -50
       Y: 1000
-      Z: 1055
+      Z: 4338.38721
     }
     Rotation {
     }
@@ -11052,12 +10802,6 @@ Objects {
       BoundsScale: 1
     }
   }
-  InstanceHistory {
-    SelfId: 6054321009777868698
-    SubobjectId: 16114528351045184741
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
-  }
   Relevance {
     Value: "mc:edistancerelevance:critical"
   }
@@ -11073,7 +10817,7 @@ Objects {
     Location {
       X: -50
       Y: 1000
-      Z: 1055
+      Z: 4338.38721
     }
     Rotation {
     }
@@ -11119,12 +10863,6 @@ Objects {
       }
       BoundsScale: 1
     }
-  }
-  InstanceHistory {
-    SelfId: 13139428260238678324
-    SubobjectId: 4467477005243075147
-    InstanceId: 12753089683331156681
-    TemplateId: 4355423376897565096
   }
   Relevance {
     Value: "mc:edistancerelevance:critical"

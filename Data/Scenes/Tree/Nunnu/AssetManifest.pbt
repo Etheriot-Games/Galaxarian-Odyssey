@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 18265403797905967385
+  Name: "Metal Floor Panel 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_simple_floor_panel_001_uv"
+  }
+}
+Assets {
   Id: 18153973887378156106
   Name: "Cylinder - Bottom-Aligned"
   PlatformAssetType: 1
@@ -170,6 +179,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12095835209017042614
+  Name: "Cube"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_002"
+  }
+}
+Assets {
   Id: 12075988423218469041
   Name: "Metal Greebles 03"
   PlatformAssetType: 2
@@ -311,6 +329,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_scf_greebles_002_uv_ref"
+  }
+}
+Assets {
+  Id: 3557897935692166826
+  Name: "Wedge - Convex Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_wedge_curved_convex_hq_001"
   }
 }
 Assets {
