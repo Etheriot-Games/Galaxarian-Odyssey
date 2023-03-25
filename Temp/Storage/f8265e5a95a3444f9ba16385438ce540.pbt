@@ -1,46 +1,5 @@
 Entries {
   Key {
-    StringVar: "META_ACHIEVEMENTS"
-  }
-  SimpleValue {
-    Table {
-      Entries {
-        Key {
-          StringVar: "RO1METAA"
-        }
-        SimpleValue {
-          IntVar: 0
-        }
-      }
-      Entries {
-        Key {
-          StringVar: "DA1METAA"
-        }
-        SimpleValue {
-          IntVar: 0
-        }
-      }
-      Entries {
-        Key {
-          StringVar: "KI1METAA"
-        }
-        SimpleValue {
-          IntVar: 0
-        }
-      }
-      Entries {
-        Key {
-          StringVar: "METAT"
-        }
-        SimpleValue {
-          IntVar: 1679747598
-        }
-      }
-    }
-  }
-}
-Entries {
-  Key {
     StringVar: "newsData"
   }
   SimpleValue {
@@ -61,14 +20,6 @@ Entries {
             }
             Entries {
               Key {
-                StringVar: "News3"
-              }
-              SimpleValue {
-                IntVar: 54858094
-              }
-            }
-            Entries {
-              Key {
                 StringVar: "News2"
               }
               SimpleValue {
@@ -83,7 +34,56 @@ Entries {
                 IntVar: 54858067
               }
             }
+            Entries {
+              Key {
+                StringVar: "News3"
+              }
+              SimpleValue {
+                IntVar: 54858094
+              }
+            }
           }
+        }
+      }
+    }
+  }
+}
+Entries {
+  Key {
+    StringVar: "META_ACHIEVEMENTS"
+  }
+  SimpleValue {
+    Table {
+      Entries {
+        Key {
+          StringVar: "KI1METAA"
+        }
+        SimpleValue {
+          IntVar: 0
+        }
+      }
+      Entries {
+        Key {
+          StringVar: "DA1METAA"
+        }
+        SimpleValue {
+          IntVar: 0
+        }
+      }
+      Entries {
+        Key {
+          StringVar: "METAT"
+        }
+        SimpleValue {
+          IntVar: 1679747598
+        }
+      }
+      Entries {
+        Key {
+          StringVar: "RO1METAA"
+        }
+        SimpleValue {
+          IntVar: 0
         }
       }
     }

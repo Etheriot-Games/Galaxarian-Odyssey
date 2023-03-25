@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 18139582927860237057
+  Name: "Sci-fi Low Pulse Humming Drone Loop 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_scfi_low_pulse_humming_drone_loop_01_Cue_ref"
+  }
+}
+Assets {
   Id: 17819470429182099738
   Name: "Glitchy Hologram"
   PlatformAssetType: 2
@@ -50,6 +59,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "plastic_matte_001"
+  }
+}
+Assets {
+  Id: 16586908890029824577
+  Name: "Cube - Rounded"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_rounded_002"
   }
 }
 Assets {
@@ -320,6 +338,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_sphere_002"
+  }
+}
+Assets {
+  Id: 4691166548122192642
+  Name: "Metal Floor Panel 02"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_scf_simple_floor_panel_002_uv"
   }
 }
 Assets {
