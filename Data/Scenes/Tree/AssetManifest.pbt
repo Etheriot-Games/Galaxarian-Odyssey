@@ -61,3 +61,16 @@ Assets {
     AssetId: "sm_nat_fun_mushroom_stem_006_ref"
   }
 }
+Assets {
+  Id: 1843204489722853925
+  Name: "test creator storage"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "0a371baa0cc6488ebcd7dc9d7fefb41b"
+      Type {
+        Value: "mc:enetreferencetype:concurrentpersistence"
+      }
+    }
+  }
+}

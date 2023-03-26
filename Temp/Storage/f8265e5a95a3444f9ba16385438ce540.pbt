@@ -12,10 +12,10 @@ Entries {
           Table {
             Entries {
               Key {
-                StringVar: "News1"
+                StringVar: "News3"
               }
               SimpleValue {
-                IntVar: 54858092
+                IntVar: 54858094
               }
             }
             Entries {
@@ -28,18 +28,18 @@ Entries {
             }
             Entries {
               Key {
-                StringVar: "News4"
+                StringVar: "News1"
               }
               SimpleValue {
-                IntVar: 54858067
+                IntVar: 54858092
               }
             }
             Entries {
               Key {
-                StringVar: "News3"
+                StringVar: "News4"
               }
               SimpleValue {
-                IntVar: 54858094
+                IntVar: 54858067
               }
             }
           }
@@ -56,7 +56,15 @@ Entries {
     Table {
       Entries {
         Key {
-          StringVar: "KI1METAA"
+          StringVar: "METAT"
+        }
+        SimpleValue {
+          IntVar: 1679827388
+        }
+      }
+      Entries {
+        Key {
+          StringVar: "RO1METAA"
         }
         SimpleValue {
           IntVar: 0
@@ -72,15 +80,7 @@ Entries {
       }
       Entries {
         Key {
-          StringVar: "METAT"
-        }
-        SimpleValue {
-          IntVar: 1679747598
-        }
-      }
-      Entries {
-        Key {
-          StringVar: "RO1METAA"
+          StringVar: "KI1METAA"
         }
         SimpleValue {
           IntVar: 0

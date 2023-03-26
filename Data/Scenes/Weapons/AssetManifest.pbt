@@ -224,6 +224,19 @@ Assets {
   }
 }
 Assets {
+  Id: 1843204489722853925
+  Name: "test creator storage"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "0a371baa0cc6488ebcd7dc9d7fefb41b"
+      Type {
+        Value: "mc:enetreferencetype:concurrentpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 1775844905432691229
   Name: "Cube - Polished"
   PlatformAssetType: 1

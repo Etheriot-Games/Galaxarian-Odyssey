@@ -59,6 +59,8 @@ function CheckForNftContract(player)
         --for each wallet
         for walletIndex, wallet in ipairs(wallets) do
 
+            print("wallet = ", wallet, wallet.address)
+
             local tokensResult, tokensStatus, tokensErr = Blockchain.GetTokensForOwner(wallet.address, { contractAddress = HEXANE_ADDRESS })--filter all tokens in the wallet based on the hexane collection 
 
             if tokensStatus == BlockchainTokenResultCode.SUCCESS then

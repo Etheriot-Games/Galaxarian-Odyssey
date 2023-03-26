@@ -70875,7 +70875,7 @@ ObjectSettings {
     }
   }
 }
-LastSavedScene: "Main"
+LastSavedScene: "LeaderboardLogger"
 PreviewDetailLevelPerScene {
   key: "Main"
   value: 3
