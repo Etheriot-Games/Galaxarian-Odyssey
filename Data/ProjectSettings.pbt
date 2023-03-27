@@ -24,6 +24,7 @@ LeaderboardConfigs {
     EntryLimit: 10
   }
   Config {
+    HasWeekly: true
     SortType {
       Value: "mc:ecoresdkleaderboardsorting:higherisbetter"
     }
@@ -32,7 +33,7 @@ LeaderboardConfigs {
     }
     Name: "test delete later"
     Id: "4A8DA5F843A6A7B6"
-    EntryLimit: 10
+    EntryLimit: 100
   }
 }
 MainScene: "Main"

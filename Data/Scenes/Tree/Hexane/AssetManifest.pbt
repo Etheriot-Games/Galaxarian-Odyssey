@@ -1,10 +1,10 @@
 Assets {
-  Id: 17289448223043935888
-  Name: "UI Gradient Rectangular 001"
+  Id: 9139998901867806757
+  Name: "Abstract Background 04"
   PlatformAssetType: 9
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
-    AssetId: "UI_Basic_Shape_002"
+    AssetId: "Core_UI_AbstractPack_Background_005"
   }
 }
 Assets {

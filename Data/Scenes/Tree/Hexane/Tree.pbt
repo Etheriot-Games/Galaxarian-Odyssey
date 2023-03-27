@@ -294,10 +294,10 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Control {
-    Width: 487
-    Height: 88
-    UIX: 104.662704
-    UIY: 64.8656616
+    Width: 426
+    Height: 106
+    UIX: 48.7668
+    UIY: 68.0609741
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -392,10 +392,10 @@ Objects {
     }
     Image {
       Brush {
-        Id: 17289448223043935888
+        Id: 9139998901867806757
       }
       Color {
-        A: 1
+        A: 0.572
       }
       TeamSettings {
       }
@@ -564,6 +564,14 @@ Objects {
     Overrides {
       Name: "cs:Hexane_Test"
       String: "BOT_Bot1"
+    }
+    Overrides {
+      Name: "cs:CONCURRENT_SHARED_STORAGE_KEY"
+      NetReference {
+        Type {
+          Value: "mc:enetreferencetype:unknown"
+        }
+      }
     }
   }
   Collidable_v2 {

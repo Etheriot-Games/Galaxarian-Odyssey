@@ -197,6 +197,19 @@ Assets {
   }
 }
 Assets {
+  Id: 5230228911248304668
+  Name: "test concurrent shared player data"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "0174031ee1764ef395db2893f328e8aa"
+      Type {
+        Value: "mc:enetreferencetype:concurrentplayerpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 4947731560831887899
   Name: "Sci-fi Console Screen 02"
   PlatformAssetType: 1

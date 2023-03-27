@@ -8,6 +8,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13164244895658121341
+  Name: "Icon Leaderboard"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Leaderboard"
+  }
+}
+Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1

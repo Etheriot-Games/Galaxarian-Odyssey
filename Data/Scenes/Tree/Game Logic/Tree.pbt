@@ -13820,18 +13820,18 @@ Objects {
           Value: "mc:echatmode:allonly"
         }
         ChatPosition {
-          X: 20
-          Y: -25
+          X: 40
+          Y: 982.363708
         }
         ChatSize {
           X: 450
-          Y: 400
+          Y: 506.239777
         }
         ChatHorizontalAlignment {
           Value: "mc:ecorehorizontalalign:left"
         }
         ChatVerticalAlignment {
-          Value: "mc:ecoreverticalalign:bottom"
+          Value: "mc:ecoreverticalalign:center"
         }
       }
       PhysicsSettings {
@@ -13898,6 +13898,8 @@ Objects {
       PlayerStorageMode {
         Value: "mc:eplayerstoragemode:none"
       }
+      EnableConcurrentPlayerStorage: true
+      EnableConcurrentCreatorStorage: true
       EnableNetworkedEventsQueuing: true
       PCDistanceRelevanceSettings {
         key: "light"

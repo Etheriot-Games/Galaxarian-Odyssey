@@ -78,7 +78,7 @@ Objects {
 }
 Objects {
   Id: 12451837957030901587
-  Name: "LeaderboardLoggerClient"
+  Name: "LeaderboardLoggerServer"
   Transform {
     Location {
     }
@@ -93,10 +93,20 @@ Objects {
   ParentId: 12757894815257083909
   UnregisteredParameters {
     Overrides {
-      Name: "cs:LeaderboardNetReference"
+      Name: "cs:LEADERBOARD_NET_REFERENCE"
       NetReference {
+        Key: "4A8DA5F843A6A7B6"
         Type {
-          Value: "mc:enetreferencetype:unknown"
+          Value: "mc:enetreferencetype:leaderboard"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:CONCURRENT_SHARED_STORAGE_KEY"
+      NetReference {
+        Key: "0174031ee1764ef395db2893f328e8aa"
+        Type {
+          Value: "mc:enetreferencetype:concurrentplayerpersistence"
         }
       }
     }

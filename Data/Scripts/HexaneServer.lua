@@ -1,5 +1,7 @@
 --local TEST_ADDRESS = "0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7"
-local HEXANE_ADDRESS = "0x910036d505fd9fb3c4ce019ece3f75300768dc8c"
+local PATHFINDER_ADDRESS = "0x910036d505fd9fb3c4ce019ece3f75300768dc8c"
+
+local CONCURRENT_SHARED_STORAGE_KEY = script:GetCustomProperty("CONCURRENT_SHARED_STORAGE_KEY")
 
 
 --make a table with all privileged player ids
@@ -29,8 +31,7 @@ end
 Game.playerJoinedEvent:Connect(OnPlayerJoined)
 
 
---if team is 1 then player has the NFT, if team is 2 then player DOESN'T have NFT
---this is in addition to 'hasHexane' boolean which is saved in serverUserData and clientUserData(through SetPrivateNetworkedData)
+-- 'hasHexane' boolean is saved in serverUserData and clientUserData(through SetPrivateNetworkedData)
 function CheckForNftContract(player)
     
     local hasHexane = false
@@ -55,13 +56,13 @@ function CheckForNftContract(player)
     if walletsStatus == BlockchainTokenResultCode.SUCCESS then
 
         local wallets = walletsResult:GetResults()
-
+ 
         --for each wallet
         for walletIndex, wallet in ipairs(wallets) do
 
             print("wallet = ", wallet, wallet.address)
 
-            local tokensResult, tokensStatus, tokensErr = Blockchain.GetTokensForOwner(wallet.address, { contractAddress = HEXANE_ADDRESS })--filter all tokens in the wallet based on the hexane collection 
+            local tokensResult, tokensStatus, tokensErr = Blockchain.GetTokensForOwner(wallet.address, { contractAddress = PATHFINDER_ADDRESS })--filter all tokens in the wallet based on the hexane collection 
 
             if tokensStatus == BlockchainTokenResultCode.SUCCESS then
 
@@ -78,9 +79,16 @@ function CheckForNftContract(player)
                     --we have found at least one nft from that collection, so we return true
                     hasHexane = true
                     print("SERVER : ", player.name.." owns atleast one Hexane NFT.")
+
+                    --here we save their prefered wallet address to Concurrent Player Storage
+                    StorePreferredWalletAddress(player)
+                    
+                    --set this for internal server side use
                     player.serverUserData.hasHexane = true
+
+                    --setting this so clients know
                     player:SetPrivateNetworkedData("HasHexane", hasHexane)
-                    --player.team = 1--set player team to 1 for hasHexane=true
+
                     return hasHexane
 
                 end
@@ -115,3 +123,38 @@ function GetContractInfo(contractAdress)
     print("description: " .. contract.description)
 
 end
+
+function FindPlayerPreferredWallet(player)
+
+     --grab all player wallets
+    local walletsResult, walletsStatus, walletsErr = Blockchain.GetWalletsForPlayer(player)
+
+    if walletsStatus == BlockchainTokenResultCode.SUCCESS then
+    
+        local wallets = walletsResult:GetResults()
+
+        --for each wallet
+        for walletIndex, wallet in ipairs(wallets) do
+            if wallet.isPreferred then--we have found the preferred wallet
+                return wallet
+            end
+        end
+
+    end
+end
+
+
+
+function StorePreferredWalletAddress(player)
+
+    --find preferred wallet
+    local playerPreferredWallet = FindPlayerPreferredWallet(player) 
+
+    --save preferred wallet address to concurrent shared player storage
+    Storage.SetConcurrentSharedPlayerData(CONCURRENT_SHARED_STORAGE_KEY, player.id, function(data)
+        data.preferredWalletAddress = playerPreferredWallet.address
+        return data
+    end)
+
+end
+

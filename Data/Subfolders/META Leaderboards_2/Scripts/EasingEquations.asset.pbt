@@ -1,6 +1,6 @@
 Assets {
-  Id: 3713610116696036947
-  Name: "LeaderboardLoggerClient"
+  Id: 6393258269144554392
+  Name: "EasingEquations"
   PlatformAssetType: 3
   TextAsset {
     CustomParameters {
