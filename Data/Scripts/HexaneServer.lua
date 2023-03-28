@@ -69,7 +69,7 @@ function CheckForNftContract(player)
                 --grab tokens from the wallet if success
                 local tokens = tokensResult:GetResults()
 
-                --check if there is atleast one token, if yes then it is a hexane token.
+                --check if there is atleast one token, if yes then it is a pathfinder token.
                 if #tokens > 0 then
 
                     for tokenIndex, token in ipairs(tokens) do

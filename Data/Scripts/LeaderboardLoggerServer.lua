@@ -1,14 +1,31 @@
 local LEADERBOARD_NET_REFERENCE = script:GetCustomProperty("LEADERBOARD_NET_REFERENCE")
 local CONCURRENT_SHARED_STORAGE_KEY = script:GetCustomProperty("CONCURRENT_SHARED_STORAGE_KEY")
 
+function OnPlayerJoined(player)
+
+    player.bindingPressedEvent:Connect(OnBindingPressed)
+
+end
+Game.playerJoinedEvent:Connect(OnPlayerJoined)
+
+
+function OnBindingPressed(player, binding)
+
+    if binding == "ability_extra_61" and player.id == "570192cb04404f9dbaffa284c9c04bc4" then
+
+        print(player.name.. " has requested leaderboard info")
+        PrintAllLeaderboardEntries()
+
+    end
+
+end
+
 
 function PrintAllLeaderboardEntries()
 
-    
-
     local leaderboardEntries = Leaderboards.GetLeaderboard(LEADERBOARD_NET_REFERENCE, LeaderboardType.WEEKLY)
 
-    print("---- BEGIN PRINTING ".. #leaderboardEntries.." ENTRIES ----")
+    print("---- BEGIN PRINTING ".. #leaderboardEntries.." LEADERBOARD ENTRIES ----")
 
     for index, entry in ipairs(leaderboardEntries) do
 
@@ -25,9 +42,11 @@ function PrintAllLeaderboardEntries()
 
 end
 
+
+
 --init
 while not Leaderboards.HasLeaderboards() do
     Task.Wait()
 end
 
-PrintAllLeaderboardEntries()
+--PrintAllLeaderboardEntries()
