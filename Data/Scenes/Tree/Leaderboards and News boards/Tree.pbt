@@ -1886,17 +1886,17 @@ Objects {
   Name: "Sci-fi Wall Screen 01"
   Transform {
     Location {
-      X: -4.2793808
-      Y: -26.6345882
-      Z: -66.1232
+      X: 18.2154388
+      Y: -6.4581089
+      Z: -66.6816406
     }
     Rotation {
-      Yaw: 85.8581924
+      Yaw: 86.4799728
     }
     Scale {
       X: 1
       Y: 1
-      Z: 1
+      Z: 1.21864295
     }
   }
   ParentId: 7100633097964373756
@@ -1904,9 +1904,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_Detail3:color"
       Color {
-        R: 1
-        G: 0.922516584
-        B: 0.100000024
+        R: 0.3125
+        G: 0.288286448
+        B: 0.0312500075
         A: 1
       }
     }
@@ -1915,7 +1915,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2228,8 +2228,8 @@ Objects {
       Id: 3966653476414909624
     }
     Color {
-      R: 0.62
-      G: 0.529668927
+      R: 1
+      G: 0.970675051
       A: 1
     }
     HorizontalSize: 1
@@ -2419,7 +2419,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 3098633967912998414
+        Id: 15625753328565050873
       }
     }
     Overrides {
@@ -2813,17 +2813,17 @@ Objects {
   Name: "Sci-fi Wall Screen 01"
   Transform {
     Location {
-      X: -4.2793808
-      Y: -26.6345882
-      Z: -66.1232
+      X: 18.2154388
+      Y: -6.4581089
+      Z: -66.6816406
     }
     Rotation {
-      Yaw: 85.8581924
+      Yaw: 86.4799728
     }
     Scale {
       X: 1
       Y: 1
-      Z: 1
+      Z: 1.21864295
     }
   }
   ParentId: 4619341905485761303
@@ -2831,9 +2831,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_Detail3:color"
       Color {
-        R: 1
-        G: 0.922516584
-        B: 0.100000024
+        R: 0.3125
+        G: 0.288286448
+        B: 0.0312500075
         A: 1
       }
     }
@@ -2842,7 +2842,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3155,8 +3155,8 @@ Objects {
       Id: 3966653476414909624
     }
     Color {
-      R: 0.62
-      G: 0.529668927
+      R: 1
+      G: 0.970675051
       A: 1
     }
     HorizontalSize: 1
@@ -3346,7 +3346,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 3098633967912998414
+        Id: 15625753328565050873
       }
     }
     Overrides {
@@ -3740,17 +3740,17 @@ Objects {
   Name: "Sci-fi Wall Screen 01"
   Transform {
     Location {
-      X: -4.2793808
-      Y: -26.6345882
-      Z: -66.1232
+      X: 18.2154388
+      Y: -6.4581089
+      Z: -66.6816406
     }
     Rotation {
-      Yaw: 85.8581924
+      Yaw: 86.4799728
     }
     Scale {
       X: 1
       Y: 1
-      Z: 1
+      Z: 1.21864295
     }
   }
   ParentId: 17332612684131943748
@@ -3758,9 +3758,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_Detail3:color"
       Color {
-        R: 1
-        G: 0.922516584
-        B: 0.100000024
+        R: 0.3125
+        G: 0.288286448
+        B: 0.0312500075
         A: 1
       }
     }
@@ -3769,7 +3769,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4082,8 +4082,8 @@ Objects {
       Id: 3966653476414909624
     }
     Color {
-      R: 0.62
-      G: 0.529668927
+      R: 1
+      G: 0.970675051
       A: 1
     }
     HorizontalSize: 1
@@ -4273,7 +4273,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 3098633967912998414
+        Id: 15625753328565050873
       }
     }
     Overrides {
@@ -4446,12 +4446,12 @@ Objects {
   Name: "World Leaderboard MOST KILLS WEEKLY"
   Transform {
     Location {
-      X: 43.1759644
-      Y: -1394.61938
+      X: 92.183548
+      Y: -1372.85449
       Z: 860.277344
     }
     Rotation {
-      Yaw: -97.3962326
+      Yaw: -97.3962402
     }
     Scale {
       X: 1
@@ -4673,17 +4673,17 @@ Objects {
   Name: "Sci-fi Wall Screen 01"
   Transform {
     Location {
-      X: -4.2793808
-      Y: -26.6345882
-      Z: -66.1232
+      X: 18.2154388
+      Y: -6.4581089
+      Z: -66.6816406
     }
     Rotation {
-      Yaw: 85.8581924
+      Yaw: 86.4799728
     }
     Scale {
       X: 1
       Y: 1
-      Z: 1
+      Z: 1.21864295
     }
   }
   ParentId: 18121913969421977666
@@ -4691,9 +4691,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_Detail3:color"
       Color {
-        R: 1
-        G: 0.922516584
-        B: 0.100000024
+        R: 0.291666657
+        G: 0.269067347
+        B: 0.0291666724
         A: 1
       }
     }
@@ -4702,7 +4702,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -5045,8 +5045,8 @@ Objects {
       Id: 3966653476414909624
     }
     Color {
-      R: 0.62
-      G: 0.529668927
+      R: 1
+      G: 0.970675051
       A: 1
     }
     HorizontalSize: 1
@@ -5254,7 +5254,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 3098633967912998414
+        Id: 15625753328565050873
       }
     }
     Overrides {

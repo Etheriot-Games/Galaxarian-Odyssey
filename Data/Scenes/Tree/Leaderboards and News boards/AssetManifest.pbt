@@ -1,4 +1,13 @@
 Assets {
+  Id: 15625753328565050873
+  Name: "Plastic Inflatable 02 (Flat)"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_racing_inflatable_002_uv_ref"
+  }
+}
+Assets {
   Id: 13948944933562880915
   Name: "Wood Planks"
   PlatformAssetType: 2
@@ -32,15 +41,6 @@ Assets {
   PrimaryAsset {
     AssetType: "FontAssetRef"
     AssetId: "OrbitronBold_ref"
-  }
-}
-Assets {
-  Id: 3098633967912998414
-  Name: "Rubber Pattern 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_scf_rubber_panels_003_uv"
   }
 }
 Assets {
