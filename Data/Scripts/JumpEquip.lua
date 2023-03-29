@@ -16,7 +16,7 @@ Events.Connect("PlayerSkydiveEnd",function(player)
 
     if not Object.IsValid(player) then return end 
         local weap  = Weapons[math.random(#Weapons)]
-        weap = sword2H--@@@@@@@@@@@@@@@@@
+        weap = sword2H--@@@@@@@@ czinczar @@@@@@@@@
         local weapSpawn = World.SpawnAsset(weap)
         weapSpawn.serverUserData.dropTemplate = weapSpawn:GetCustomProperty("Drop")
         ABI.AddMeleeWeapon(player, weapSpawn)

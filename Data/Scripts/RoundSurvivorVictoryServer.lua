@@ -86,8 +86,13 @@ function Tick(deltaTime)
                 Events.Broadcast('PlayerVictory', winner)
                 Reward_API.RewardCash(winner, 1000, "Victory")
 
-                --@@@@@@@@@@@@@@@@@@@@@@@@@@ for leaderboards
-                winner:AddResource("Wins",1)    --@@@@@@@@@@@@@@@@@@@@@@@@@@ for leaderboards
+                --@@@@@@@@@@@ czinczar @@@@@@@@@@@@@@@ for leaderboards
+                --this is for "most wins" leaderboard
+                winner:AddResource("Wins",1)
+
+                --this is for "top earners score" leaderboard, for now 1 kill = 1 point and 1 win = 3 points
+                winner:AddResource("Score", 3)
+                --@@@@@@@@@@@@@@
                 
             else
                 Events.Broadcast('TieVictory')

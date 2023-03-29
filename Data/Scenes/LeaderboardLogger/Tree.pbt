@@ -95,9 +95,8 @@ Objects {
     Overrides {
       Name: "cs:LEADERBOARD_NET_REFERENCE"
       NetReference {
-        Key: "4A8DA5F843A6A7B6"
         Type {
-          Value: "mc:enetreferencetype:leaderboard"
+          Value: "mc:enetreferencetype:unknown"
         }
       }
     }

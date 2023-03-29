@@ -44,6 +44,19 @@ Assets {
   }
 }
 Assets {
+  Id: 8162053812030300163
+  Name: "GO_CONCURRENT_SHARED_PLAYER_STORAGE_KEY"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "138dd0b9f87c403d8c6004d7fcb41a0e"
+      Type {
+        Value: "mc:enetreferencetype:concurrentplayerpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 8085302941465423398
   Name: "Nature - Mushroom Stem 01"
   PlatformAssetType: 1
@@ -59,31 +72,5 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_nat_fun_mushroom_stem_006_ref"
-  }
-}
-Assets {
-  Id: 5230228911248304668
-  Name: "test concurrent shared player data"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "0174031ee1764ef395db2893f328e8aa"
-      Type {
-        Value: "mc:enetreferencetype:concurrentplayerpersistence"
-      }
-    }
-  }
-}
-Assets {
-  Id: 1843204489722853925
-  Name: "test creator storage"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "0a371baa0cc6488ebcd7dc9d7fefb41b"
-      Type {
-        Value: "mc:enetreferencetype:concurrentpersistence"
-      }
-    }
   }
 }

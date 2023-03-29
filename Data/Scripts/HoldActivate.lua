@@ -5,7 +5,7 @@ local ActivationTime = script:GetCustomProperty("ActivationTime")
 
 --@@@@@@@@@@ this is static context script
 function HookPlayer(trigger,other)
-    --[[@@@@@@@@@@@@@@@@@@@@@
+    --[[@@@@@@@@@@ czinczar @@@@@@@@@@@
     if other:IsA("Player") then
         local NFTStatus = other:GetPrivateNetworkedData("HasHexane")
         if NFTStatus == true then

@@ -568,10 +568,15 @@ Objects {
     Overrides {
       Name: "cs:CONCURRENT_SHARED_STORAGE_KEY"
       NetReference {
+        Key: "138dd0b9f87c403d8c6004d7fcb41a0e"
         Type {
-          Value: "mc:enetreferencetype:unknown"
+          Value: "mc:enetreferencetype:concurrentplayerpersistence"
         }
       }
+    }
+    Overrides {
+      Name: "cs:CONCURRENT_SHARED_STORAGE_KEY:tooltip"
+      String: "needed in order to save player wallets when they connect"
     }
   }
   Collidable_v2 {

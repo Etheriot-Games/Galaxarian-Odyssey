@@ -6,13 +6,11 @@ Tags: "Multiplayer"
 Tags: "Scifi"
 Tags: "BattleRoyale"
 Tags: "Action"
-Tags: "Cooperative"
-ScreenshotPaths: "C:\\Users\\Ar. Ayush Mishra\\Downloads\\Galaxarian Odyssey.jpg"
+ScreenshotPaths: "C:\\Users\\Dafalgan\\Downloads\\6037dfaa68e147df8ae7db7392e7f0a5_0_5YuRBSNPSpStDq6fe97Dvq_DF72DFF76CE0C7343153F87426AC5B6D0C3C5642.jpg"
 OwnerId: "570192cb04404f9dbaffa284c9c04bc4"
 SerializationVersion: 4
+PublishedState: Public
 CubemapPath: "C:/Users/Ar. Ayush Mishra/Documents/My Games/Core/Saved/Maps/Galaxarian Odyssey/Screenshots/Cubemaps/Cubemap0001.png"
-IsQueued: true
-MinPlayersToStart: 2
 SceneNameToSceneIdMap {
   key: "Main"
   value: "0781c8154a504544fcd200858aba49ab"

@@ -161,6 +161,19 @@ Assets {
   }
 }
 Assets {
+  Id: 8162053812030300163
+  Name: "GO_CONCURRENT_SHARED_PLAYER_STORAGE_KEY"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "138dd0b9f87c403d8c6004d7fcb41a0e"
+      Type {
+        Value: "mc:enetreferencetype:concurrentplayerpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 7887238662729938253
   Name: "Sky Dome"
   PlatformAssetType: 6
@@ -197,19 +210,6 @@ Assets {
   }
 }
 Assets {
-  Id: 5230228911248304668
-  Name: "test concurrent shared player data"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "0174031ee1764ef395db2893f328e8aa"
-      Type {
-        Value: "mc:enetreferencetype:concurrentplayerpersistence"
-      }
-    }
-  }
-}
-Assets {
   Id: 4947731560831887899
   Name: "Sci-fi Console Screen 02"
   PlatformAssetType: 1
@@ -234,19 +234,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_scf_base_acc_cap_top_002_ref"
-  }
-}
-Assets {
-  Id: 1843204489722853925
-  Name: "test creator storage"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "0a371baa0cc6488ebcd7dc9d7fefb41b"
-      Type {
-        Value: "mc:enetreferencetype:concurrentpersistence"
-      }
-    }
   }
 }
 Assets {

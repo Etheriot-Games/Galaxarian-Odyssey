@@ -91,7 +91,7 @@ Objects {
     Overrides {
       Name: "cs:LEADERBOARD_NET_REFERENCE"
       NetReference {
-        Key: "4A8DA5F843A6A7B6"
+        Key: "6425A14408C425DA"
         Type {
           Value: "mc:enetreferencetype:leaderboard"
         }
@@ -100,11 +100,19 @@ Objects {
     Overrides {
       Name: "cs:CONCURRENT_SHARED_STORAGE_KEY"
       NetReference {
-        Key: "0174031ee1764ef395db2893f328e8aa"
+        Key: "138dd0b9f87c403d8c6004d7fcb41a0e"
         Type {
           Value: "mc:enetreferencetype:concurrentplayerpersistence"
         }
       }
+    }
+    Overrides {
+      Name: "cs:CONCURRENT_SHARED_STORAGE_KEY:tooltip"
+      String: "needed in order to retrieve player wallets"
+    }
+    Overrides {
+      Name: "cs:LEADERBOARD_NET_REFERENCE:tooltip"
+      String: "needed to know player score and contains player id needed to retrieve wallet"
     }
   }
   Collidable_v2 {

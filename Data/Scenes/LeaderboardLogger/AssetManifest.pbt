@@ -26,21 +26,12 @@ Assets {
   }
 }
 Assets {
-  Id: 7887238662729938253
-  Name: "Sky Dome"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Sky"
-  }
-}
-Assets {
-  Id: 5230228911248304668
-  Name: "test concurrent shared player data"
+  Id: 8162053812030300163
+  Name: "GO_CONCURRENT_SHARED_PLAYER_STORAGE_KEY"
   PlatformAssetType: 23
   NetReferenceAsset {
     NetReference {
-      Key: "0174031ee1764ef395db2893f328e8aa"
+      Key: "138dd0b9f87c403d8c6004d7fcb41a0e"
       Type {
         Value: "mc:enetreferencetype:concurrentplayerpersistence"
       }
@@ -48,15 +39,11 @@ Assets {
   }
 }
 Assets {
-  Id: 1843204489722853925
-  Name: "test creator storage"
-  PlatformAssetType: 23
-  NetReferenceAsset {
-    NetReference {
-      Key: "0a371baa0cc6488ebcd7dc9d7fefb41b"
-      Type {
-        Value: "mc:enetreferencetype:concurrentpersistence"
-      }
-    }
+  Id: 7887238662729938253
+  Name: "Sky Dome"
+  PlatformAssetType: 6
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "CORESKY_Sky"
   }
 }

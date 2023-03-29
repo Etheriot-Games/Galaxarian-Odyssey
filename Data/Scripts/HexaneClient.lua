@@ -4,6 +4,8 @@ local HEXANE_UI_CONTAINER = script:GetCustomProperty("Hexane UI Container"):Wait
 
 local LOCAL_PLAYER = Game.GetLocalPlayer()
 
+--czinczar
+
 function SetClientHexaneStatus()
     
     local hexaneStatus = LOCAL_PLAYER:GetPrivateNetworkedData("HasHexane")

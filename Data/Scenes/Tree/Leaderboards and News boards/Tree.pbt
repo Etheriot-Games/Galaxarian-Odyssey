@@ -207,7 +207,7 @@ Objects {
     Overrides {
       Name: "cs:LeaderboardReference"
       NetReference {
-        Key: "4A8DA5F843A6A7B6"
+        Key: "6425A14408C425DA"
         Type {
           Value: "mc:enetreferencetype:leaderboard"
         }
@@ -793,7 +793,7 @@ Objects {
     }
     UseParentWidth: true
     Text {
-      Label: "Top Earners"
+      Label: "Top Scores"
       Color {
         R: 1
         G: 1
@@ -1117,6 +1117,7 @@ Objects {
   ParentId: 9649766825808047774
   ChildIds: 15745613336083805152
   ChildIds: 5777561834763142217
+  ChildIds: 9155103769674104311
   ChildIds: 17149995594553366147
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1128,7 +1129,8 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
-    Height: 140
+    Width: -2
+    Height: 158
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1192,7 +1194,7 @@ Objects {
   Control {
     Width: -60
     Height: 40
-    UIY: -15
+    UIY: -5.18783569
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -1234,6 +1236,76 @@ Objects {
     SubobjectId: 18146263984457815365
     InstanceId: 11154435263882951891
     TemplateId: 2669863240528913373
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
+  Id: 9155103769674104311
+  Name: "explanation"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: 3.4150944e-06
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15224135201155247145
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Control {
+    Width: -60
+    Height: 40
+    UIY: -34.6245117
+    RenderTransformPivot {
+      Anchor {
+        Value: "mc:euianchor:middlecenter"
+      }
+    }
+    AddSizeToParentIfUsingParentSize: true
+    UseParentWidth: true
+    Text {
+      Label: "SCORE IS A MIX OF DIFFERENT FACTORS"
+      Color {
+        R: 0.300543845
+        G: 0.300543845
+        B: 0.300543845
+        A: 1
+      }
+      Size: 20
+      Justification {
+        Value: "mc:etextjustify:center"
+      }
+      ClipTextToSize: true
+      Font {
+      }
+    }
+    AnchorLayout {
+      SelfAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
+        }
+      }
+      TargetAnchor {
+        Anchor {
+          Value: "mc:euianchor:bottomcenter"
+        }
+      }
+    }
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
@@ -1339,6 +1411,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Control {
+    Height: 65
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"

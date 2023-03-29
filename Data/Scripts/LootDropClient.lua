@@ -29,7 +29,7 @@ function OnInteracted(trigger, player)
         return
     end
     
-    --[[@@@@@@@@@@@@@@@@@@@@@@@@
+    --[[@@@@@@@@@@@ czinczar @@@@@@@@@@@@@
     if Object.IsValid(player) then
         if not player.clientUserData.hasHexane then
             return

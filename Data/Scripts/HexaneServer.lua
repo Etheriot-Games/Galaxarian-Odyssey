@@ -3,6 +3,7 @@ local PATHFINDER_ADDRESS = "0x910036d505fd9fb3c4ce019ece3f75300768dc8c"
 
 local CONCURRENT_SHARED_STORAGE_KEY = script:GetCustomProperty("CONCURRENT_SHARED_STORAGE_KEY")
 
+-- czinczar
 
 --make a table with all privileged player ids
 local allHexanePlayerIds = {}

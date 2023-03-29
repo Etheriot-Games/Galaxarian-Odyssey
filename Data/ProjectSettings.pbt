@@ -31,8 +31,8 @@ LeaderboardConfigs {
     FormatType {
       Value: "mc:ecoresdkleaderboardformat:numeric"
     }
-    Name: "test delete later"
-    Id: "4A8DA5F843A6A7B6"
+    Name: "BEST_EARNERS_SCORE_LEADERBOARD"
+    Id: "6425A14408C425DA"
     EntryLimit: 100
   }
 }
