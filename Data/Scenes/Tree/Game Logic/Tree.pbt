@@ -21765,6 +21765,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Camera {
+    UseAsDefault: true
     AttachToLocalPlayer: true
     InitialDistance: 400
     MinDistance: 300

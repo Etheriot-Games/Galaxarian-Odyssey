@@ -266,7 +266,7 @@ Objects {
   }
   BindingSet {
     BindingSetAsset {
-      Id: 736360303936294653
+      Id: 841534158063459245
     }
   }
   NetworkRelevanceDistance {

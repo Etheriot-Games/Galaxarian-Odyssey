@@ -291,7 +291,7 @@ function LoadOwnedCosmeticsAndMoney(player)
 
 	if data.COSMETICS then
 		for k,v in pairs(data.COSMETICS) do
-			print(tostring(k) .. " : " .. tostring(v))
+			--print(tostring(k) .. " : " .. tostring(v))
 		end
 		if data.COSMETICS.owned then
 			if propAutosavePurchases then

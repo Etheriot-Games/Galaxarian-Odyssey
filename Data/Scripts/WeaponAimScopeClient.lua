@@ -51,6 +51,7 @@ local activeCamera = nil
 local scopeInstance = nil
 local isScoping = false
 
+print("load ok@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@")
 function Tick(deltaTime)
     if not CAN_AIM then return end
     if not Object.IsValid(WEAPON) then return end
@@ -58,7 +59,6 @@ function Tick(deltaTime)
     -- We call OnEquipped function after player is fully loaded in client
     if Object.IsValid(WEAPON.owner) and not connected then
         if GetPlayerActiveCamera(WEAPON.owner) == nil then return end
-
         OnEquipped(WEAPON, WEAPON.owner)
         connected = true
     end
@@ -87,7 +87,6 @@ end
     if not Object.IsValid(player) then
         return nil
     end
-
     if player:GetOverrideCamera() then
         return player:GetOverrideCamera()
     else
@@ -159,12 +158,14 @@ end
 
 function OnBindingPressed(player, actionName)
     if actionName == AIM_BINDING then
+        print("client aim binding")
         EnableScoping(player)
     end
 end
 
 function OnBindingReleased(player, actionName)
     if actionName == AIM_BINDING then
+    	print("client aim binding")
         ResetScoping(player)
 	end
 end

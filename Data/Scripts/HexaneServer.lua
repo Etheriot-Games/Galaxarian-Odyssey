@@ -10,14 +10,14 @@ local allHexanePlayerIds = {}
 for name, value in pairs(script:GetCustomProperties()) do
     if string.find(name, "Hexane_") then
         table.insert(allHexanePlayerIds, value)
-        print(name, value)
+        --print(name, value)
     end
 end
 
 
 
 function OnPlayerJoined(player)
-	print("SERVER : "..player.name.." joined the game, checking for Hexane NFT.", player.id)
+	--print("SERVER : "..player.name.." joined the game, checking for Hexane NFT.", player.id)
     ---[[
 
     --setting players hitPoints
@@ -40,7 +40,7 @@ function CheckForNftContract(player)
     --check if player is a privileged player, if yes return hasHexane=true
     for _, id in ipairs(allHexanePlayerIds) do
         if id == player.id then
-            print("SERVER: "..player.name.." is a privileged player.")
+            --print("SERVER: "..player.name.." is a privileged player.")
             hasHexane = true
             player.serverUserData.hasHexane = true
             player:SetPrivateNetworkedData("HasHexane", hasHexane)

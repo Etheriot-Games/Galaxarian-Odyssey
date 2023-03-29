@@ -78,15 +78,7 @@ Entries {
           StringVar: "METAT"
         }
         SimpleValue {
-          IntVar: 1680029411
-        }
-      }
-      Entries {
-        Key {
-          StringVar: "KI1METAA"
-        }
-        SimpleValue {
-          IntVar: 0
+          IntVar: 1680175496
         }
       }
       Entries {
@@ -95,6 +87,14 @@ Entries {
         }
         SimpleValue {
           IntVar: 50
+        }
+      }
+      Entries {
+        Key {
+          StringVar: "KI1METAA"
+        }
+        SimpleValue {
+          IntVar: 0
         }
       }
       Entries {

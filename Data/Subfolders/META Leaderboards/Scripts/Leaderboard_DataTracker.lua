@@ -131,7 +131,7 @@ local function OnPlayerDied(player, damage)
 			
 			--@@@@@@@ czinczar  @@@@@@@
 			--this is for top earners score leaderboard, for now 1 kill = 1 point and 1 win = 3 points
-			killer:AddResource("Score", 1)
+			killer:SetResource("Score", killer:GetResource("Score") + 1)
 			--@@@@@@@@@@@@@@
 
 			AddToPlayerData(killer, "kills", 1)
