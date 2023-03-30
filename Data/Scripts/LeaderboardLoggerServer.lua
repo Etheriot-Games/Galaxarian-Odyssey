@@ -32,7 +32,9 @@ function PrintAllLeaderboardEntries()
     local leaderboardEntries = Leaderboards.GetLeaderboard(LEADERBOARD_NET_REFERENCE, LeaderboardType.WEEKLY)
 
     print("---- BEGIN PRINTING ".. #leaderboardEntries.." LEADERBOARD ENTRIES ----")
-    local creatorStorageTable = {}
+
+    local creatorStorageTable = {}--will be stored in creator storage in order to be dumped to server logs from any other game
+
     for index, entry in ipairs(leaderboardEntries) do
 
         --retrieve the preferred wallet address of the player using the player id saved in the leaderboard entry
@@ -42,7 +44,7 @@ function PrintAllLeaderboardEntries()
         --print everything related to that leaderboard entry, this can be read in server logs
         print("Number: "..index.." |Player Name: "..entry.name.." |Player ID: "..entry.id.." |Score: "..tostring(entry.score).." |Player Preferred Wallet Address: "..walletAddress)
 
-        --fill the "data" table then store that table in creator storage becasue server logs are unreliable
+        --fill the creatorStorageTable table then store that table in creator storage becasue server logs are unreliable
         local newEntry = {}
         if walletAddress ~= "none" then--create an entry only if a preferred wallet has been saved for taht player
             newEntry.spot = index

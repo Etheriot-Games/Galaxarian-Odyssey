@@ -6,6 +6,15 @@ Entries {
     Table {
       Entries {
         Key {
+          StringVar: "owned"
+        }
+        SimpleValue {
+          Table {
+          }
+        }
+      }
+      Entries {
+        Key {
           StringVar: "currency"
         }
         SimpleValue {
@@ -18,15 +27,6 @@ Entries {
                 IntVar: 0
               }
             }
-          }
-        }
-      }
-      Entries {
-        Key {
-          StringVar: "owned"
-        }
-        SimpleValue {
-          Table {
           }
         }
       }
@@ -59,23 +59,15 @@ Entries {
     Table {
       Entries {
         Key {
-          StringVar: "RO1METAA"
-        }
-        SimpleValue {
-          IntVar: 0
-        }
-      }
-      Entries {
-        Key {
-          StringVar: "KI1METAA"
-        }
-        SimpleValue {
-          IntVar: 0
-        }
-      }
-      Entries {
-        Key {
           StringVar: "DA1METAA"
+        }
+        SimpleValue {
+          IntVar: 0
+        }
+      }
+      Entries {
+        Key {
+          StringVar: "RO1METAA"
         }
         SimpleValue {
           IntVar: 0
@@ -87,6 +79,14 @@ Entries {
         }
         SimpleValue {
           IntVar: 1680175175
+        }
+      }
+      Entries {
+        Key {
+          StringVar: "KI1METAA"
+        }
+        SimpleValue {
+          IntVar: 0
         }
       }
     }

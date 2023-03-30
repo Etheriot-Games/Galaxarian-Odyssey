@@ -88,7 +88,7 @@ local function OnUpdate(leaderboardPersistence, leaderboardStat, player, score, 
 		if(#RESOURCE_NAME <= 0) then return end
 		if(resourceName ~= RESOURCE_NAME) then return end
 
-		--@@@@@@@@@@@ czinczar @@@@@@@@@@@@@@
+		--@@@@@@@@@@@ czinczar @@@@@@@@@@@@@@ to prevent player who don't own a NFT to enter the leaderboard
 		if not player:GetPrivateNetworkedData("HasHexane") == true then return end
 		--@@@@@@@@@@@@@@@@@@@@@@@@@
 
