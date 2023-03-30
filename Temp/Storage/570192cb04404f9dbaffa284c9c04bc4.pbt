@@ -1,5 +1,40 @@
 Entries {
   Key {
+    StringVar: "COSMETICS"
+  }
+  SimpleValue {
+    Table {
+      Entries {
+        Key {
+          StringVar: "currency"
+        }
+        SimpleValue {
+          Table {
+            Entries {
+              Key {
+                StringVar: "Cash"
+              }
+              SimpleValue {
+                IntVar: 0
+              }
+            }
+          }
+        }
+      }
+      Entries {
+        Key {
+          StringVar: "owned"
+        }
+        SimpleValue {
+          Table {
+          }
+        }
+      }
+    }
+  }
+}
+Entries {
+  Key {
     StringVar: "newsData"
   }
   SimpleValue {
@@ -32,10 +67,10 @@ Entries {
       }
       Entries {
         Key {
-          StringVar: "METAT"
+          StringVar: "KI1METAA"
         }
         SimpleValue {
-          IntVar: 1680175175
+          IntVar: 0
         }
       }
       Entries {
@@ -48,45 +83,10 @@ Entries {
       }
       Entries {
         Key {
-          StringVar: "KI1METAA"
+          StringVar: "METAT"
         }
         SimpleValue {
-          IntVar: 0
-        }
-      }
-    }
-  }
-}
-Entries {
-  Key {
-    StringVar: "COSMETICS"
-  }
-  SimpleValue {
-    Table {
-      Entries {
-        Key {
-          StringVar: "currency"
-        }
-        SimpleValue {
-          Table {
-            Entries {
-              Key {
-                StringVar: "Cash"
-              }
-              SimpleValue {
-                IntVar: 0
-              }
-            }
-          }
-        }
-      }
-      Entries {
-        Key {
-          StringVar: "owned"
-        }
-        SimpleValue {
-          Table {
-          }
+          IntVar: 1680175175
         }
       }
     }

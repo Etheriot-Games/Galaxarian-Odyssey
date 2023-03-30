@@ -107,6 +107,15 @@ Objects {
       }
     }
     Overrides {
+      Name: "cs:CONCURRENT_CREATOR_STORAGE_KEY"
+      NetReference {
+        Key: "a3b5b81ab392456196a6df26d8f12560"
+        Type {
+          Value: "mc:enetreferencetype:concurrentpersistence"
+        }
+      }
+    }
+    Overrides {
       Name: "cs:CONCURRENT_SHARED_STORAGE_KEY:tooltip"
       String: "needed in order to retrieve player wallets"
     }

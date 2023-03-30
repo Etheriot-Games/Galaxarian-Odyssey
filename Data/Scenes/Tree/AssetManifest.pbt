@@ -8,6 +8,19 @@ Assets {
   }
 }
 Assets {
+  Id: 16065839267348512312
+  Name: "Etheriot_Creator_Storage"
+  PlatformAssetType: 23
+  NetReferenceAsset {
+    NetReference {
+      Key: "a3b5b81ab392456196a6df26d8f12560"
+      Type {
+        Value: "mc:enetreferencetype:concurrentpersistence"
+      }
+    }
+  }
+}
+Assets {
   Id: 14557901659651774204
   Name: "Nature - Mushroom Stem 05"
   PlatformAssetType: 1

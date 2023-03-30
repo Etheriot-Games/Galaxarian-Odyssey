@@ -11,7 +11,7 @@ function SetClientHexaneStatus()
     local hexaneStatus = LOCAL_PLAYER:GetPrivateNetworkedData("HasHexane")
 
     if hexaneStatus == true then
-        print("CLIENT :  You have Hexane Access.")
+        --print("CLIENT :  You have Hexane Access.")
         HEXANE_UI_TEXT_BOX.text = "Thanks for owning a Pathfinder NFT! Enjoy the game to its fullest!"
         HEXANE_UI_TEXT_BOX.shouldWrapText = false
         HEXANE_UI_TEXT_BOX.shouldWrapText = true
@@ -24,7 +24,7 @@ function SetClientHexaneStatus()
 
     elseif hexaneStatus == false then
 
-        print("CLIENT :  You don't have Hexane Access.")
+        --print("CLIENT :  You don't have Hexane Access.")
         HEXANE_UI_TEXT_BOX.text =  "You don't own any Pathfinder NFT. Make sure you have purchased a Pathfinder NFT and connected your Metamask wallet to Core."
         HEXANE_UI_TEXT_BOX.shouldWrapText = false
         HEXANE_UI_TEXT_BOX.shouldWrapText = true
