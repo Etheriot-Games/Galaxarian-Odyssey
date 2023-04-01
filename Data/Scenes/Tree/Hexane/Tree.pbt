@@ -294,10 +294,10 @@ Objects {
     Value: "mc:eindicatorvisibility:visiblewhenselected"
   }
   Control {
-    Width: 426
-    Height: 106
-    UIX: 48.7668
-    UIY: 68.0609741
+    Width: 380
+    Height: 132
+    UIX: 30
+    UIY: 60
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"

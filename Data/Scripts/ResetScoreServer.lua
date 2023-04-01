@@ -59,4 +59,4 @@ function FindDayOfWeek()
 
 end
 
-FindDayOfWeek()
+--FindDayOfWeek()

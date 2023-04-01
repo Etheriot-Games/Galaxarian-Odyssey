@@ -17,4 +17,3 @@ SceneNameToSceneIdMap {
 }
 MaxPlayersForMainScene: 32
 EnableForPC: true
-EnableForMobile: true

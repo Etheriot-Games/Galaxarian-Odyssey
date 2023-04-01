@@ -15,7 +15,7 @@ function GivePlayerItem(player, objectID)
         return
     end
 
-    --[[@@@@@@@@@@ czinczar @@@@@@@@@@@@
+    ---[[@@@@@@@@@@ czinczar @@@@@@@@@@@@
     if Object.IsValid(player) then
         if not player.serverUserData.hasHexane then
             return

@@ -1,18 +1,17 @@
 Entries {
   Key {
+    StringVar: "playerDataVersion"
+  }
+  SimpleValue {
+    IntVar: 1
+  }
+}
+Entries {
+  Key {
     StringVar: "COSMETICS"
   }
   SimpleValue {
     Table {
-      Entries {
-        Key {
-          StringVar: "owned"
-        }
-        SimpleValue {
-          Table {
-          }
-        }
-      }
       Entries {
         Key {
           StringVar: "currency"
@@ -28,6 +27,56 @@ Entries {
               }
             }
           }
+        }
+      }
+      Entries {
+        Key {
+          StringVar: "owned"
+        }
+        SimpleValue {
+          Table {
+          }
+        }
+      }
+    }
+  }
+}
+Entries {
+  Key {
+    StringVar: "META_ACHIEVEMENTS"
+  }
+  SimpleValue {
+    Table {
+      Entries {
+        Key {
+          StringVar: "METAT"
+        }
+        SimpleValue {
+          IntVar: 1680432628
+        }
+      }
+      Entries {
+        Key {
+          StringVar: "DA1METAA"
+        }
+        SimpleValue {
+          IntVar: 0
+        }
+      }
+      Entries {
+        Key {
+          StringVar: "KI1METAA"
+        }
+        SimpleValue {
+          IntVar: 0
+        }
+      }
+      Entries {
+        Key {
+          StringVar: "RO1METAA"
+        }
+        SimpleValue {
+          IntVar: 0
         }
       }
     }
@@ -46,47 +95,6 @@ Entries {
         SimpleValue {
           Table {
           }
-        }
-      }
-    }
-  }
-}
-Entries {
-  Key {
-    StringVar: "META_ACHIEVEMENTS"
-  }
-  SimpleValue {
-    Table {
-      Entries {
-        Key {
-          StringVar: "DA1METAA"
-        }
-        SimpleValue {
-          IntVar: 0
-        }
-      }
-      Entries {
-        Key {
-          StringVar: "RO1METAA"
-        }
-        SimpleValue {
-          IntVar: 0
-        }
-      }
-      Entries {
-        Key {
-          StringVar: "METAT"
-        }
-        SimpleValue {
-          IntVar: 1680175175
-        }
-      }
-      Entries {
-        Key {
-          StringVar: "KI1METAA"
-        }
-        SimpleValue {
-          IntVar: 0
         }
       }
     }

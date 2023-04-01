@@ -13821,7 +13821,6 @@ Objects {
         }
         ChatPosition {
           X: 40
-          Y: 982.363708
         }
         ChatSize {
           X: 450
