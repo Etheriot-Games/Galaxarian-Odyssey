@@ -7,8 +7,8 @@ LeaderboardConfigs {
     FormatType {
       Value: "mc:ecoresdkleaderboardformat:numeric"
     }
-    Name: "Most Wins"
-    Id: "1DCACF0999C537FC"
+    Name: "wins-march4"
+    Id: "E743123D279D1AC5"
     EntryLimit: 10
   }
   Config {
@@ -19,21 +19,21 @@ LeaderboardConfigs {
     FormatType {
       Value: "mc:ecoresdkleaderboardformat:numeric"
     }
-    Name: "Most Kills"
-    Id: "B6B097BB1E314899"
-    EntryLimit: 10
-  }
-  Config {
-    HasWeekly: true
-    SortType {
-      Value: "mc:ecoresdkleaderboardsorting:higherisbetter"
-    }
-    FormatType {
-      Value: "mc:ecoresdkleaderboardformat:numeric"
-    }
-    Name: "BEST_EARNERS_SCORE_LEADERBOARD"
-    Id: "6425A14408C425DA"
+    Name: "BEST_SCORES-march4"
+    Id: "31993711C59A0FAF"
     EntryLimit: 100
+  }
+  Config {
+    HasWeekly: true
+    SortType {
+      Value: "mc:ecoresdkleaderboardsorting:higherisbetter"
+    }
+    FormatType {
+      Value: "mc:ecoresdkleaderboardformat:numeric"
+    }
+    Name: "Kills-march4"
+    Id: "AF64F740D4D9415B"
+    EntryLimit: 10
   }
 }
 MainScene: "Main"

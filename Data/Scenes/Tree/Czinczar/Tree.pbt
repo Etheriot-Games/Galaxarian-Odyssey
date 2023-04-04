@@ -122048,6 +122048,46 @@ Objects {
   IsReplicationEnabledByDefault: true
 }
 Objects {
+  Id: 8461580386681042444
+  Name: "README"
+  Transform {
+    Location {
+      X: 26335.5312
+      Y: -2853.09033
+      Z: -2595.0874
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5189749998658829766
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9245094172062603344
+    }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
   Id: 15458212184384467627
   Name: "Rock Big Arch"
   Transform {

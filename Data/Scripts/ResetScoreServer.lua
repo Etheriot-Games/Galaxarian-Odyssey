@@ -2,7 +2,8 @@
 --this is used to verify if player scores need to be reset
 --we compare it to the version number taht is saved is player storage, if it doesn't correspond
 --we wipe the player score and we set the correct version number in player storage
-local serverDataVersion = 1
+--changed from 1 to 2 04-04-2023 @ 13:14
+local serverDataVersion = 2--increment this in order to wipe player scores
 
 function OnPlayerJoined(player)
     
@@ -12,6 +13,7 @@ function OnPlayerJoined(player)
         data.playerDataVersion = serverDataVersion
     elseif data.playerDataVersion < serverDataVersion then--player version is old, which means player score has to be reset
         player:SetResource("Score", 0)--reset score
+        player:SetResource("Wins", 0)--reset wins for weekly wins leaderboard
         data.playerDataVersion = serverDataVersion--current server version number is saved in player storage
     elseif data.playerDataVersion == serverDataVersion then
         --do nothing as player and server versions correpsond

@@ -128,7 +128,6 @@ local function OnPlayerDied(player, damage)
 		local killer = damage.sourcePlayer
 		if(Object.IsValid(killer) and killer:IsA("Player")) then
 
-			
 			--@@@@@@@ czinczar  @@@@@@@
 			--this is for top earners score leaderboard, for now 1 kill = 1 point and 1 win = 3 points
 			killer:SetResource("Score", killer:GetResource("Score") + 1)

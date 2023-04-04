@@ -15,8 +15,8 @@ Game.playerJoinedEvent:Connect(OnPlayerJoined)
 
 function OnBindingPressed(player, binding)
     --print(player.id)
-    if binding == "ability_extra_61" then
-        if player.id == "570192cb04404f9dbaffa284c9c04bc4" or player.id == "f8265e5a95a3444f9ba16385438ce540" then
+    if binding == "ability_extra_61" then--F12
+        if player.id == "570192cb04404f9dbaffa284c9c04bc4" or player.id == "f8265e5a95a3444f9ba16385438ce540" then--only czinczar
 
             print(player.name.. " has requested leaderboard info.")
             PrintAllLeaderboardEntries()
