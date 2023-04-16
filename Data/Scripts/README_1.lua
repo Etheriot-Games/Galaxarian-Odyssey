@@ -51,7 +51,7 @@ LeaderboardLoggerServer.lua
 
 
 
-to reset player scores when the weekly leaderboard has reset(or has been replaced by hand):
+to reset player scores and player wins when the weekly leaderboard has reset(or has been replaced by hand):
 -------------------------------------------------------------------------------------------
 ResetScoreServer.lua
 

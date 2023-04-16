@@ -1,17 +1,18 @@
 Entries {
   Key {
-    StringVar: "playerDataVersion"
-  }
-  SimpleValue {
-    IntVar: 1
-  }
-}
-Entries {
-  Key {
     StringVar: "COSMETICS"
   }
   SimpleValue {
     Table {
+      Entries {
+        Key {
+          StringVar: "owned"
+        }
+        SimpleValue {
+          Table {
+          }
+        }
+      }
       Entries {
         Key {
           StringVar: "currency"
@@ -29,15 +30,6 @@ Entries {
           }
         }
       }
-      Entries {
-        Key {
-          StringVar: "owned"
-        }
-        SimpleValue {
-          Table {
-          }
-        }
-      }
     }
   }
 }
@@ -49,18 +41,18 @@ Entries {
     Table {
       Entries {
         Key {
-          StringVar: "METAT"
+          StringVar: "RO1METAA"
         }
         SimpleValue {
-          IntVar: 1680432628
+          IntVar: 0
         }
       }
       Entries {
         Key {
-          StringVar: "DA1METAA"
+          StringVar: "METAT"
         }
         SimpleValue {
-          IntVar: 0
+          IntVar: 1681753449
         }
       }
       Entries {
@@ -73,13 +65,21 @@ Entries {
       }
       Entries {
         Key {
-          StringVar: "RO1METAA"
+          StringVar: "DA1METAA"
         }
         SimpleValue {
           IntVar: 0
         }
       }
     }
+  }
+}
+Entries {
+  Key {
+    StringVar: "playerDataVersion"
+  }
+  SimpleValue {
+    IntVar: 2
   }
 }
 Entries {

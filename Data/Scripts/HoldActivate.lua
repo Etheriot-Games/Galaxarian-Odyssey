@@ -5,7 +5,7 @@ local ActivationTime = script:GetCustomProperty("ActivationTime")
 
 --@@@@@@@@@@ this is static context script
 function HookPlayer(trigger,other)
-    ---[[@@@@@@@@@@ czinczar @@@@@@@@@@@
+    --[[@@@@@@@@@@ czinczar @@@@@@@@@@@
     if other:IsA("Player") then
         local NFTStatus = other:GetPrivateNetworkedData("HasHexane")
         if NFTStatus == true then
@@ -14,7 +14,7 @@ function HookPlayer(trigger,other)
     end
     --]]
 
-    --[[
+    ---[[
     if other:IsA("Player") then
         Controller.AddHook({trig = trigger, time = ActivationTime},other)
     end

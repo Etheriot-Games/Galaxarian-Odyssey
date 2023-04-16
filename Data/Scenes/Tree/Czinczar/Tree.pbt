@@ -1,6 +1,45 @@
 Name: "Czinczar"
 RootId: 5189749998658829766
 Objects {
+  Id: 13222411259597309251
+  Name: "NFT_Display"
+  Transform {
+    Location {
+      X: 26335.5312
+      Y: -2853.09033
+      Z: -2595.0874
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5189749998658829766
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "NFT_Display"
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  IsReplicationEnabledByDefault: true
+}
+Objects {
   Id: 2100483384974805519
   Name: "Score Resetter"
   Transform {
@@ -200,7 +239,7 @@ Objects {
     Overrides {
       Name: "cs:LEADERBOARD_NET_REFERENCE"
       NetReference {
-        Key: "6425A14408C425DA"
+        Key: "31993711C59A0FAF"
         Type {
           Value: "mc:enetreferencetype:leaderboard"
         }

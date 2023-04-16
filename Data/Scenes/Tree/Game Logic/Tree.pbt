@@ -2619,6 +2619,19 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 13170181372698416189
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: 50
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 470
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 14644034031668970814
       value {
         Overrides {
